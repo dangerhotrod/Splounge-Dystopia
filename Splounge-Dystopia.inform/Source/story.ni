@@ -71,23 +71,26 @@ Understand "get up from [thing]" as getting off.
 
 Understand "stand up" as getting off.
 
-Instead of getting off a soft thing for the first time, say "You just can't get up, you are way too comfortable!".
+Instead of getting off a soft thing for the first time, say "You just can't get up, you are way too comfortable! Maybe if you just stayed here in this chair forever you would be better off than whatever else you were going to do. Does it really matter?".
 
-Instead of getting off a soft thing for the second time, say "You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.";
+Instead of getting off a soft thing for the second time, say "You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds. Oooooo...so comfy...so sooooooofffffft...";
 
 Instead of getting off a soft thing for the third time, now the test-variable is true.
 
-Instead of doing something other than looking or getting off when the player is on a soft thing, say "You'd rather be asleep."
+Instead of doing something other than looking or getting off when the player is on a soft thing, say "You'd rather be asleep. Whatever other thing you would do besides being in this chair is a bad idea and not really that good of an option compared to being in this insanely comfy chair."
 
 [Instead of entering a thing when the player is on a thing, say "You are already sitting on [noun]."]
 
-Instead of entering a soft thing more than one time, say "'Hey Wait!' your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that [noun], it's so comfy you might never get up again!"
+Instead of entering a soft thing the second time, say "'Hey Wait!' your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that [noun], it's so comfy you might never get up again! It looks seriously comfy though...maybe just for a little tiny sliver of a moment you could get kinda comfy..."
+
+Instead of entering a soft thing the third time, say "Don't you remember the last time you were in that chair? It almost ATE YOU! What is your deal? Don't sit in this chair, it's too dangerous! Only a master of mental projection could sit on this chair without its super soft comfy-ness obliterating and subsuming your soul to its dark desires (whatever they might be)."
+
 	
 After getting off a soft thing:
 	say "Whew! You just barely escaped that [noun], it's so comfy you could get stuck in it forever!";
-	now the description of the noun is "Watch out for that [noun], it's so comfy you could get stuck in it forever!".
+	now the description of the noun is "Watch out for that [noun], it's so comfy you could get stuck in it forever! Like LITERALLY foreverandever.".
 
-After entering the chair, say "You sit down and are so comfortable - you could really get used to being in this chair."
+After entering the chair, say "You sit down and are so comfortable - you could really get used to being in this chair. Really! Wowsers...it's just the comfiest thing you probably ever plopped yer can on...it's like you're almost part of this thing...like your skin is melding with it and your insides are turning to some sort of tiny little beans...or a kind of foam batting material..."
 
 A glittery box is on the bar. The description of the glittery box is "Time slows down, you feel as if you gazing into the cosmos itself. Your eyeballs can hardly stay on it, it's like your gaze just keeps sliding off."
 
