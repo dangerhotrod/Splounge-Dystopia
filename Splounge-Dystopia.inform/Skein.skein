@@ -1,0 +1,4415 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Splounge-Dystopia</command>
+        <result xml:space="preserve">
+
+
+In the early 2000"s, mewonkind's folly led to the breakdown of society and the restructuring of general cultural and technological vector-goals. At least that's what you were taught in data-download segment 2-histori-political info part 27A while downloading the standard edu-packets back in school. Now though, you find yourself inside of the massive hive known as CONvergence.
+
+Splounge-Dystopia
+Watch your back, and don't let the cams spy your face. by Aaron Prust
+Release 1 / Serial number 171116 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, a bartender, and a black ninja costume here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve">
+
+
+Splounge-Dystopia
+An Interactive Fiction by Aaron Prust
+Release 1 / Serial number 141116 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around. You can go north to exit the Space Lounge.
+
+You can see a bar (on which is a glittery box (closed)), many chairs, a black rod and a bartender here.
+
+&gt;take box
+</commentary>
+        <children><child nodeId="node-1317"></child>
+            <child nodeId="node-1286"></child>
+            <child nodeId="node-1218"></child>
+            <child nodeId="node-1211"></child>
+            <child nodeId="node-1199"></child>
+            <child nodeId="node-1191"></child>
+            <child nodeId="node-1178"></child>
+            <child nodeId="node-1330"></child>
+            <child nodeId="node-1172"></child>
+            <child nodeId="node-1100"></child>
+            <child nodeId="node-1081"></child>
+            <child nodeId="node-1354"></child>
+            <child nodeId="node-1051"></child>
+            <child nodeId="node-1023"></child>
+            <child nodeId="node-1019"></child>
+            <child nodeId="node-1014"></child>
+            <child nodeId="node-1003"></child>
+        </children>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">You are unable to articulate the second "z" separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">shoot sphere</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+ZAP! The Glowing Sphere twinkles out of existence! The security key clatters to the ground! 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">open airlock</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">open airlock with key</command>
+        <result xml:space="preserve">You unlock the airlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">go airlock</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Overlooking Hallway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod and a floating dolphin (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">take rod</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...
+
+
+you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...
+
+
+Secret Room
+You are in the Secret Room. DON'T TELL ANYONE YOU WERE EVER HERE! It's really dark, you can't see much.
+
+Under the influence of the black rod, you pronounced "xyzzy" as Xhi-zee. You understand now that the purpose of the black rod is to bring people here, to the Secret Room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">yzxxy</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which is a glittery box (in which are a security readout and a bowl (in which is a note))), a soft chair, a skate ramp technology chair, Many soft chairs and a bartender here.
+
+Under the influence of the black rod, you pronounced "yzxxy" as Wizex-zi. You are glad there is some way out of that Secret Room!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">xyzzx</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1015"></child>
+        </children>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">cast xyzzx</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">You are unable to articulate the second "z" separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">take rod</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+        </children>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">take ninja</command>
+        <result xml:space="preserve">(the black ninja costume)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1020"></child>
+        </children>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">wear ninja</command>
+        <result xml:space="preserve">(the black ninja costume)
+You are a ninja!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+            <child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+            <child nodeId="node-1326"></child>
+        </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">look ninja costume</command>
+        <result xml:space="preserve">The black ninja costume is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+The black ninja costume's pocket contains a throwing star and a smoke bomb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">take throwing star</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">take smoke bomb</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">look throwing star</command>
+        <result xml:space="preserve">The throwing star is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, and a bartender here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, and a bartender here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on that chair.
+
+You sit down and are so comfortable - you could really get used to being in this chair.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+            <child nodeId="node-1044"></child>
+            <child nodeId="node-1033"></child>
+            <child nodeId="node-1024"></child>
+        </children>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on that chair.
+
+You decide not not to sit on that chair, it's so comfy you might never get up again!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1025"></child>
+        </children>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">sit on bench</command>
+        <result xml:space="preserve">You are already sitting on bench.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You just can't get up, you are way too comfortable!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1027"></child>
+        </children>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">Whew! You just barely escaped that chair, it's so comfy you could get stuck in it forever!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">sit on bench</command>
+        <result xml:space="preserve">You get onto the bench.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on that chair.
+
+You decide not not to sit on that chair, it's so comfy you might never get up again!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on that chair.
+
+You decide not not to sit on that chair, it's so comfy you might never get up again!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1034"></child>
+        </children>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">look box</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You just can't get up, you are way too comfortable!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">Whew! You just barely escaped that chair, it's so comfy you could get stuck in it forever!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+            <child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on that chair.
+
+You decide not not to sit on that chair, it's so comfy you might never get up again!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (in which are a security readout, a bowl (in which is a note) and a crazy looking gun) and a Glowing Sphere), a chair, a bench and a bartender here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge (on the chair)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a bench and a bartender here.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You'd rather be asleep. Besides glittery box is really far away, and you're so comfortable you don't really feel like moving.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You just can't get up, you are way too comfortable!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">get off chair</command>
+        <result xml:space="preserve">Whew! You just barely escaped that chair, it's so comfy you could get stuck in it forever!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench and a bartender here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+You sit down and are so comfortable - you could really get used to being in this chair.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1075"></child>
+            <child nodeId="node-1053"></child>
+        </children>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">You just can't get up, you are way too comfortable!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">Whew! You just barely escaped that chair, it's so comfy you could get stuck in it forever!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+"Hey Wait!" your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that chair, it's so comfy you might never get up again!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+        </children>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">stand up</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1060"></child>
+        </children>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+"Hey Wait!" your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that chair, it's so comfy you might never get up again!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">look chair</command>
+        <result xml:space="preserve">Watch out for that chair, it's so comfy you could get stuck in it forever!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, and a bartender here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1064"></child>
+        </children>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You don't have wings or pyscho-kinetic levitation abilities or a hoverboard or anything to go up with.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Under the Veranda Walkway
+Under the Veranda Walkway
+
+You can go north, northeast, southeast, east, west, and up to the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, southeast, east, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1067"></child>
+        </children>
+    </item>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down to Under the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Upper Southside Hallway
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north, northeast, and northwest to the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, and northwest.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1069"></child>
+        </children>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Room 233
+Room 233
+
+You can go south to the Upper Southside Hallway from here.
+
+(From here, you can move to south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1070"></child>
+        </children>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Upper Southside Hallway
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north to Room 233, northeast, and northwest to the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, and northwest.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+        </children>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast to the Upper Southside Hallway, west through the airlock to the Space Lounge, up, and down to Under the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Upper Southside Hallway
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north to Room 233, northeast, and northwest to the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, and northwest.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Consuite
+You can go northwest, southwest to the Upper Southside Hallway, and down from here.
+
+(From here, you can move to northwest, southwest, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Upper Southside Hallway
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north to Room 233, northeast to Consuite, and northwest to the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, and northwest.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">stand</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">stand</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">stand</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">You just can't get up, you are way too comfortable!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl, and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">take note</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">take readout</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">look readout</command>
+        <result xml:space="preserve">The screen is blank.
+
+The security readout is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">turn on readout</command>
+        <result xml:space="preserve">You switch the security readout on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">look readout</command>
+        <result xml:space="preserve">The screen reads: 
+
+ airlock (Space Lounge/Veranda Walkway): LOCKED
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">open airlock</command>
+        <result xml:space="preserve">(first unlocking the airlock)
+You lack a key that fits the airlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (in which is a bowl (empty)) and a Glowing Sphere), a chair, a bench, a bartender, and a black ninja costume here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1363"></child>
+        </children>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">look sphere</command>
+        <result xml:space="preserve">OOOOoooo glowy-sphere thingie! Its purple soft glow makes you feel safe and secure. It looks like there's some sort of helix-key as a component to the glowy-ness but it's unclear how you would remove it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">shoot sphere</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+ZAP! The Glowing Sphere twinkles out of existence! The security key clatters to the ground! 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which is a glittery box (in which is a bowl (empty))), a chair, a bench, a bartender, and a black ninja costume here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">take ninj</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1368"></child>
+        </children>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">take ninja</command>
+        <result xml:space="preserve">(the black ninja costume)
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1369"></child>
+        </children>
+    </item>
+    <item nodeId="node-1369">
+        <command xml:space="preserve">look bartender</command>
+        <result xml:space="preserve">You see a female bartender with neon hair and glowing robes serving drinks. The bartender is currently helping some other people but if you wait you can probably get a chance to talk to her.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1370"></child>
+        </children>
+    </item>
+    <item nodeId="node-1370">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+(first unlocking the airlock)
+(with the security key)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1371"></child>
+        </children>
+    </item>
+    <item nodeId="node-1371">
+        <command xml:space="preserve">look dolphin</command>
+        <result xml:space="preserve">Oh crap - the floating dolphin's survellance cam is honing in on you! You better get out of here, somewhere where the floating dolphin camera can't see you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1372"></child>
+        </children>
+    </item>
+    <item nodeId="node-1372">
+        <command xml:space="preserve">open dolphin</command>
+        <result xml:space="preserve">(first unlocking the floating dolphin)
+You lack a key that fits the floating dolphin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1373"></child>
+        </children>
+    </item>
+    <item nodeId="node-1373">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1374"></child>
+        </children>
+    </item>
+    <item nodeId="node-1374">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You're carrying a black ninja costume, a security key, a security readout, a note, and a crazy looking gun. You're wearing a wig.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">look wig</command>
+        <result xml:space="preserve">This wig is super shiny and silvery, reflecting light off in all directions, it helps you avoid being face-detected by the intero-pods.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">take rod</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1377"></child>
+        </children>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...
+
+
+you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...
+
+
+Secret Room
+You are in the Secret Room. DON'T TELL ANYONE YOU WERE EVER HERE! It's really dark, you can't see much.
+
+You can see a dolphin code and a book here.
+
+You can see no obvious exits.
+
+(There are no routes out of this room.)
+
+Under the influence of the black rod, you pronounced "xyzzy" as Xhi-zee. You understand now that the purpose of the black rod is to bring people here, to the Secret Room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1378"></child>
+        </children>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve">look book</command>
+        <result xml:space="preserve">"yzxxy" is the title, and the contents just say "Your Future Lies in Space" over and over again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">take code</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1380"></child>
+        </children>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">take book</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">yzxxy</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which is a glittery box (in which is a bowl (empty))), a chair, a bench, and a bartender here.
+
+You can go east through the airlock to the Veranda Walkway from here.
+
+(From here, you can move to east.)
+
+Under the influence of the black rod, you pronounced "yzxxy" as Wizex-zi. You are glad there is some way out of that Secret Room!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+        </children>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1383"></child>
+        </children>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">enter dolphin</command>
+        <result xml:space="preserve">(the dolphin code)
+That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1384"></child>
+        </children>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">open dolphin</command>
+        <result xml:space="preserve">(the dolphin code)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">open floathing dolphin</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1386"></child>
+        </children>
+    </item>
+    <item nodeId="node-1386">
+        <command xml:space="preserve">open floatin dolphin</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1387"></child>
+        </children>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">open floating dolphin</command>
+        <result xml:space="preserve">(first unlocking the floating dolphin)
+(with the dolphin code)
+You open the floating dolphin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">enter floating dolphin</command>
+        <result xml:space="preserve">You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!
+
+Go up!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1389"></child>
+        </children>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">
+Floating Courtyard (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+This is amazing - you are up above everything and can see so much up here! There's a pool down below, and a fenced in courtyard with some kind of security gate system surrounding it, and Consuite.
+
+You can go down to the Veranda Walkway from here.
+
+(From here, you can move to down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Veranda Walkway (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up to the Floating Courtyard, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1391"></child>
+        </children>
+    </item>
+    <item nodeId="node-1391">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Upper Southside Hallway (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north, northeast, northwest to the Veranda Walkway, and south from here.
+
+(From here, you can move to north, northeast, northwest, and south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1392"></child>
+        </children>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Consuite (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+You can go northwest, southwest to the Upper Southside Hallway, and down from here.
+
+(From here, you can move to northwest, southwest, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1393"></child>
+        </children>
+    </item>
+    <item nodeId="node-1393">
+        <command xml:space="preserve">exit dolphin</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1394"></child>
+        </children>
+    </item>
+    <item nodeId="node-1394">
+        <command xml:space="preserve">leave dolphin</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1395"></child>
+        </children>
+    </item>
+    <item nodeId="node-1395">
+        <command xml:space="preserve">get out of floating dolphin</command>
+        <result xml:space="preserve">I only understood you as far as wanting to get outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1396"></child>
+        </children>
+    </item>
+    <item nodeId="node-1396">
+        <command xml:space="preserve">exit floating dolphin</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1397"></child>
+        </children>
+    </item>
+    <item nodeId="node-1397">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Under Consuite (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+Under Consuite
+
+You can go northwest, southwest, west, and up to Consuite from here.
+
+(From here, you can move to northwest, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1398"></child>
+        </children>
+    </item>
+    <item nodeId="node-1398">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Lower Northside Hallway (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+Lower Northside Hallway (party rooms)
+
+You can go north, southeast to Under Consuite, and southwest from here.
+
+(From here, you can move to north, southeast, and southwest.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1399"></child>
+        </children>
+    </item>
+    <item nodeId="node-1399">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Under the Veranda Walkway (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+Under the Veranda Walkway
+
+You can go north, northeast to Lower Northside Hallway, southeast, east, west, and up to the Veranda Walkway from here.
+
+(From here, you can move to north, northeast, southeast, east, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1400"></child>
+        </children>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Lower Floor Changer (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+Lower elevators, escalators and stairwell lower level
+
+You can go north, northeast, northwest, south to Under the Veranda Walkway, southwest, west, and up from here.
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1401"></child>
+        </children>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Lower Tower Connector (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+The Lower Tower Connector - connection between the short and tall towers.
+
+You can go southeast to the Lower Floor Changer from here.
+
+(From here, you can move to southeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Lower Floor Changer (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+Lower elevators, escalators and stairwell lower level
+
+You can go north, northeast, northwest to the Lower Tower Connector, south to Under the Veranda Walkway, southwest, west, and up from here.
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1403"></child>
+        </children>
+    </item>
+    <item nodeId="node-1403">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator Line (in the floating dolphin)
+The floating dolphin is transparent, but tints everything outside very faintly lavender.
+
+You are waiting for an elevator!
+
+You can go south to the Lower Floor Changer from here.
+
+(From here, you can move to south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1404"></child>
+        </children>
+    </item>
+    <item nodeId="node-1404">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">look chair</command>
+        <result xml:space="preserve">The soft chair looks seriously comfortable, it's all soft and squishy looking. "SPYUMMY", your butt thinks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+        </children>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+You sit down and are so comfortable - you could really get used to being in this chair.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1084"></child>
+        </children>
+    </item>
+    <item nodeId="node-1084">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1085"></child>
+        </children>
+    </item>
+    <item nodeId="node-1085">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">get out of chair</command>
+        <result xml:space="preserve">I only understood you as far as wanting to get outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">wake up</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">get out of chair</command>
+        <result xml:space="preserve">I only understood you as far as wanting to get outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">stand</command>
+        <result xml:space="preserve">You'd rather be asleep.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">You just can't get up, you are way too comfortable!
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">Whew! You just barely escaped that chair, it's so comfy you could get stuck in it forever!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">sit bench</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">sit on bench</command>
+        <result xml:space="preserve">You get onto the bench.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge (on the bench)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, and a bartender here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">open glittery box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl, and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">look bartender</command>
+        <result xml:space="preserve">You see a female bartender with neon hair and glowing robes serving drinks. The bartender is currently helping some other people but if you wait you can probably get a chance to talk to her.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">look box</command>
+        <result xml:space="preserve">Time slows down, you feel as if you gazing into the cosmos itself. Your eyeballs can hardly stay on it, it's like your gaze just keeps sliding off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+            <child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">take box</command>
+        <result xml:space="preserve">OOOHhhhhhh! You get a funny tingle when you try to pick the box up, the sides are so slippery it almost feels COMPLETELY FRICTIONLESS. You can't seem to grab it all, it's really weird.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">look sphere</command>
+        <result xml:space="preserve">OOOOoooo glowy-sphere thingie! Its purple soft glow makes you feel safe and secure. It looks like there's some sort of helix-key as a component to the glowy-ness but it's unclear how you would remove it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">take sphere</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+        </children>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">break sphere</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1105"></child>
+        </children>
+    </item>
+    <item nodeId="node-1105">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1106"></child>
+        </children>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1107"></child>
+        </children>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">go north west</command>
+        <result xml:space="preserve">I only understood you as far as wanting to go north.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">go northwest</command>
+        <result xml:space="preserve">
+Upper Tower Connector
+The Upper Tower Connector - connection between the short and tall towers.
+
+(From here, you can move to southeast and southwest.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1109"></child>
+        </children>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">go southwest</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">
+Mainstage
+Mainstage
+
+(From here, you can move to north.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1111"></child>
+        </children>
+    </item>
+    <item nodeId="node-1111">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">go w</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1114"></child>
+        </children>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">go sw</command>
+        <result xml:space="preserve">
+Dealer's Room
+Dealer's Room
+
+(From here, you can move to northeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1115"></child>
+        </children>
+    </item>
+    <item nodeId="node-1115">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+        </children>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator Line
+You are waiting for an elevator!
+
+(From here, you can move to south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1119"></child>
+        </children>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1120"></child>
+        </children>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Stairwell Floor 1
+Stairwell Floor 1
+
+(From here, you can move to southwest and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1121"></child>
+        </children>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Front Desk
+The Front Desk
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1126"></child>
+        </children>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Upper Northside Hallway
+A hallway filled with freaks and nerds.
+
+(From here, you can move to south, southeast, southwest, and west.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Room 205
+Room 205
+
+(From here, you can move to north.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Upper Northside Hallway
+A hallway filled with freaks and nerds.
+
+(From here, you can move to south, southeast, southwest, and west.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Consuite
+(From here, you can move to northwest, southwest, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Upper Northside Hallway
+A hallway filled with freaks and nerds.
+
+(From here, you can move to south, southeast, southwest, and west.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Consuite
+(From here, you can move to northwest, southwest, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Upper Northside Hallway
+A hallway filled with freaks and nerds.
+
+(From here, you can move to south, southeast, southwest, and west.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a bowl and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">look bowl</command>
+        <result xml:space="preserve">The bowl is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+In the bowl is a note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+        </children>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">look gun</command>
+        <result xml:space="preserve">That gun is so crazy looking! It's kind of like totally blowing your mind.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">look note</command>
+        <result xml:space="preserve">Cast the secret spell xyzzy
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1138"></child>
+        </children>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">cast spell</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1139"></child>
+        </children>
+    </item>
+    <item nodeId="node-1139">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">You are unable to articulate the second "z" separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1140"></child>
+        </children>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve">get rod</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to...
+
+
+Overlooking Hallway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see a floating dolphin (empty) here.
+
+Under the influence of the black rod, you pronounce this as Xhi-zee.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+        </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Overlooking Hallway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see a floating dolphin (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">look dolphin</command>
+        <result xml:space="preserve">Oh crap - the floating dolphin's survellance cam is honing in on you! You better get out of here, somewhere where the floating dolphin camera can't see you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1145"></child>
+        </children>
+    </item>
+    <item nodeId="node-1145">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1146"></child>
+        </children>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">got west</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+        </children>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">go west</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1148"></child>
+        </children>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">get dolphin</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around. You can go north to exit the Space Lounge.
+
+You can see a bar (on which is a glittery box (in which are a bowl (in which is a note) and a crazy looking gun)), a soft chair, a skate ramp technology chair, Many soft chairs and a bartender here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">look chair</command>
+        <result xml:space="preserve">Which do you mean, the soft chair or the skate ramp technology chair?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+        </children>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">look skate ramp technology chair</command>
+        <result xml:space="preserve">The skate ramp technology chair is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">look soft chair</command>
+        <result xml:space="preserve">The soft chair is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+        </children>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">get gun</command>
+        <result xml:space="preserve">You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">
+Overlooking Hallway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see a floating dolphin (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">shoot gun</command>
+        <result xml:space="preserve">(at the black rod)
+ZAP! The black rod twinkles out of existence! 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1157"></child>
+        </children>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around. You can go north to exit the Space Lounge.
+
+You can see a bar (on which is a glittery box (in which is a bowl (in which is a note))), a soft chair, a skate ramp technology chair, Many soft chairs and a bartender here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1158"></child>
+        </children>
+    </item>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">talk bartender</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1159"></child>
+        </children>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">speak bartender</command>
+        <result xml:space="preserve">(to the bartender)
+There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1160"></child>
+        </children>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">
+Overlooking Hallway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see a floating dolphin (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1161"></child>
+        </children>
+    </item>
+    <item nodeId="node-1161">
+        <command xml:space="preserve">look dolphin</command>
+        <result xml:space="preserve">Oh crap - the floating dolphin's survellance cam is honing in on you! You better get out of here, somewhere where the floating dolphin camera can't see you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1162"></child>
+        </children>
+    </item>
+    <item nodeId="node-1162">
+        <command xml:space="preserve">enter dolphin</command>
+        <result xml:space="preserve">You get into the floating dolphin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1163"></child>
+        </children>
+    </item>
+    <item nodeId="node-1163">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">
+Space Lounge (in the floating dolphin)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around. You can go north to exit the Space Lounge.
+
+You can see a bar (on which is a glittery box (in which is a bowl (in which is a note))), a soft chair, a skate ramp technology chair, Many soft chairs and a bartender here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1164"></child>
+        </children>
+    </item>
+    <item nodeId="node-1164">
+        <command xml:space="preserve">shoot bartender</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+ZAP! The bartender twinkles out of existence! 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1165"></child>
+        </children>
+    </item>
+    <item nodeId="node-1165">
+        <command xml:space="preserve">shoot dolphin</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+ZAP! The floating dolphin twinkles out of existence! 
+
+
+*** Run-time problem P61: Attempt to move the player off-stage.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1166"></child>
+        </children>
+    </item>
+    <item nodeId="node-1166">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge (in the floating dolphin)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around. You can go north to exit the Space Lounge.
+
+You can see a bar (on which is a glittery box (in which is a bowl (in which is a note))), a soft chair, a skate ramp technology chair and Many soft chairs here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1167"></child>
+        </children>
+    </item>
+    <item nodeId="node-1167">
+        <command xml:space="preserve">shoot me</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+That would be disastrous!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1168"></child>
+        </children>
+    </item>
+    <item nodeId="node-1168">
+        <command xml:space="preserve">shoot gun</command>
+        <result xml:space="preserve">What do you want to shoot the crazy looking gun at?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1169"></child>
+        </children>
+    </item>
+    <item nodeId="node-1169">
+        <command xml:space="preserve">shoot space lounge</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1170"></child>
+        </children>
+    </item>
+    <item nodeId="node-1170">
+        <command xml:space="preserve">shoot gun with gun</command>
+        <result xml:space="preserve">Nice trick if you can do it!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1171"></child>
+        </children>
+    </item>
+    <item nodeId="node-1171">
+        <command xml:space="preserve">shoot box</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">look airlock</command>
+        <result xml:space="preserve">The airlock has a small window through which you can see a vast open space - is that a pool? Sweet!. There's some sort of security readout thing on the door and it looks like the door only opens with a security key.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">look readout</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1174"></child>
+        </children>
+    </item>
+    <item nodeId="node-1174">
+        <command xml:space="preserve">look at readout</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1175"></child>
+        </children>
+    </item>
+    <item nodeId="node-1175">
+        <command xml:space="preserve">look airlock readout</command>
+        <result xml:space="preserve">I only understood you as far as wanting to look the airlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1176"></child>
+        </children>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1177"></child>
+        </children>
+    </item>
+    <item nodeId="node-1177">
+        <command xml:space="preserve">look ceiling</command>
+        <result xml:space="preserve">The ceiling with lights rises over the whole crazy convention.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">look AFrame</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">take costume</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">look costume</command>
+        <result xml:space="preserve">The black ninja costume is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+The black ninja costume's pocket contains a throwing star and a smoke bomb.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">wear costume</command>
+        <result xml:space="preserve">You put on the black ninja costume.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, a bartender, and a ninja costume here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1182"></child>
+            <child nodeId="node-1179"></child>
+        </children>
+    </item>
+    <item nodeId="node-1179">
+        <command xml:space="preserve">look Mario Hat</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1180"></child>
+        </children>
+    </item>
+    <item nodeId="node-1180">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, and a bartender here.
+
+You can go east through the airlock (closed) from here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1181"></child>
+        </children>
+    </item>
+    <item nodeId="node-1181">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1182">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1183"></child>
+        </children>
+    </item>
+    <item nodeId="node-1183">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+You can go northeast, northwest, south to the Veranda Walkway, east, west, and down from here.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1184"></child>
+        </children>
+    </item>
+    <item nodeId="node-1184">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+You can go northeast, south, southwest, and east to the Floor Changer from here.
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1185"></child>
+        </children>
+    </item>
+    <item nodeId="node-1185">
+        <command xml:space="preserve">map</command>
+        <result xml:space="preserve">That's not a verb I recognize.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1186"></child>
+        </children>
+    </item>
+    <item nodeId="node-1186">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Convergence Central
+Convergence Central
+
+You can go northeast, south, southwest, and east to the Floor Changer from here.
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1187"></child>
+        </children>
+    </item>
+    <item nodeId="node-1187">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Dealer's Room
+Dealer's Room
+
+You can see a ninja costume here.
+
+You can go northeast to Convergence Central from here.
+
+(From here, you can move to northeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">take ninja costume</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+        </children>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">hit points</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You're empty-handed. You're wearing a wig.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+You can go north, northeast, northwest, southeast, west through the airlock to the Space Lounge, up, and down from here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+        </children>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+You can go northeast, northwest, south to the Veranda Walkway, east, west, and down from here.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+You can go northeast, south, southwest, and east to the Floor Changer from here.
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Dealer's Room
+Dealer's Room
+
+You can see a ninja costume here.
+
+You can go northeast to Convergence Central from here.
+
+(From here, you can move to northeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">take ninja</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1197"></child>
+        </children>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">wear ninja</command>
+        <result xml:space="preserve">You put on the ninja costume.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You're empty-handed. You're wearing a ninja costume and a wig.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">go north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">go south</command>
+        <result xml:space="preserve">(first opening the airlock)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">shoot sphere</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+ZAP! The Glowing Sphere twinkles out of existence! The security key clatters to the ground! 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">open airlock</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">open airlock with key</command>
+        <result xml:space="preserve">You unlock the airlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">go airlock</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Overlooking Hallway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod and a floating dolphin (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">take rod</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+        </children>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...
+
+
+Secret Room
+You are in the Secret Room. DON'T TELL ANYONE YOU WERE EVER HERE! It's really dark, you can't see much.
+
+Under the influence of the black rod, you pronounce this as Xhi-zee.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">cast xyzzy</command>
+        <result xml:space="preserve">you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...
+
+
+Secret Room
+You are in the Secret Room. DON'T TELL ANYONE YOU WERE EVER HERE! It's really dark, you can't see much.
+
+Under the influence of the black rod, you pronounce this as Xhi-zee.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">go east</command>
+        <result xml:space="preserve">(first opening the airlock)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1212"></child>
+        </children>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to north, northeast, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator
+You are in an elevator!
+
+(From here, you can move to south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to north, northeast, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+(From here, you can move to north, northeast, south, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Elevator
+You are in an elevator!
+
+(From here, you can move to south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1217"></child>
+        </children>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to north, northeast, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+(first unlocking the airlock)
+You lack a key that fits the airlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+            <child nodeId="node-1347"></child>
+            <child nodeId="node-1247"></child>
+            <child nodeId="node-1243"></child>
+            <child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which are a glittery box (closed) and a Glowing Sphere), a chair, a bench, and a bartender here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1220"></child>
+        </children>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl, and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">take readout</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">take bown</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">look bowl</command>
+        <result xml:space="preserve">The bowl is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+In the bowl is a note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">look note</command>
+        <result xml:space="preserve">Cast the secret spell xyzzy
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">You are unable to articulate the second "z" separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">take note</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">look sphere</command>
+        <result xml:space="preserve">OOOOoooo glowy-sphere thingie! Its purple soft glow makes you feel safe and secure. It looks like there's some sort of helix-key as a component to the glowy-ness but it's unclear how you would remove it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">That seems to be a part of the Glowing Sphere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">shoot sphere with gun</command>
+        <result xml:space="preserve">ZAP! The Glowing Sphere twinkles out of existence! The security key clatters to the ground! 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">look readout</command>
+        <result xml:space="preserve">The screen is blank.
+
+The security readout is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">turn on readout</command>
+        <result xml:space="preserve">You switch the security readout on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">look readout</command>
+        <result xml:space="preserve">The screen reads: 
+
+ airlock (Space Lounge/Veranda Walkway): UNLOCKED
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">lock airlock</command>
+        <result xml:space="preserve">(first closing the airlock)
+(with the security key)
+You lock the airlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the airlock)
+(first unlocking the airlock)
+(with the security key)
+
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bar (on which is a glittery box (in which is a bowl (empty))), a chair, a bench, and a bartender here.
+
+(From here, you can move to east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Veranda Walkway
+Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.
+
+You can see an airlock, a black rod, and a floating dolphin (closed) here.
+
+(From here, you can move to north, northeast, northwest, southeast, west, up, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">open dolphin</command>
+        <result xml:space="preserve">(first unlocking the floating dolphin)
+You lack a key that fits the floating dolphin.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1241"></child>
+        </children>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You don't have wings or pyscho-kinetic levitation abilities or a hoverboard or anything to go up with.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Under the Veranda Walkway
+Under the Veranda Walkway
+
+(From here, you can move to north, northeast, southeast, east, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Upper Southside Hallway
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north, northeast, northwest to the Veranda Walkway, and south from here.
+
+(From here, you can move to north, northeast, northwest, and south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Staging Area
+You can see a yellow jersey, a polkadot jersey, a green jersey, a white jersey, and a blue jersey here.
+
+You can go north to the Upper Southside Hallway from here.
+
+(From here, you can move to north.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">look blue jersey</command>
+        <result xml:space="preserve">blue jersaaaay
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Upper Southside Hallway
+This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms
+
+You can go north, northeast, northwest to the Veranda Walkway, and south from here.
+
+(From here, you can move to north, northeast, northwest, and south.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Staging Area
+You can see a yellow jersey, a polkadot jersey, a green jersey, a white jersey, and a blue jersey here.
+
+You can go north to the Upper Southside Hallway from here.
+
+(From here, you can move to north.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+            <child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">look yellow jersey</command>
+        <result xml:space="preserve">Since 1919, the Tour de France has awarded this jersey to the race leader.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">look polkadot jersey</command>
+        <result xml:space="preserve">Since 1933, the Tour de France has awarded this jersey to the King of the Mountains.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">look green jersey</command>
+        <result xml:space="preserve">Since 1953, the Tour de France has awarded this jersey to the highest point scorer on sprints.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">look white jersey</command>
+        <result xml:space="preserve">Since 1975, the Tour de France has awarded this jersey to the best cyclist aged 25 or less.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">look blue jersey</command>
+        <result xml:space="preserve">blue jersaaaay
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">You open the glittery box, revealing a security readout, a bowl, and a crazy looking gun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">take readout</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">look bowl</command>
+        <result xml:space="preserve">The bowl is kind of unremarkable, not really exciting like some cool crazy gun would be or something.
+
+In the bowl is a note.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">read note</command>
+        <result xml:space="preserve">Cast the secret spell xyzzy
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">take note</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">xyzzy</command>
+        <result xml:space="preserve">You are unable to articulate the second "z" separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+You can go northeast, northwest, south to the Veranda Walkway, east, west, and down from here.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1281"></child>
+            <child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+You can go northeast, south, southwest, and east to the Floor Changer from here.
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+            <child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Dealer's Room
+Dealer's Room
+
+You can see a ninja costume here.
+
+You can go northeast to Convergence Central from here.
+
+(From here, you can move to northeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1269"></child>
+            <child nodeId="node-1261"></child>
+            <child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">take ninja costume</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+            <child nodeId="node-1258"></child>
+        </children>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">wear ninja costume</command>
+        <result xml:space="preserve">You can't wear that!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+        </children>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">put on ninja costume</command>
+        <result xml:space="preserve">You can't wear that!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">wear ninja</command>
+        <result xml:space="preserve">You put on the ninja costume.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">take ninja</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">wear ninja</command>
+        <result xml:space="preserve">You put on the ninja costume.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+        </children>
+    </item>
+    <item nodeId="node-1264">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1265"></child>
+        </children>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1266"></child>
+        </children>
+    </item>
+    <item nodeId="node-1266">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1267"></child>
+        </children>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+You can go northeast, south, southwest to the Dealer's Room, and east to the Floor Changer from here.
+
+(From here, you can move to northeast, south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1269">
+        <command xml:space="preserve">take costume</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1270"></child>
+        </children>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">wear ninja costume</command>
+        <result xml:space="preserve">You put on the ninja costume.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">look self</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Mainstage
+Mainstage
+
+(From here, you can move to north.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+(From here, you can move to south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+        </children>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Dealer's Room
+Dealer's Room
+
+(From here, you can move to northeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Convergence Central
+Convergence Central
+
+(From here, you can move to south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Convergence Central
+Convergence Central
+
+(From here, you can move to south, southwest, and east.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Stairwell Floor 2
+Stairwell Floor 2
+
+(From here, you can move to southwest and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+        </children>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Upper Tower Connector
+The Upper Tower Connector - connection between the short and tall towers.
+
+(From here, you can move to southeast.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+You can go north, northeast, northwest, south, southwest, west, and up to the Floor Changer from here.
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">
+Floor Changer
+Elevators, escalators, and stairwell.
+
+You can go northeast, northwest, south to the Veranda Walkway, east, west, and down to the Lower Floor Changer from here.
+
+(From here, you can move to northeast, northwest, south, east, west, and down.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1284"></child>
+        </children>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Lower Floor Changer
+Lower elevators, escalators and stairwell lower level
+
+You can go north, northeast, northwest, south, southwest, west, and up to the Floor Changer from here.
+
+(From here, you can move to north, northeast, northwest, south, southwest, west, and up.)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1287"></child>
+        </children>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">open airlock</command>
+        <result xml:space="preserve">[opening the airlock]
+(first unlocking the airlock)
+[(1) unlocking keylessly the airlock - silently]
+You lack a key that fits the airlock.
+[(1) unlocking keylessly the airlock - silently - failed the check keylessly unlocking rule]
+
+[opening the airlock - failed the check keylessly unlocking rule]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
+        <command xml:space="preserve">look sphere</command>
+        <result xml:space="preserve">[examining the Glowing Sphere]
+OOOOoooo glowy-sphere thingie! Its purple soft glow makes you feel safe and secure. It looks like there's some sort of helix-key as a component to the glowy-ness but it's unclear how you would remove it.
+
+[examining the Glowing Sphere - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1289"></child>
+        </children>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">[taking the security key]
+That seems to be a part of the Glowing Sphere.
+[taking the security key - failed the can't take component parts rule]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+        </children>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">open box</command>
+        <result xml:space="preserve">[opening the glittery box]
+You open the glittery box, revealing a security readout, a bowl, and a crazy looking gun.
+[opening the glittery box - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1292"></child>
+        </children>
+    </item>
+    <item nodeId="node-1292">
+        <command xml:space="preserve">take gun</command>
+        <result xml:space="preserve">[taking the crazy looking gun]
+You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.
+
+Taken.
+[taking the crazy looking gun - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1293"></child>
+        </children>
+    </item>
+    <item nodeId="node-1293">
+        <command xml:space="preserve">shoot self</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+[shooting yourself with the crazy looking gun]
+That would be disastrous!
+[shooting yourself with the crazy looking gun - failed the Check shooting something with something]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1294"></child>
+        </children>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">shoot bar</command>
+        <result xml:space="preserve">(with the crazy looking gun)
+[shooting the bar with the crazy looking gun]
+ZAP! The bar twinkles out of existence! 
+
+[shooting the bar with the crazy looking gun - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">[looking]
+Space Lounge
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a chair, a bench, and a bartender here.
+
+[looking - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1296"></child>
+        </children>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">[entering the chair]
+Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+You sit down and are so comfortable - you could really get used to being in this chair.
+[entering the chair - succeeded]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1298"></child>
+        </children>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">[looking]
+Space Lounge (on the chair)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a bench, and a bartender here.
+
+[looking - succeeded]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+        </children>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">[exiting]
+You'd rather be asleep.
+[exiting - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">[exiting]
+You'd rather be asleep.
+[exiting - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">get up</command>
+        <result xml:space="preserve">[exiting]
+You'd rather be asleep.
+[exiting - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">stand</command>
+        <result xml:space="preserve">[exiting]
+You'd rather be asleep.
+[exiting - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">exit chair</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">get out of chair</command>
+        <result xml:space="preserve">I only understood you as far as wanting to get outside.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">[getting off the chair]
+You just can't get up, you are way too comfortable!
+[getting off the chair - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+        </children>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">[getting off the chair]
+You try to heave yourself up, but the soft lusciousness of the chair envelopes you and pulls you back into its comfy folds.
+[getting off the chair - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">[getting off the chair]
+[getting off the chair - failed]
+
+"What a lovely soft and dreamy world", you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">[getting off the chair]
+Whew! You just barely escaped that chair, it's so comfy you could get stuck in it forever!
+[getting off the chair - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">get up from chair</command>
+        <result xml:space="preserve">[getting off the chair]
+But you aren't on the chair at the moment.
+[getting off the chair - failed the can't get off things rule]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">[entering the chair]
+Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+"Hey Wait!" your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that chair, it's so comfy you might never get up again!
+[entering the chair - failed]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">sit on chair</command>
+        <result xml:space="preserve">[entering the chair]
+Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.
+
+"Hey Wait!" your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that chair, it's so comfy you might never get up again!
+[entering the chair - failed]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">sit on bench</command>
+        <result xml:space="preserve">[entering the bench]
+You get onto the bench.
+
+[entering the bench - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+        </children>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">[looking]
+Space Lounge (on the bench)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a chair, and a bartender here.
+
+[looking - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1314"></child>
+        </children>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">show me wig</command>
+        <result xml:space="preserve">[showing the wig to yourself]
+[(1) examining the wig]
+This wig is super shiny and silvery, reflecting light off in all directions, it helps you avoid being face-detected by the intero-pods.
+
+[(1) examining the wig - succeeded]
+
+[showing the wig to yourself - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Space Lounge
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">[looking]
+Space Lounge (on the bench)
+You are in the Space Lounge, rumored to be the center of The Resistance. "Why did I come here?" you briefly wonder before looking around.
+
+You can see an airlock, a chair, and a bartender here.
+
+[looking - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve"> look sphere</command>
+        <result xml:space="preserve">OOOOoooo glowy-sphere thingie! Its purple soft glow makes you feel safe and secure. It looks like there's some sort of helix-key as a component to the glowy-ness but it's unclear how you would remove it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">That seems to be a part of the Glowing Sphere.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">take sphere</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">look key</command>
+        <result xml:space="preserve"></result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
