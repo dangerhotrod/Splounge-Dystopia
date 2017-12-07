@@ -1073,69 +1073,405 @@
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>153</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>1</integer>
+        <key>Title</key><string>Version 5 of Questions by Michael Callaghan begins here</string>
+        <key>Level</key><integer>0</integer>
+        <key>Indentation</key><integer>0</integer>
+    </dict>
+    <key>154</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>5</integer>
+        <key>Title</key><string>Chapter 1 - Global provisions for asking questions</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>155</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>7</integer>
+        <key>Title</key><string>Section 1 - Variables for asking questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>156</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>15</integer>
+        <key>Title</key><string>Section 2 - Default command line prompts for asking questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>157</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>35</integer>
+        <key>Title</key><string>Section 3 - Flag to determine if the question is open or closed</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>158</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>39</integer>
+        <key>Title</key><string>Section 4 - Phrase used to ask questions in closed mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>159</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>86</integer>
+        <key>Title</key><string>Section 5 - Phrase used to ask questions in open mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>160</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>133</integer>
+        <key>Title</key><string>Chapter 2 - Questions that require a number answer</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>161</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>135</integer>
+        <key>Title</key><string>Section 1 - Flag to set number question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>162</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>139</integer>
+        <key>Title</key><string>Section 2 - Action for number questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>163</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>146</integer>
+        <key>Title</key><string>Section 3 - Rules for number questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>164</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>162</integer>
+        <key>Title</key><string>Section 4 - Processing number questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>165</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>176</integer>
+        <key>Title</key><string>Section 5 - To deactivate number question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>166</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>183</integer>
+        <key>Title</key><string>Chapter 3 - Questions that require a real number answer</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>167</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>185</integer>
+        <key>Title</key><string>Section 1 - Flag to set real number question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>168</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>189</integer>
+        <key>Title</key><string>Section 2 - Action for real number questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>169</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>196</integer>
+        <key>Title</key><string>Section 3 - Rules for real number questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>170</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>212</integer>
+        <key>Title</key><string>Section 4 - Processing real number questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>171</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>226</integer>
+        <key>Title</key><string>Section 5 - To deactivate real number question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>172</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>233</integer>
+        <key>Title</key><string>Chapter 4 - Questions that require an answer from a menu</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>173</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>235</integer>
+        <key>Title</key><string>Section 1 - Flag to set menu question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>174</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>239</integer>
+        <key>Title</key><string>Section 2 - Action for menu questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>175</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>246</integer>
+        <key>Title</key><string>Section 3 - Rules for menu questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>176</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>266</integer>
+        <key>Title</key><string>Section 4 - Processing menu questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>177</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>280</integer>
+        <key>Title</key><string>Section 5 - To deactivate menu question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>178</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>287</integer>
+        <key>Title</key><string>Chapter 5 - Questions that require a yes/no answer</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>179</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>289</integer>
+        <key>Title</key><string>Section 1 - Flag to set yes/no question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>180</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>293</integer>
+        <key>Title</key><string>Section 2 - Value for use with yes/no questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>181</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>300</integer>
+        <key>Title</key><string>Section 3 - Action for yes/no questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>182</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>307</integer>
+        <key>Title</key><string>Section 4 - Rules for yes/no questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>183</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>323</integer>
+        <key>Title</key><string>Section 5 - Processing yes/no questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>184</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>337</integer>
+        <key>Title</key><string>Section 6 - To deactivate yes/no question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>185</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>343</integer>
+        <key>Title</key><string>Chapter 6 - Questions that require a gender answer</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>186</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>345</integer>
+        <key>Title</key><string>Section 1 - Flag to set gender question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>187</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>349</integer>
+        <key>Title</key><string>Section 2 - Value for use with gender questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>188</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>357</integer>
+        <key>Title</key><string>Section 3 - Action for gender questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>189</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>364</integer>
+        <key>Title</key><string>Section 4 - Rules for gender questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>190</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>380</integer>
+        <key>Title</key><string>Section 5 - Processing gender questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>191</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>394</integer>
+        <key>Title</key><string>Section 6 - To deactivate gender question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>192</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>401</integer>
+        <key>Title</key><string>Chapter 7 - Questions that require a text answer</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>193</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>403</integer>
+        <key>Title</key><string>Section 1 - Flag to set text question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>194</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>408</integer>
+        <key>Title</key><string>Section 2 - Action for text questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>195</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>415</integer>
+        <key>Title</key><string>Section 3 - Rules for text questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>196</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>431</integer>
+        <key>Title</key><string>Section 4 - Processing text questions</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>197</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>447</integer>
+        <key>Title</key><string>Section 5 - To deactivate text question mode</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>198</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>454</integer>
+        <key>Title</key><string>Chapter 8 - To decide if we are in question mode</string>
+        <key>Level</key><integer>4</integer>
+        <key>Indentation</key><integer>1</integer>
+    </dict>
+    <key>199</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>456</integer>
+        <key>Title</key><string>Section 1 - Basic decision (for use without Fixed Point Maths by Michael Callaghan)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>200</key><dict>
+        <key>Filename</key><string>/Users/aaronprust/Library/Inform/Extensions/michael callaghan/questions.i7x</string>
+        <key>Line</key><integer>473</integer>
+        <key>Title</key><string>Section 2 - Extended decision (for use with Fixed Point Maths by Michael Callaghan)</string>
+        <key>Level</key><integer>5</integer>
+        <key>Indentation</key><integer>2</integer>
+    </dict>
+    <key>201</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/menus.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 3 of Menus by Emily Short begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
-    <key>154</key><dict>
+    <key>202</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/menus.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Section 1</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>155</key><dict>
+    <key>203</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/menus.i7x</string>
         <key>Line</key><integer>208</integer>
         <key>Title</key><string>Section 2 (for Glulx only)</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>156</key><dict>
+    <key>204</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>Version 7/140425 of Basic Screen Effects by Emily Short begins here</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
-    <key>157</key><dict>
+    <key>205</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>9</integer>
         <key>Title</key><string>Section - Clearing the screen</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>158</key><dict>
+    <key>206</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>22</integer>
         <key>Title</key><string>Section - Waiting for key-presses, quitting suddenly</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>159</key><dict>
+    <key>207</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>85</integer>
         <key>Title</key><string>Section - Showing the current quotation</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>160</key><dict>
+    <key>208</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>92</integer>
         <key>Title</key><string>Section - Centering text on-screen</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>161</key><dict>
+    <key>209</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>146</integer>
         <key>Title</key><string>Section - Customizing the status line</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
-    <key>162</key><dict>
+    <key>210</key><dict>
         <key>Filename</key><string>/Applications/Inform.app/Contents/Resources/Internal/Extensions/emily short/basic screen effects.i7x</string>
         <key>Line</key><integer>212</integer>
         <key>Title</key><string>Section - Color effects (for Z-machine only)</string>
