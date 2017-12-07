@@ -17,6 +17,11 @@ Use scoring.
 
 Understand "get up from [thing]" as getting off.
 
+The container interior rule is listed before the room description body text rule in the carry out looking rules.
+This is the container interior rule: 
+	if the actor is the player and the player is in an enterable thing (called current cage), carry out the describing the interior activity with the current cage.
+Describing the interior of something is an activity.
+
 [Room Descriptions. See Individual Room Section for items, people, and rules.]
 The Space Lounge is a room. The description of the Space Lounge is "You are in the Space Lounge, rumored to be the center of The Resistance. 'Why did I come here?' you briefly wonder before looking around."
 
@@ -32,7 +37,7 @@ The Upper Northside Hallway is a room. "A hallway filled with freaks and nerds."
 
 Room 233 is a room. "Room 233"
 
-Consuite is a room. 
+Consuite is a room. "Consuiiiiiiite, woah ohhhhh consuuuuiiiiite. Gawkers and geeks, drinking so much soda the air feels fizzy."
 
 The Floor Changer is a room. "Elevators, escalators, and stairwell."
 
@@ -69,6 +74,13 @@ The Dealer's Room is a room. "Dealer's Room"
 Mainstage is a room. "Mainstage"
 
 The Staging Area is a room. 
+
+[Doors and Backdrops]
+The airlock is a door. The airlock is lockable and unlocked. The security key unlocks the airlock. The description of the airlock is "The airlock has a small window through which you can see a vast open space - is that a pool? Sweet!. It looks like the door only opens with a security key."
+
+The Ceiling is a backdrop. "The ceiling with lights rises over the whole crazy convention." It is in the Veranda Walkway.
+
+Consuitesuckmybigd is a backdrop. "You can make out the basic forms of the people in Consuite but it is so far away that you can't see anything well without some kind of badass miniature spy eyepiece or something." It is in the Veranda Walkway.
 
 [Objects]
 The description of a thing is usually "[The noun] is kind of unremarkable, not really exciting like some cool crazy gun would be or something."
@@ -159,6 +171,22 @@ The black rod is an object. The description of the black rod is "A three foot bl
 
 The black rod is in the Veranda Walkway.
 
+The floating dolphin is a vehicle in Veranda Walkway. The description of the floating dolphin is "Oh crap - the floating dolphin's survellance cam is honing in on you! You better get out of here, somewhere where the floating dolphin camera can't see you." The dolphin is locked. The dolphin code unlocks the floating dolphin. The description of the dolphin code is "It is fish shaped, and vibrates - readout screen says 'Status optimal'."
+
+Rule for describing the interior of the floating dolphin: 
+	Say "The floating dolphin is transparent, but tints everything outside very faintly lavender." instead.
+
+Before entering the floating dolphin:
+	say "You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!"
+
+After entering the floating dolphin:
+	say "Go up!"
+
+[The Secret Room]
+There is a book in the Secret Room. The description of the book is "'yzxxy' is the title, and the contents just say 'Your Future Lies in Space' over and over again."
+
+The dolphin code is in the Secret Room.
+
 [The Player]
 The player is a person.
 
@@ -194,9 +222,6 @@ This is the test-variable rule:
 [Every turn:
 	if the test-variable is false, say "false";
 	otherwise say "true"]
-
-
-
 
 [The Gun]
 Before taking the gun, say "You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun."
@@ -257,15 +282,6 @@ Report casting yzxxy:
 Carry out casting yzxxy: 
 	move the player to The Space Lounge.
 
-
-The airlock is a door. The airlock is east of the Space Lounge and west of the Veranda Walkway. The airlock is lockable and unlocked. The security key unlocks the airlock. The description of the airlock is "The airlock has a small window through which you can see a vast open space - is that a pool? Sweet!. It looks like the door only opens with a security key."
-
-The Ceiling is a backdrop. "The ceiling with lights rises over the whole crazy convention." It is in the Veranda Walkway.
-
-Consuitesuckmybigd is a backdrop. "You can make out the basic forms of the people in Consuite but it is so far away that you can't see anything well without some kind of badass miniature spy eyepiece or something." It is in the Veranda Walkway.
-
-The floating dolphin is a vehicle in Veranda Walkway. The description of the floating dolphin is "Oh crap - the floating dolphin's survellance cam is honing in on you! You better get out of here, somewhere where the floating dolphin camera can't see you." The dolphin is locked. The dolphin code unlocks the floating dolphin. The description of the dolphin code is "It is fish shaped, and vibrates - readout screen says 'Status optimal'."
-
 The bartender is a person in the Space Lounge. The bartender is female. The description of the bartender is "The bartender is [one of]serving some smoothies[or]cleaning the blender[or]making a neon yellow smoothie[or]making a glow in the dark smoothie[or]standing there looking you over[or]talking with a friend[or]dancing[at random]."
 
 Instead of asking the bartender about something: 
@@ -292,27 +308,9 @@ Instead of asking Aframe about "xx":
 	now Aframe is in the Secret Room.
 
 
-There is a book in the Secret Room. The description of the book is "'yzxxy' is the title, and the contents just say 'Your Future Lies in Space' over and over again."
 
 
 
-The dolphin code is in the Secret Room.
-
-The container interior rule is listed before the room description body text rule in the carry out looking rules.
-This is the container interior rule: 
-	if the actor is the player and the player is in an enterable thing (called current cage), carry out the describing the interior activity with the current cage.
-Describing the interior of something is an activity.
-
-Rule for describing the interior of the floating dolphin: 
-	Say "The floating dolphin is transparent, but tints everything outside very faintly lavender." instead.
-
-Before entering the floating dolphin:
-	say "You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!"
-
-After entering the floating dolphin:
-	say "Go up!"
-
-The Floating Courtyard is above the Veranda Walkway.
 
 Instead of going to the Floating Courtyard when the player is not in the floating dolphin: 
     say "You don't have wings or pyscho-kinetic levitation abilities or a hoverboard or anything to go up with."
@@ -336,12 +334,17 @@ After looking:
 
 The Upper Southside Hallway is southeast of the Veranda Walkway. 
 
-The Upper Northside Hallway is northeast of the Veranda Walkway. 
-
 Room 233 is north of the Upper Southside Hallway.
 
 Consuite is northeast of the Upper Southside Hallway.
+
+The Staging Area is south of the Upper Southside Hallway.
+
+The End is southwest of the Upper Southside Hallway.
+
 Consuite is southeast of the Upper Northside Hallway.
+
+The Upper Northside Hallway is northeast of the Veranda Walkway. 
 
 [Room 232 is southeast of the Upper Southside Hallway.]
 
@@ -401,9 +404,10 @@ The Dealer's Room is southwest of Convergence Central.
 
 Mainstage is south of Convergence Central.
 
-The Staging Area is south of the Upper Southside Hallway.
 
-The End is southwest of the Upper Southside Hallway.
+The Floating Courtyard is above the Veranda Walkway.
+
+The airlock is east of the Space Lounge and west of the Veranda Walkway. 
 
 [Jerseys]
 [*]A jersey is a kind of thing. A jersey is wearable. Some jerseys in the Staging Area are defined by the Table of Honorary Jerseys. The description of a jersey is "Since [year established], the Tour de France has awarded this jersey to the [citation]."
@@ -438,7 +442,6 @@ Instead of taking inventory:
 
 
 AFrame is a person in the Space Lounge. AFrame is male. The description of AFrame is "Aframe is looking pretty sharp there wearing [a list of unconcealed things worn by Aframe] with his usual aplomb." 
-
 
 Aframe is neutralla.
 

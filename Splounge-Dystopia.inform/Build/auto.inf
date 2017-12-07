@@ -43,7 +43,7 @@ Global Story = BC_0;
 Constant Headline BC_1;
 Constant Story_Author BC_2;
 Release 1;
-Serial "171206";
+Serial "171207";
 
 Default Story 0;
 Default Headline 0;
@@ -10120,11 +10120,11 @@ Constant V36_displaying = 36;
 Constant V37_listing_exits = 37;
 Constant V38_describing_the_interior = 38;
 
-Array Activity_before_rulebooks --> 29 32 35 38 41 44 47 50 53 56 59 62 65 68 71 74 77 80 83 86 89 92 95 98 101 104 107 110 113 116 119 122 125 128 362 374 377 386 431 NULL;
+Array Activity_before_rulebooks --> 29 32 35 38 41 44 47 50 53 56 59 62 65 68 71 74 77 80 83 86 89 92 95 98 101 104 107 110 113 116 119 122 125 128 362 374 377 386 422 NULL;
 
-Array Activity_for_rulebooks --> 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 123 126 129 363 375 378 387 432 NULL;
+Array Activity_for_rulebooks --> 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99 102 105 108 111 114 117 120 123 126 129 363 375 378 387 423 NULL;
 
-Array Activity_after_rulebooks --> 31 34 37 40 43 46 49 52 55 58 61 64 67 70 73 76 79 82 85 88 91 94 97 100 103 106 109 112 115 118 121 124 127 130 364 376 379 388 433 NULL;
+Array Activity_after_rulebooks --> 31 34 37 40 43 46 49 52 55 58 61 64 67 70 73 76 79 82 85 88 91 94 97 100 103 106 109 112 115 118 121 124 127 130 364 376 379 388 424 NULL;
 
 Array Activity_atb_rulebooks -> 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 $ff;
 
@@ -10559,10 +10559,10 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
     value ! Implied call parameter
     ;
     switch(value) {
-        I175_normal: print "normal";
-        I176_rough: print "rough";
-        I177_soft: print "soft";
-        I178_smooth: print "smooth";
+        I179_normal: print "normal";
+        I180_rough: print "rough";
+        I181_soft: print "soft";
+        I182_smooth: print "smooth";
         default: print "<illegal texture>";
     }
 ];
@@ -10589,9 +10589,9 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
     value ! Implied call parameter
     ;
     switch(value) {
-        I180_a_co_conspirator: print "a co-conspirator";
-        I181_neutralla: print "neutralla";
-        I182_an_enemy: print "an enemy";
+        I184_a_co_conspirator: print "a co-conspirator";
+        I185_neutralla: print "neutralla";
+        I186_an_enemy: print "an enemy";
         default: print "<illegal person condition>";
     }
 ];
@@ -10716,8 +10716,8 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
         53: return I128_brief;
         54: return I132_yes;
         55: return I135_masculine;
-        56: return I175_normal;
-        57: return I180_a_co_conspirator;
+        56: return I179_normal;
+        57: return I184_a_co_conspirator;
         default: return 0;
     }
 ];
@@ -10859,25 +10859,25 @@ Array KindHierarchy --> K0_kind (0) K1_room (0) K2_thing (0) K3_direction (0) K4
 Constant IK1_First = I138_space_lounge;
 Constant IK2_First = selfobj;
 Constant IK3_First = I51_north;
-Constant IK4_First = I196_airlock;
-Constant IK5_First = I188_glittery_box;
-Constant IK6_First = I183_bar;
-Constant IK7_First = I197_ceiling;
+Constant IK4_First = I164_airlock;
+Constant IK5_First = I191_glittery_box;
+Constant IK6_First = I187_bar;
+Constant IK7_First = I166_ceiling;
 Constant IK8_First = selfobj;
 Constant IK9_First = nothing;
 Constant IK10_First = nothing;
 Constant IK11_First = nothing;
 Constant IK12_First = nothing;
-Constant IK13_First = I189_security_readout;
-Constant IK14_First = I199_floating_dolphin;
+Constant IK13_First = I192_security_readout;
+Constant IK14_First = I197_floating_dolphin;
 Constant IK15_First = nothing;
 Constant IK16_First = nothing;
 Constant IK17_First = nothing;
-Constant IK18_First = X186;
-Constant IK19_First = X187;
-Constant IK20_First = X169;
-Constant IK21_First = I168_black_ninja_outfit;
-Constant IK22_First = I203_blah;
+Constant IK18_First = X189;
+Constant IK19_First = X190;
+Constant IK20_First = X173;
+Constant IK21_First = I172_black_ninja_outfit;
+Constant IK22_First = I204_blah;
 Constant IK23_First = I212_yellow_jersey;
 Constant No_Directions = 12;
 ! Table of direction object alias constants:
@@ -10894,38 +10894,38 @@ Constant DirectionObject_9 = I60_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- 0 0 0 0 0 0 I196_airlock 0 0 0 0 0 ! Exits from: I138_space_lounge
- I146_floor_changer I143_upper_northside_hallway I205_bridge 0 I142_upper_southside_hallway 0 0 I196_airlock I141_floating_courtyard I207_under_the_veranda_walkw 0 0 ! Exits from: I139_veranda_walkway
+ 0 0 0 0 0 0 I164_airlock 0 0 0 0 0 ! Exits from: I138_space_lounge
+ I146_floor_changer I143_upper_northside_hallway I206_bridge 0 I142_upper_southside_hallway 0 0 I164_airlock I141_floating_courtyard I208_under_the_veranda_walkw 0 0 ! Exits from: I139_veranda_walkway
  0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I140_secret_room
  0 0 0 0 0 0 0 0 0 I139_veranda_walkway 0 0 ! Exits from: I141_floating_courtyard
- I144_room_233 I145_consuite I139_veranda_walkway I163_staging_area I221_round1 I210_end 0 0 0 0 0 0 ! Exits from: I142_upper_southside_hallway
+ I144_room_233 I145_consuite I139_veranda_walkway I163_staging_area I221_round1 I205_end 0 0 0 0 0 0 ! Exits from: I142_upper_southside_hallway
  0 0 0 I156_room_205 I145_consuite I139_veranda_walkway 0 I146_floor_changer 0 0 0 0 ! Exits from: I143_upper_northside_hallway
  0 0 0 I142_upper_southside_hallway 0 0 0 0 0 0 0 0 ! Exits from: I144_room_233
  0 0 I143_upper_northside_hallway 0 0 I142_upper_southside_hallway 0 0 0 I148_under_consuite 0 0 ! Exits from: I145_consuite
- 0 I153_stairwell_floor_2 I160_upper_tower_connector I139_veranda_walkway 0 0 I143_upper_northside_hallway I206_convergence_central 0 I149_lower_floor_changer 0 0 ! Exits from: I146_floor_changer
- 0 I148_under_consuite I207_under_the_veranda_walkw I209_room_128 0 0 0 0 0 0 0 0 ! Exits from: I147_lower_southside_hallway
+ 0 I153_stairwell_floor_2 I160_upper_tower_connector I139_veranda_walkway 0 0 I143_upper_northside_hallway I207_convergence_central 0 I149_lower_floor_changer 0 0 ! Exits from: I146_floor_changer
+ 0 I148_under_consuite I208_under_the_veranda_walkw I210_room_128 0 0 0 0 0 0 0 0 ! Exits from: I147_lower_southside_hallway
  0 0 I150_lower_northside_hallway 0 0 I147_lower_southside_hallway 0 I154_pool_area I145_consuite 0 0 0 ! Exits from: I148_under_consuite
- I151_elevator_line I152_stairwell_floor_1 I159_lower_tower_connector I207_under_the_veranda_walkw 0 I158_crescent_kitchen 0 I157_front_desk I146_floor_changer 0 0 0 ! Exits from: I149_lower_floor_changer
- I208_room_107 0 0 0 I148_under_consuite I207_under_the_veranda_walkw 0 0 0 0 0 0 ! Exits from: I150_lower_northside_hallway
+ I151_elevator_line I152_stairwell_floor_1 I159_lower_tower_connector I208_under_the_veranda_walkw 0 I158_crescent_kitchen 0 I157_front_desk I146_floor_changer 0 0 0 ! Exits from: I149_lower_floor_changer
+ I209_room_107 0 0 0 I148_under_consuite I208_under_the_veranda_walkw 0 0 0 0 0 0 ! Exits from: I150_lower_northside_hallway
  0 0 0 I149_lower_floor_changer 0 0 0 0 0 0 0 0 ! Exits from: I151_elevator_line
  0 0 0 0 0 I149_lower_floor_changer 0 0 I153_stairwell_floor_2 0 0 0 ! Exits from: I152_stairwell_floor_1
  0 0 0 0 0 I146_floor_changer 0 0 0 I152_stairwell_floor_1 0 0 ! Exits from: I153_stairwell_floor_2
  0 0 0 0 0 0 I148_under_consuite 0 0 0 0 0 ! Exits from: I154_pool_area
- 0 0 0 0 0 0 0 I207_under_the_veranda_walkw 0 0 0 0 ! Exits from: I155_garden_court
+ 0 0 0 0 0 0 0 I208_under_the_veranda_walkw 0 0 0 0 ! Exits from: I155_garden_court
  I143_upper_northside_hallway 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I156_room_205
  0 0 0 0 0 0 I149_lower_floor_changer 0 0 0 0 0 ! Exits from: I157_front_desk
- 0 I149_lower_floor_changer 0 0 0 0 I207_under_the_veranda_walkw 0 0 0 0 0 ! Exits from: I158_crescent_kitchen
+ 0 I149_lower_floor_changer 0 0 0 0 I208_under_the_veranda_walkw 0 0 0 0 0 ! Exits from: I158_crescent_kitchen
  0 0 0 0 I149_lower_floor_changer 0 0 0 0 0 0 0 ! Exits from: I159_lower_tower_connector
- 0 0 0 0 I146_floor_changer I206_convergence_central 0 0 0 0 0 0 ! Exits from: I160_upper_tower_connector
- 0 I206_convergence_central 0 0 0 0 0 0 0 0 0 0 ! Exits from: I161_dealer_s_room
- I206_convergence_central 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I162_mainstage
+ 0 0 0 0 I146_floor_changer I207_convergence_central 0 0 0 0 0 0 ! Exits from: I160_upper_tower_connector
+ 0 I207_convergence_central 0 0 0 0 0 0 0 0 0 0 ! Exits from: I161_dealer_s_room
+ I207_convergence_central 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I162_mainstage
  I142_upper_southside_hallway 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I163_staging_area
- 0 0 0 0 I139_veranda_walkway 0 0 0 0 0 0 0 ! Exits from: I205_bridge
- 0 I160_upper_tower_connector 0 I162_mainstage 0 I161_dealer_s_room I146_floor_changer 0 0 0 0 0 ! Exits from: I206_convergence_central
- I149_lower_floor_changer I150_lower_northside_hallway 0 0 I147_lower_southside_hallway 0 I155_garden_court I158_crescent_kitchen I139_veranda_walkway 0 0 0 ! Exits from: I207_under_the_veranda_walkw
- 0 0 0 I150_lower_northside_hallway 0 0 0 0 0 0 0 0 ! Exits from: I208_room_107
- I147_lower_southside_hallway 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I209_room_128
- 0 I142_upper_southside_hallway 0 0 0 0 0 0 0 0 0 0 ! Exits from: I210_end
+ 0 I142_upper_southside_hallway 0 0 0 0 0 0 0 0 0 0 ! Exits from: I205_end
+ 0 0 0 0 I139_veranda_walkway 0 0 0 0 0 0 0 ! Exits from: I206_bridge
+ 0 I160_upper_tower_connector 0 I162_mainstage 0 I161_dealer_s_room I146_floor_changer 0 0 0 0 0 ! Exits from: I207_convergence_central
+ I149_lower_floor_changer I150_lower_northside_hallway 0 0 I147_lower_southside_hallway 0 I155_garden_court I158_crescent_kitchen I139_veranda_walkway 0 0 0 ! Exits from: I208_under_the_veranda_walkw
+ 0 0 0 I150_lower_northside_hallway 0 0 0 0 0 0 0 0 ! Exits from: I209_room_107
+ I147_lower_southside_hallway 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I210_room_128
  0 0 I142_upper_southside_hallway 0 0 0 0 0 0 0 0 0 ! Exits from: I221_round1
  0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I222_round2
  0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I223_round3
@@ -10996,7 +10996,7 @@ Class K2_thing
     with initial BC_16
     with with_key nothing
     with p65_unbolting_relation_stora nothing
-    with p67_texture I175_normal
+    with p67_texture I179_normal
     with list_together BC_17
     with short_name BC_18
     with plural BC_19
@@ -11068,7 +11068,7 @@ Class K8_person
     has ~female
     has ~neuter
     has p69_awake
-    with p68_person_condition I180_a_co_conspirator
+    with p68_person_condition I184_a_co_conspirator
     with p17_maximum_hit_points 0
     with p18_current_hit_points 0
     with p19_maximum_ninja_points 0
@@ -11536,9 +11536,9 @@ Object -> selfobj ""
     with cap_short_name BC_235
     has mark_as_thing
     with IK2_Count 0
-    with IK2_Link I194_coin
+    with IK2_Link I200_coin
     with IK8_Count 0
-    with IK8_Link I201_bartender
+    with IK8_Link I202_bartender
     with KD_Count 8
     with parse_name Parse_Name_GV13
     with action_bitmap 0 0 0 0 0 0 
@@ -11549,14 +11549,14 @@ Object -> selfobj ""
     with p72_citation BC_240
 ;
 
-Object -> -> I194_coin ""
+Object -> -> I200_coin ""
     class K2_thing
     with short_name BC_241
     has ~static
     with vector 0
     has mark_as_thing
-    with IK2_Count 18
-    with IK2_Link I195_wig
+    with IK2_Count 24
+    with IK2_Link I201_wig
     with KD_Count 2
     with name 'coin' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11568,7 +11568,7 @@ Object -> -> I194_coin ""
     with p72_citation BC_247
 ;
 
-Object -> -> I195_wig ""
+Object -> -> I201_wig ""
     class K2_thing
     with short_name BC_248
     with description BC_249
@@ -11577,8 +11577,8 @@ Object -> -> I195_wig ""
     has worn
     with vector 0
     has mark_as_thing
-    with IK2_Count 19
-    with IK2_Link I168_black_ninja_outfit
+    with IK2_Count 25
+    with IK2_Link I172_black_ninja_outfit
     with KD_Count 2
     with name 'wig' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11589,15 +11589,15 @@ Object -> -> I195_wig ""
     with p72_citation BC_254
 ;
 
-Object -> I168_black_ninja_outfit ""
+Object -> I172_black_ninja_outfit ""
     class K21_ninja_outfit
     with short_name BC_255
     with description BC_256
     with vector 0
     has mark_as_thing
-    with component_child X169
-    with IK2_Count 1
-    with IK2_Link I183_bar
+    with component_child X173
+    with IK2_Count 5
+    with IK2_Link I187_bar
     with IK21_Count 0
     with IK21_Link nothing
     with KD_Count 21
@@ -11610,16 +11610,16 @@ Object -> I168_black_ninja_outfit ""
     with p72_citation BC_261
 ;
 
-Object -> I183_bar ""
+Object -> I187_bar ""
     class K6_supporter
     with short_name BC_262
     has static
     with vector 0
     has mark_as_thing
-    with IK2_Count 7
-    with IK2_Link I184_glowing_sphere
+    with IK2_Count 11
+    with IK2_Link I188_glowing_sphere
     with IK6_Count 0
-    with IK6_Link X186
+    with IK6_Link X189
     with KD_Count 6
     with name 'bar' 'supporters//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11631,16 +11631,16 @@ Object -> I183_bar ""
     with p72_citation BC_268
 ;
 
-Object -> -> I184_glowing_sphere ""
+Object -> -> I188_glowing_sphere ""
     class K2_thing
     with short_name BC_269
     with description BC_270
     has static
     with vector 0
     has mark_as_thing
-    with component_child I185_security_key
-    with IK2_Count 8
-    with IK2_Link I188_glittery_box
+    with component_child I165_security_key
+    with IK2_Count 12
+    with IK2_Link I191_glittery_box
     with KD_Count 2
     with name 'glowing' 'sphere' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11651,7 +11651,7 @@ Object -> -> I184_glowing_sphere ""
     with p72_citation BC_275
 ;
 
-Object -> -> I188_glittery_box ""
+Object -> -> I191_glittery_box ""
     class K5_container
     with short_name BC_276
     with description BC_277
@@ -11659,10 +11659,10 @@ Object -> -> I188_glittery_box ""
     has openable
     with vector 0
     has mark_as_thing
-    with IK2_Count 12
-    with IK2_Link I189_security_readout
+    with IK2_Count 15
+    with IK2_Link I192_security_readout
     with IK5_Count 3
-    with IK5_Link I190_bowl
+    with IK5_Link I193_bowl
     with KD_Count 5
     with name 'glittery' 'box' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11673,14 +11673,14 @@ Object -> -> I188_glittery_box ""
     with p72_citation BC_282
 ;
 
-Object -> -> -> I189_security_readout ""
+Object -> -> -> I192_security_readout ""
     class K13_device
     with short_name BC_283
     with description BC_284
     with vector 0
     has mark_as_thing
-    with IK2_Count 13
-    with IK2_Link I190_bowl
+    with IK2_Count 16
+    with IK2_Link I193_bowl
     with IK13_Count 0
     with IK13_Link nothing
     with KD_Count 13
@@ -11693,15 +11693,15 @@ Object -> -> -> I189_security_readout ""
     with p72_citation BC_289
 ;
 
-Object -> -> -> I190_bowl ""
+Object -> -> -> I193_bowl ""
     class K5_container
     with short_name BC_290
     with vector 0
     has mark_as_thing
-    with IK2_Count 14
-    with IK2_Link I191_note
+    with IK2_Count 17
+    with IK2_Link I194_note
     with IK5_Count 4
-    with IK5_Link I199_floating_dolphin
+    with IK5_Link I197_floating_dolphin
     with KD_Count 5
     with name 'bowl' 'containers//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11713,14 +11713,14 @@ Object -> -> -> I190_bowl ""
     with p72_citation BC_296
 ;
 
-Object -> -> -> -> I191_note ""
+Object -> -> -> -> I194_note ""
     class K2_thing
     with short_name BC_297
     with description BC_298
     with vector 0
     has mark_as_thing
-    with IK2_Count 15
-    with IK2_Link I192_crazy_looking_gun
+    with IK2_Count 18
+    with IK2_Link I195_crazy_looking_gun
     with KD_Count 2
     with name 'note' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11731,14 +11731,14 @@ Object -> -> -> -> I191_note ""
     with p72_citation BC_303
 ;
 
-Object -> -> -> I192_crazy_looking_gun ""
+Object -> -> -> I195_crazy_looking_gun ""
     class K2_thing
     with short_name BC_304
     with description BC_305
     with vector 0
     has mark_as_thing
-    with IK2_Count 16
-    with IK2_Link X186
+    with IK2_Count 19
+    with IK2_Link X189
     with KD_Count 2
     with name 'crazy' 'looking' 'gun' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11749,16 +11749,16 @@ Object -> -> -> I192_crazy_looking_gun ""
     with p72_citation BC_310
 ;
 
-Object -> X186 ""
+Object -> X189 ""
     class K18_bench
     with short_name BC_311
-    with p67_texture I178_smooth
+    with p67_texture I182_smooth
     with vector 0
     has mark_as_thing
-    with IK2_Count 10
-    with IK2_Link X187
+    with IK2_Count 13
+    with IK2_Link X190
     with IK6_Count 1
-    with IK6_Link X187
+    with IK6_Link X190
     with IK18_Count 0
     with IK18_Link nothing
     with KD_Count 18
@@ -11772,14 +11772,14 @@ Object -> X186 ""
     with p72_citation BC_317
 ;
 
-Object -> X187 ""
+Object -> X190 ""
     class K19_chair
     with short_name BC_318
-    with p67_texture I177_soft
+    with p67_texture I181_soft
     with vector 0
     has mark_as_thing
-    with IK2_Count 11
-    with IK2_Link I201_bartender
+    with IK2_Count 14
+    with IK2_Link I202_bartender
     with IK6_Count 2
     with IK6_Link nothing
     with IK19_Count 0
@@ -11795,14 +11795,14 @@ Object -> X187 ""
     with p72_citation BC_324
 ;
 
-Object -> I201_bartender ""
+Object -> I202_bartender ""
     class K8_person
     with short_name BC_325
     with description BC_326
     has female
     with vector 0
     has mark_as_thing
-    with IK2_Count 25
+    with IK2_Count 26
     with IK2_Link I217_aframe
     with IK8_Count 1
     with IK8_Link I217_aframe
@@ -11822,7 +11822,7 @@ Object -> I217_aframe ""
     with description BC_333
     has proper
     has ~female
-    with p68_person_condition I181_neutralla
+    with p68_person_condition I185_neutralla
     with vector 0
     has mark_as_thing
     with IK2_Count 33
@@ -11888,7 +11888,7 @@ Object -> I220_security_bot ""
     with vector 0
     has mark_as_thing
     with IK2_Count 36
-    with IK2_Link I193_black_rod
+    with IK2_Link I196_black_rod
     with IK8_Count 3
     with IK8_Link nothing
     with KD_Count 8
@@ -11918,14 +11918,14 @@ Object I139_veranda_walkway ""
     with p72_citation BC_365
 ;
 
-Object -> I193_black_rod ""
+Object -> I196_black_rod ""
     class K2_thing
     with short_name BC_366
     with description BC_367
     with vector 0
     has mark_as_thing
-    with IK2_Count 17
-    with IK2_Link I199_floating_dolphin
+    with IK2_Count 20
+    with IK2_Link I197_floating_dolphin
     with KD_Count 2
     with name 'black' 'rod' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11936,21 +11936,21 @@ Object -> I193_black_rod ""
     with p72_citation BC_372
 ;
 
-Object -> I199_floating_dolphin ""
+Object -> I197_floating_dolphin ""
     class K14_vehicle
     with short_name BC_373
     with description BC_374
-    with with_key I200_dolphin_code
+    with with_key I198_dolphin_code
     has ~open
     has openable
     has lockable
     has locked
     with vector 0
     has mark_as_thing
-    with IK2_Count 23
-    with IK2_Link I200_dolphin_code
+    with IK2_Count 21
+    with IK2_Link I198_dolphin_code
     with IK5_Count 5
-    with IK5_Link X169
+    with IK5_Link X173
     with IK14_Count 0
     with IK14_Link nothing
     with KD_Count 14
@@ -11980,14 +11980,14 @@ Object I140_secret_room ""
     with p72_citation BC_385
 ;
 
-Object -> I200_dolphin_code ""
+Object -> I198_dolphin_code ""
     class K2_thing
     with short_name BC_386
     with description BC_387
     with vector 0
     has mark_as_thing
-    with IK2_Count 24
-    with IK2_Link I204_book
+    with IK2_Count 22
+    with IK2_Link I199_book
     with KD_Count 2
     with name 'dolphin' 'code' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11998,13 +11998,13 @@ Object -> I200_dolphin_code ""
     with p72_citation BC_392
 ;
 
-Object -> I204_book ""
+Object -> I199_book ""
     class K2_thing
     with short_name BC_393
     with description BC_394
     with vector 0
     has mark_as_thing
-    with IK2_Count 27
+    with IK2_Count 23
     with IK2_Link I212_yellow_jersey
     with KD_Count 2
     with name 'book' 'things//p' 
@@ -12088,6 +12088,7 @@ Object I144_room_233 ""
 Object I145_consuite ""
     class K1_room
     with short_name BC_424
+    with description BC_425
     has proper
     with vector 0
     with room_index -1
@@ -12096,7 +12097,6 @@ Object I145_consuite ""
     with IK1_Link I146_floor_changer
     with KD_Count 1
     with name 'consuite' 'rooms//p' 
-    with description BC_425
     with list_together BC_426
     with plural BC_427
     with article BC_428
@@ -12405,7 +12405,7 @@ Object I163_staging_area ""
     with room_index -1
     has mark_as_room
     with IK1_Count 25
-    with IK1_Link I205_bridge
+    with IK1_Link I205_end
     with KD_Count 1
     with name 'staging' 'area' 'rooms//p' 
     with description BC_533
@@ -12506,7 +12506,7 @@ Object -> I216_blue_jersey ""
     with vector 0
     has mark_as_thing
     with IK2_Count 32
-    with IK2_Link X169
+    with IK2_Link I164_airlock
     with KD_Count 2
     with name 'blue' 'jersey' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
@@ -12517,133 +12517,11 @@ Object -> I216_blue_jersey ""
     with p72_citation BC_572
 ;
 
-Object X169 ""
-    class K20_pocket
-    with short_name BC_573
-    with vector 0
-    has mark_as_thing
-    with component_parent I168_black_ninja_outfit
-    with component_sibling X170
-    with IK2_Count 2
-    with IK2_Link X170
-    with IK5_Count 0
-    with IK5_Link X170
-    with IK20_Count 0
-    with IK20_Link X170
-    with KD_Count 20
-    with name 'pocket' 'pockets//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_574
-    with initial BC_575
-    with list_together BC_576
-    with plural BC_577
-    with article BC_578
-    with p72_citation BC_579
-;
-
-Object X170 ""
-    class K20_pocket
-    with short_name BC_580
-    with vector 0
-    has mark_as_thing
-    with component_parent I168_black_ninja_outfit
-    with IK2_Count 3
-    with IK2_Link I171_black_ninja_outfit_s_po
-    with IK5_Count 1
-    with IK5_Link I171_black_ninja_outfit_s_po
-    with IK20_Count 1
-    with IK20_Link nothing
-    with KD_Count 20
-    with name 'pocket' 'pockets//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_581
-    with initial BC_582
-    with list_together BC_583
-    with plural BC_584
-    with article BC_585
-    with p72_citation BC_586
-;
-
-Object I171_black_ninja_outfit_s_po ""
-    class K5_container
-    with short_name BC_587
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 4
-    with IK2_Link I172_throwing_star
-    with IK5_Count 2
-    with IK5_Link nothing
-    with KD_Count 5
-    with name 'black' 'ninja' 'outfit^s' 'pocket' 'containers//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_588
-    with initial BC_589
-    with list_together BC_590
-    with plural BC_591
-    with article BC_592
-    with p72_citation BC_593
-;
-
-Object -> I172_throwing_star ""
-    class K2_thing
-    with short_name BC_594
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 5
-    with IK2_Link I173_smoke_bomb
-    with KD_Count 2
-    with name 'throwing' 'star' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_595
-    with initial BC_596
-    with list_together BC_597
-    with plural BC_598
-    with article BC_599
-    with p72_citation BC_600
-;
-
-Object -> I173_smoke_bomb ""
-    class K2_thing
-    with short_name BC_601
-    with vector 0
-    has mark_as_thing
-    with IK2_Count 6
-    with IK2_Link I185_security_key
-    with KD_Count 2
-    with name 'smoke' 'bomb' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with description BC_602
-    with initial BC_603
-    with list_together BC_604
-    with plural BC_605
-    with article BC_606
-    with p72_citation BC_607
-;
-
-Object I185_security_key ""
-    class K2_thing
-    with short_name BC_608
-    with description BC_609
-    with vector 0
-    has mark_as_thing
-    with component_parent I184_glowing_sphere
-    with IK2_Count 9
-    with IK2_Link I196_airlock
-    with KD_Count 2
-    with name 'security' 'key' 'things//p' 
-    with action_bitmap 0 0 0 0 0 0 
-    with initial BC_610
-    with list_together BC_611
-    with plural BC_612
-    with article BC_613
-    with p72_citation BC_614
-;
-
-Object I196_airlock ""
+Object I164_airlock ""
     class K4_door
-    with short_name BC_615
-    with description BC_616
-    with with_key I185_security_key
+    with short_name BC_573
+    with description BC_574
+    with with_key I165_security_key
     has lockable
     has ~locked
     with vector 0
@@ -12661,15 +12539,144 @@ Object I196_airlock ""
         if (loc == I138_space_lounge) return I139_veranda_walkway; return I138_space_lounge;],
     with found_in I138_space_lounge I139_veranda_walkway
     has mark_as_thing
-    with IK2_Count 20
-    with IK2_Link I197_ceiling
+    with IK2_Count 1
+    with IK2_Link I165_security_key
     with IK4_Count 0
     with IK4_Link nothing
     with KD_Count 4
     with name 'airlock' 'doors//p' 
     with action_bitmap 0 0 0 0 0 0 
-    with p15_passing_text BC_617
-    with p16_closed_text BC_618
+    with p15_passing_text BC_575
+    with p16_closed_text BC_576
+    with initial BC_577
+    with list_together BC_578
+    with plural BC_579
+    with article BC_580
+    with p72_citation BC_581
+;
+
+Object I165_security_key ""
+    class K2_thing
+    with short_name BC_582
+    with description BC_583
+    with vector 0
+    has mark_as_thing
+    with component_parent I188_glowing_sphere
+    with IK2_Count 2
+    with IK2_Link I166_ceiling
+    with KD_Count 2
+    with name 'security' 'key' 'things//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_584
+    with list_together BC_585
+    with plural BC_586
+    with article BC_587
+    with p72_citation BC_588
+;
+
+Object I166_ceiling ""
+    class K7_backdrop
+    with short_name BC_589
+    with description BC_590
+    with vector 0
+    with found_in I139_veranda_walkway 
+    has mark_as_thing
+    with IK2_Count 3
+    with IK2_Link I167_consuitesuckmybigd
+    with IK7_Count 0
+    with IK7_Link I167_consuitesuckmybigd
+    with KD_Count 7
+    with name 'ceiling' 'backdrops//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_591
+    with list_together BC_592
+    with plural BC_593
+    with article BC_594
+    with p72_citation BC_595
+;
+
+Object I167_consuitesuckmybigd ""
+    class K7_backdrop
+    with short_name BC_596
+    with description BC_597
+    has proper
+    with vector 0
+    with found_in I139_veranda_walkway 
+    has mark_as_thing
+    with IK2_Count 4
+    with IK2_Link X173
+    with IK7_Count 1
+    with IK7_Link nothing
+    with KD_Count 7
+    with name 'consuitesuckmybigd' 'backdrops//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with initial BC_598
+    with list_together BC_599
+    with plural BC_600
+    with article BC_601
+    with p72_citation BC_602
+;
+
+Object X173 ""
+    class K20_pocket
+    with short_name BC_603
+    with vector 0
+    has mark_as_thing
+    with component_parent I172_black_ninja_outfit
+    with component_sibling X174
+    with IK2_Count 6
+    with IK2_Link X174
+    with IK5_Count 0
+    with IK5_Link X174
+    with IK20_Count 0
+    with IK20_Link X174
+    with KD_Count 20
+    with name 'pocket' 'pockets//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with description BC_604
+    with initial BC_605
+    with list_together BC_606
+    with plural BC_607
+    with article BC_608
+    with p72_citation BC_609
+;
+
+Object X174 ""
+    class K20_pocket
+    with short_name BC_610
+    with vector 0
+    has mark_as_thing
+    with component_parent I172_black_ninja_outfit
+    with IK2_Count 7
+    with IK2_Link I175_black_ninja_outfit_s_po
+    with IK5_Count 1
+    with IK5_Link I175_black_ninja_outfit_s_po
+    with IK20_Count 1
+    with IK20_Link nothing
+    with KD_Count 20
+    with name 'pocket' 'pockets//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with description BC_611
+    with initial BC_612
+    with list_together BC_613
+    with plural BC_614
+    with article BC_615
+    with p72_citation BC_616
+;
+
+Object I175_black_ninja_outfit_s_po ""
+    class K5_container
+    with short_name BC_617
+    with vector 0
+    has mark_as_thing
+    with IK2_Count 8
+    with IK2_Link I176_throwing_star
+    with IK5_Count 2
+    with IK5_Link nothing
+    with KD_Count 5
+    with name 'black' 'ninja' 'outfit^s' 'pocket' 'containers//p' 
+    with action_bitmap 0 0 0 0 0 0 
+    with description BC_618
     with initial BC_619
     with list_together BC_620
     with plural BC_621
@@ -12677,20 +12684,17 @@ Object I196_airlock ""
     with p72_citation BC_623
 ;
 
-Object I197_ceiling ""
-    class K7_backdrop
+Object -> I176_throwing_star ""
+    class K2_thing
     with short_name BC_624
-    with description BC_625
     with vector 0
-    with found_in I139_veranda_walkway 
     has mark_as_thing
-    with IK2_Count 21
-    with IK2_Link I198_consuitesuckmybigd
-    with IK7_Count 0
-    with IK7_Link I198_consuitesuckmybigd
-    with KD_Count 7
-    with name 'ceiling' 'backdrops//p' 
+    with IK2_Count 9
+    with IK2_Link I177_smoke_bomb
+    with KD_Count 2
+    with name 'throwing' 'star' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
+    with description BC_625
     with initial BC_626
     with list_together BC_627
     with plural BC_628
@@ -12698,21 +12702,17 @@ Object I197_ceiling ""
     with p72_citation BC_630
 ;
 
-Object I198_consuitesuckmybigd ""
-    class K7_backdrop
+Object -> I177_smoke_bomb ""
+    class K2_thing
     with short_name BC_631
-    with description BC_632
-    has proper
     with vector 0
-    with found_in I139_veranda_walkway 
     has mark_as_thing
-    with IK2_Count 22
-    with IK2_Link I203_blah
-    with IK7_Count 1
-    with IK7_Link nothing
-    with KD_Count 7
-    with name 'consuitesuckmybigd' 'backdrops//p' 
+    with IK2_Count 10
+    with IK2_Link I204_blah
+    with KD_Count 2
+    with name 'smoke' 'bomb' 'things//p' 
     with action_bitmap 0 0 0 0 0 0 
+    with description BC_632
     with initial BC_633
     with list_together BC_634
     with plural BC_635
@@ -12720,12 +12720,12 @@ Object I198_consuitesuckmybigd ""
     with p72_citation BC_637
 ;
 
-Object I203_blah ""
+Object I204_blah ""
     class K22_smoothie
     with short_name BC_638
     with vector 0
     has mark_as_thing
-    with IK2_Count 26
+    with IK2_Count 27
     with IK2_Link I225_quizinator1
     with IK22_Count 0
     with IK22_Link nothing
@@ -12740,7 +12740,7 @@ Object I203_blah ""
     with p72_citation BC_644
 ;
 
-Object I205_bridge ""
+Object I205_end ""
     class K1_room
     with short_name BC_645
     with description BC_646
@@ -12748,52 +12748,51 @@ Object I205_bridge ""
     with room_index -1
     has mark_as_room
     with IK1_Count 26
-    with IK1_Link I206_convergence_central
+    with IK1_Link I206_bridge
     with KD_Count 1
-    with name 'bridge' 'rooms//p' 
+    with name 'end' 'rooms//p' 
     with list_together BC_647
     with plural BC_648
     with article BC_649
     with p72_citation BC_650
 ;
 
-Object I206_convergence_central ""
+Object I206_bridge ""
     class K1_room
     with short_name BC_651
     with description BC_652
-    has proper
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 27
-    with IK1_Link I207_under_the_veranda_walkw
+    with IK1_Link I207_convergence_central
     with KD_Count 1
-    with name 'convergence' 'central' 'rooms//p' 
+    with name 'bridge' 'rooms//p' 
     with list_together BC_653
     with plural BC_654
     with article BC_655
     with p72_citation BC_656
 ;
 
-Object I207_under_the_veranda_walkw ""
+Object I207_convergence_central ""
     class K1_room
     with short_name BC_657
+    with description BC_658
     has proper
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 28
-    with IK1_Link I208_room_107
+    with IK1_Link I208_under_the_veranda_walkw
     with KD_Count 1
-    with name 'under' 'the' 'veranda' 'walkway' 'rooms//p' 
-    with description BC_658
+    with name 'convergence' 'central' 'rooms//p' 
     with list_together BC_659
     with plural BC_660
     with article BC_661
     with p72_citation BC_662
 ;
 
-Object I208_room_107 ""
+Object I208_under_the_veranda_walkw ""
     class K1_room
     with short_name BC_663
     has proper
@@ -12801,9 +12800,9 @@ Object I208_room_107 ""
     with room_index -1
     has mark_as_room
     with IK1_Count 29
-    with IK1_Link I209_room_128
+    with IK1_Link I209_room_107
     with KD_Count 1
-    with name 'room' '107' 'rooms//p' 
+    with name 'under' 'the' 'veranda' 'walkway' 'rooms//p' 
     with description BC_664
     with list_together BC_665
     with plural BC_666
@@ -12811,7 +12810,7 @@ Object I208_room_107 ""
     with p72_citation BC_668
 ;
 
-Object I209_room_128 ""
+Object I209_room_107 ""
     class K1_room
     with short_name BC_669
     has proper
@@ -12819,9 +12818,9 @@ Object I209_room_128 ""
     with room_index -1
     has mark_as_room
     with IK1_Count 30
-    with IK1_Link I210_end
+    with IK1_Link I210_room_128
     with KD_Count 1
-    with name 'room' '128' 'rooms//p' 
+    with name 'room' '107' 'rooms//p' 
     with description BC_670
     with list_together BC_671
     with plural BC_672
@@ -12829,17 +12828,18 @@ Object I209_room_128 ""
     with p72_citation BC_674
 ;
 
-Object I210_end ""
+Object I210_room_128 ""
     class K1_room
     with short_name BC_675
-    with description BC_676
+    has proper
     with vector 0
     with room_index -1
     has mark_as_room
     with IK1_Count 31
     with IK1_Link I221_round1
     with KD_Count 1
-    with name 'end' 'rooms//p' 
+    with name 'room' '128' 'rooms//p' 
+    with description BC_676
     with list_together BC_677
     with plural BC_678
     with article BC_679
@@ -13007,13 +13007,13 @@ Constant I133_no = 2;
 Constant I135_masculine = 1;
 Constant I136_feminine = 2;
 Constant I137_neutral = 3;
-Constant I175_normal = 1;
-Constant I176_rough = 2;
-Constant I177_soft = 3;
-Constant I178_smooth = 4;
-Constant I180_a_co_conspirator = 1;
-Constant I181_neutralla = 2;
-Constant I182_an_enemy = 3;
+Constant I179_normal = 1;
+Constant I180_rough = 2;
+Constant I181_soft = 3;
+Constant I182_smooth = 4;
+Constant I184_a_co_conspirator = 1;
+Constant I185_neutralla = 2;
+Constant I186_an_enemy = 3;
 Array Global_Vars -->
   (false) ! 7 darkness witnessed
   (BC_719) ! 25 command prompt
@@ -13878,13 +13878,13 @@ Array ActionHappened --> 0 0 0 0 0 0;
     return GenericVerbSub(418,419,420);
 ];
 [ A90_shooting_it_withSub ;
-    return GenericVerbSub(422,423,424);
-];
-[ A91_casting_xyzzySub ;
     return GenericVerbSub(425,426,427);
 ];
-[ A92_casting_yzxxySub ;
+[ A91_casting_xyzzySub ;
     return GenericVerbSub(428,429,430);
+];
+[ A92_casting_yzxxySub ;
+    return GenericVerbSub(431,432,433);
 ];
 
 [ MistakeActionSub ;
@@ -14316,7 +14316,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! No specific request
 ! Every turn when the location is The End ( this is the end1 rule ):
 [ R_980 ;
-    if ((((((real_location == I210_end)))))) { ! Runs only while condition holds
+    if ((((((real_location == I205_end)))))) { ! Runs only while condition holds
     if (debug_rules) DB_Rule(R_980, 980);
     ! [2: now the closed question mode is false]
     (Global_Vars-->38) = 0;
@@ -14333,8 +14333,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Every turn:
-[ R_924 ;
-    if (debug_rules) DB_Rule(R_924, 924);
+[ R_925 ;
+    if (debug_rules) DB_Rule(R_925, 925);
     ! [2: if the player is on a soft thing]
     if (((SupporterOf(player) ofclass K6_supporter) && ((Adj_94_t1_v10(SupporterOf(player))))))
     {! [3: say ~'What a lovely soft and dreamy world', you think. Nothing is wrong and everything is right. Right and soft. Sooooo sooooofffft.~]
@@ -14852,9 +14852,9 @@ Array ActionHappened --> 0 0 0 0 0 0;
 !   >>> III.3.3 - Action/What/Actor Performing Action >>>
 ! Rule 4/11 ! Before locking an open thing ( called the door ajar ) with something ( this is the closing doors before locking rule ):
 !   >>> III.3.1 - Action/What/Second Thing Acted On >>>
-! Rule 5/11 ! Before taking the gun:
+! Rule 5/11 ! Before entering the floating dolphin:
 !   === equally specific with ===
-! Rule 6/11 ! Before entering the floating dolphin:
+! Rule 6/11 ! Before taking the gun:
 !   >>> III.3.2 - Action/What/Thing Acted On >>>
 ! Rule 7/11 ! Before someone trying locking keylessly an open thing ( called the door ajar ) ( this is the intelligently closing keyless doors rule ):
 !   === equally specific with ===
@@ -14969,25 +14969,25 @@ Array ActionHappened --> 0 0 0 0 0 0;
         rfalse;
 ];
 ! No specific request
-! Before taking the gun:
-[ R_935 ;
-    if ((((action ==##Take) &&  (actor==player) && ((noun == I192_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
+! Before entering the floating dolphin:
+[ R_936 ;
+    if ((((action ==##Enter) &&  (actor==player) && ((noun == I197_floating_dolphin) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_935, 935);
-    ! [2: say ~You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.~]
-    say__p=1;! [3: ~You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.~]
-    ParaContent(); print "You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun."; new_line; .L_Say19; .L_SayX19;} else if (debug_rules > 1) DB_Rule(R_935, 935, 'action');
+    if (debug_rules) DB_Rule(R_936, 936);
+    ! [2: say ~You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!~]
+    say__p=1;! [3: ~You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!~]
+    ParaContent(); print "You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!"; new_line; .L_Say19; .L_SayX19;} else if (debug_rules > 1) DB_Rule(R_936, 936, 'action');
     rfalse;
 ];
 ! No specific request
-! Before entering the floating dolphin:
-[ R_954 ;
-    if ((((action ==##Enter) &&  (actor==player) && ((noun == I199_floating_dolphin) && (true))))) { ! Runs only when pattern matches
+! Before taking the gun:
+[ R_939 ;
+    if ((((action ==##Take) &&  (actor==player) && ((noun == I195_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_954, 954);
-    ! [2: say ~You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!~]
-    say__p=1;! [3: ~You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!~]
-    ParaContent(); print "You have access to the floating dolphin. Wow - you'll be able to go up above the courtyard now and see everything!"; new_line; .L_Say20; .L_SayX20;} else if (debug_rules > 1) DB_Rule(R_954, 954, 'action');
+    if (debug_rules) DB_Rule(R_939, 939);
+    ! [2: say ~You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.~]
+    say__p=1;! [3: ~You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun.~]
+    ParaContent(); print "You have no idea what this gun does. You've never seen anything like it! You're pretty stoked to get this gun."; new_line; .L_Say20; .L_SayX20;} else if (debug_rules > 1) DB_Rule(R_939, 939, 'action');
     rfalse;
 ];
 ! From "Locksmith" by Emily Short
@@ -15094,13 +15094,13 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Before entering the chair:
-[ R_931 ;
+[ R_932 ;
     if ((((action ==##Enter) &&  (actor==player) && ((noun ofclass K19_chair))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_931, 931);
+    if (debug_rules) DB_Rule(R_932, 932);
     ! [2: say ~Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.~]
     say__p=1;! [3: ~Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time.~]
-    ParaContent(); print "Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time."; new_line; .L_Say23; .L_SayX23;} else if (debug_rules > 1) DB_Rule(R_931, 931, 'action');
+    ParaContent(); print "Oh boy this chair looks really soft and comfy! Ooooh ya you are totally gonna sit on this chair big time."; new_line; .L_Say23; .L_SayX23;} else if (debug_rules > 1) DB_Rule(R_932, 932, 'action');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -15147,7 +15147,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! No specific request
 ! Instead of going to the Floating Courtyard when the player is not in the floating dolphin:
 [ R_956 ;
-    if ((((action ==##Go) &&  (actor==player) && (((MStack-->MstVON(20007,1)) == I141_floating_courtyard) && (true)) && (self=actor,true) && (((~~((I199_floating_dolphin == ContainerOf(player))))))))) { ! Runs only when pattern matches
+    if ((((action ==##Go) &&  (actor==player) && (((MStack-->MstVON(20007,1)) == I141_floating_courtyard) && (true)) && (self=actor,true) && (((~~((I197_floating_dolphin == ContainerOf(player))))))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_956, 956);
     ! [2: say ~You don't have wings or pyscho-kinetic levitation abilities or a hoverboard or anything to go up with.~]
@@ -15158,24 +15158,24 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Instead of getting off a soft thing for the first time:
-[ R_925 ;
+[ R_926 ;
     if ((PAPR_0() && (((TimesActionHasHappened-->0) == 1) && (ActionCurrentlyHappeningFlag->0)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_925, 925);
+    if (debug_rules) DB_Rule(R_926, 926);
     ! [2: say ~You just can't get up, you are way too comfortable! Maybe if you just stayed here in this [noun] forever you would be better off than whatever else you were going to do. Does it really matter?~]
     say__p=1;! [3: ~You just can't get up, you are way too comfortable! Maybe if you just stayed here in this ~]
     ParaContent(); print "You just can't get up, you are way too comfortable! Maybe if you just stayed here in this ";! [4: noun]
     ParaContent(); PrintShortName(noun);! [5: ~ forever you would be better off than whatever else you were going to do. Does it really matter?~]
     ParaContent(); print " forever you would be better off than whatever else you were going to do. Does it really matter?"; new_line; .L_Say25; .L_SayX25;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_925, 925, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_926, 926, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of getting off a soft thing for the second time:
-[ R_926 ;
+[ R_927 ;
     if ((PAPR_1() && (((TimesActionHasHappened-->1) == 2) && (ActionCurrentlyHappeningFlag->1)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_926, 926);
+    if (debug_rules) DB_Rule(R_927, 927);
     ! [2: say ~You try to heave yourself up, but the soft lusciousness of the [noun] envelopes you and pulls you back into its comfy folds. Oooooo...so comfy...so sooooooofffffft...~]
     say__p=1;! [3: ~You try to heave yourself up, but the soft lusciousness of the ~]
     ParaContent(); print "You try to heave yourself up, but the soft lusciousness of the ";! [4: noun]
@@ -15183,29 +15183,29 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print " envelopes you and pulls you back into its comfy folds. Oooooo...so comfy...so sooooooofffffft..."; new_line; .L_Say26; .L_SayX26;! [6: now the test-variable is true]
     (Global_Vars-->46) = 1;
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_926, 926, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_927, 927, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of entering a soft thing the second time:
-[ R_928 ;
+[ R_929 ;
     if ((PAPR_2() && (((TimesActionHasHappened-->2) == 2) && (ActionCurrentlyHappeningFlag->2)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_928, 928);
+    if (debug_rules) DB_Rule(R_929, 929);
     ! [2: say ~'Hey Wait!' your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that [noun], it's so comfy you might never get up again! It looks seriously comfy though...maybe just for a little tiny sliver of a moment you could get kinda comfy...~]
     say__p=1;! [3: ~'Hey Wait!' your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that ~]
     ParaContent(); print "~Hey Wait!~ your subconscious jumps forth remembering the tempting softness - you decide not not to sit on that ";! [4: noun]
     ParaContent(); PrintShortName(noun);! [5: ~, it's so comfy you might never get up again! It looks seriously comfy though...maybe just for a little tiny sliver of a moment you could get kinda comfy...~]
     ParaContent(); print ", it's so comfy you might never get up again! It looks seriously comfy though...maybe just for a little tiny sliver of a moment you could get kinda comfy..."; new_line; .L_Say27; .L_SayX27;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_928, 928, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_929, 929, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of entering a soft thing the third time:
-[ R_929 ;
+[ R_930 ;
     if ((PAPR_3() && (((TimesActionHasHappened-->3) == 3) && (ActionCurrentlyHappeningFlag->3)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_929, 929);
+    if (debug_rules) DB_Rule(R_930, 930);
     ! [2: say ~Don't you remember the last time you were in that [noun]? It almost ATE YOU! What is your deal? Don't sit in this [noun], it's too dangerous! Only a master of mental projection could sit on this [noun] without its super soft comfy-ness obliterating and subsuming your soul to its dark desires (whatever they might be).~]
     say__p=1;! [3: ~Don't you remember the last time you were in that ~]
     ParaContent(); print "Don't you remember the last time you were in that ";! [4: noun]
@@ -15215,53 +15215,53 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print ", it's too dangerous! Only a master of mental projection could sit on this ";! [8: noun]
     ParaContent(); PrintShortName(noun);! [9: ~ without its super soft comfy-ness obliterating and subsuming your soul to its dark desires (whatever they might be).~]
     ParaContent(); print " without its super soft comfy-ness obliterating and subsuming your soul to its dark desires (whatever they might be)."; new_line; .L_Say28; .L_SayX28;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_929, 929, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_930, 930, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of shooting the bartender with the gun:
-[ R_939 ;
-    if ((((action ==##A90_shooting_it_with) &&  (actor==player) && ((noun == I201_bartender) && (true)) && ((second == I192_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
+[ R_943 ;
+    if ((((action ==##A90_shooting_it_with) &&  (actor==player) && ((noun == I202_bartender) && (true)) && ((second == I195_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_939, 939);
+    if (debug_rules) DB_Rule(R_943, 943);
     ! [2: say ~The weird ray somehow seems to bend around the bartender and disperses into a cloud of neon-swirled rainbow shards. She looks at you with a strange smirky side-eye. She must be wearing some kind of personal ray-deflector device. 'splick', you admire-think.~]
     say__p=1;! [3: ~The weird ray somehow seems to bend around the bartender and disperses into a cloud of neon-swirled rainbow shards. She looks at you with a strange smirky side-eye. She must be wearing some kind of personal ray-deflector device. 'splick', you admire-think.~]
     ParaContent(); print "The weird ray somehow seems to bend around the bartender and disperses into a cloud of neon-swirled rainbow shards. She looks at you with a strange smirky side-eye. She must be wearing some kind of personal ray-deflector device. ~splick~, you admire-think."; new_line; .L_Say29; .L_SayX29;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_939, 939, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_943, 943, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of shooting the airlock with the gun:
-[ R_940 ;
-    if ((((action ==##A90_shooting_it_with) &&  (actor==player) && ((noun == I196_airlock) && (true)) && ((second == I192_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
+[ R_944 ;
+    if ((((action ==##A90_shooting_it_with) &&  (actor==player) && ((noun == I164_airlock) && (true)) && ((second == I195_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_940, 940);
+    if (debug_rules) DB_Rule(R_944, 944);
     ! [2: say ~The crazy gun's ray just bounces off the airlock, it doesn't seem to be able to affect it.~]
     say__p=1;! [3: ~The crazy gun's ray just bounces off the airlock, it doesn't seem to be able to affect it.~]
     ParaContent(); print "The crazy gun's ray just bounces off the airlock, it doesn't seem to be able to affect it."; new_line; .L_Say30; .L_SayX30;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_940, 940, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_944, 944, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of giving the coin to the bartender:
-[ R_950 ;
-    if ((((action ==##Give) &&  (actor==player) && ((noun == I194_coin) && (true)) && ((second == I201_bartender) && (true))))) { ! Runs only when pattern matches
+[ R_954 ;
+    if ((((action ==##Give) &&  (actor==player) && ((noun == I200_coin) && (true)) && ((second == I202_bartender) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_950, 950);
+    if (debug_rules) DB_Rule(R_954, 954);
     ! [2: move the coin to the bartender]
-    MoveObject(I194_coin, I201_bartender, 0, false);
+    MoveObject(I200_coin, I202_bartender, 0, false);
     ! [3: now the player has a blah]
-    MoveObject(I203_blah,player);
+    MoveObject(I204_blah,player);
     ! [4: say ~She accepts with a smile and slides you a smoothie. It looks friggin delicious.~]
     say__p=1;! [5: ~She accepts with a smile and slides you a smoothie. It looks friggin delicious.~]
     ParaContent(); print "She accepts with a smile and slides you a smoothie. It looks friggin delicious."; new_line; .L_Say31; .L_SayX31;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_950, 950, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_954, 954, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of shooting Aframe with the gun:
 [ R_963 ;
-    if ((((action ==##A90_shooting_it_with) &&  (actor==player) && ((noun == I217_aframe) && (true)) && ((second == I192_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##A90_shooting_it_with) &&  (actor==player) && ((noun == I217_aframe) && (true)) && ((second == I195_crazy_looking_gun) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_963, 963);
     ! [2: say ~This weird ray comes out of your gun but it's like it's moving in slow-motion...as the beam wiggles toward Aframe super duper slow he steps out of the way of it. The wiggling intensifies and disappears. Aframe is looking at you with this annoyed look. Like he doesn't totally trust you anymore because you just tried to twinkle him out of existence.~]
@@ -15274,10 +15274,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Instead of asking the bartender about something:
-[ R_947 ;
-    if ((((action ==##Ask) &&  (actor==player) && ((noun == I201_bartender) && (true)) && (true)))) { ! Runs only when pattern matches
+[ R_951 ;
+    if ((((action ==##Ask) &&  (actor==player) && ((noun == I202_bartender) && (true)) && (true)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_947, 947);
+    if (debug_rules) DB_Rule(R_951, 951);
     ! [2: say ~'[one of]Sorry,[or]I'm afraid[or]Hm,[at random] [one of]I don't know much about that[or]you've got me there[or]I haven't the faintest[at random],' The bartender [one of]drawls[or]replies[or]comments[or]exclaims[at random]~]
     say__p=1;! [3: ~'~]
     ParaContent(); print "~";! [4: one of]
@@ -15362,15 +15362,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print " in a deep manly voice";! [39: as decreasingly likely outcomes]
     ParaContent(); }! [40: ~.~]
     ParaContent(); print "."; new_line; .L_Say34; .L_SayX34;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_947, 947, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_951, 951, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of asking Aframe about ~xx~:
-[ R_951 ;
+[ R_955 ;
     if ((((action ==##Ask) &&  (actor==player) && ((noun == I217_aframe) && (true)) && (Consult_Grammar_115(consult_from, consult_words)~=GPR_FAIL)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_951, 951);
+    if (debug_rules) DB_Rule(R_955, 955);
     ! [2: say ~When you mention xx, Aframe's eyes light up. He smiles and looks around the room for a second before stepping closer to you. 'How do you know aobut xx?', he says - well it doesn't matter now - just remember yy when you get to the zz okay? DON'T FORGET ABOUT THE YY! Then he looks around again and slowly fades from view, like all the color faded to grey, then all the outlines of his features just slowly alpha-fade to zero.~]
     say__p=1;! [3: ~When you mention xx, Aframe's eyes light up. He smiles and looks around the room for a second before stepping closer to you. 'How do you know aobut xx?', he says - well it doesn't matter now - just remember yy when you get to the zz okay? DON'T FORGET ABOUT THE YY! Then he looks around again and slowly fades from view, like all the color faded to grey, then all the outlines of his features just slowly alpha-fade to zero.~]
     ParaContent(); print "When you mention xx, Aframe's eyes light up. He smiles and looks around the room for a second before stepping closer to you. ~How do you know aobut xx?~, he says - well it doesn't matter now - just remember yy when you get to the zz okay? DON'T FORGET ABOUT THE YY! Then he looks around again and slowly fades from view, like all the color faded to grey, then all the outlines of his features just slowly alpha-fade to zero."; new_line; .L_Say35; .L_SayX35;! [4: now aframe is a co-conspirator]
@@ -15378,31 +15378,31 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [5: now aframe is in the secret room]
     MoveObject(I217_aframe,I140_secret_room);
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_951, 951, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_955, 955, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of answering the noun that something:
-[ R_949 ;
+[ R_953 ;
     if ((((action ==##Answer) &&  (actor==player) && ((noun == noun) && (true)) && (true)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_949, 949);
+    if (debug_rules) DB_Rule(R_953, 953);
     ! [2: try asking the noun about it]
     TryAction(0, player, ##Ask, noun, 0);
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_949, 949, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_953, 953, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of telling someone about something:
-[ R_948 ;
+[ R_952 ;
     if ((((action ==##Tell) &&  (actor==player) && ((noun ofclass K8_person)) && (true)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_948, 948);
+    if (debug_rules) DB_Rule(R_952, 952);
     ! [2: try asking the noun about it]
     TryAction(0, player, ##Ask, noun, 0);
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_948, 948, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_952, 952, 'action');
     rfalse;
 ];
 ! From "Locksmith" by Emily Short
@@ -15420,13 +15420,13 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Instead of examining the switched on security readout:
-[ R_933 
+[ R_934 
     tmp_0 ! Let/loop value (deallocated by end of phrase)
     tmp_1 ! Let/loop value (deallocated by end of phrase)
     ;
-    if ((((action ==##Examine) &&  (actor==player) && ((noun == I189_security_readout) && ((Adj_87_t1_v10(noun))))))) { ! Runs only when pattern matches
+    if ((((action ==##Examine) &&  (actor==player) && ((noun == I192_security_readout) && ((Adj_87_t1_v10(noun))))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_933, 933);
+    if (debug_rules) DB_Rule(R_934, 934);
     ! [2: say ~The screen reads: [fixed letter spacing]~]
     say__p=1;! [3: ~The screen reads: ~]
     ParaContent(); print "The screen reads: ";! [4: fixed letter spacing]
@@ -15458,27 +15458,27 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); font on; .L_Say43; .L_SayX42;! [25: say paragraph break]
     say__p=1;! [26: paragraph break]
     ParaContent(); DivideParagraphPoint(); new_line; .L_Say44; .L_SayX43;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_933, 933, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_934, 934, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of taking the glittery box:
-[ R_932 ;
-    if ((((action ==##Take) &&  (actor==player) && ((noun == I188_glittery_box) && (true))))) { ! Runs only when pattern matches
+[ R_933 ;
+    if ((((action ==##Take) &&  (actor==player) && ((noun == I191_glittery_box) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_932, 932);
+    if (debug_rules) DB_Rule(R_933, 933);
     ! [2: say ~OOOHhhhhhh! You get a funny tingle when you try to pick the box up, the sides are so slippery it almost feels COMPLETELY FRICTIONLESS. You can't seem to grab it all, it's really weird.~]
     say__p=1;! [3: ~OOOHhhhhhh! You get a funny tingle when you try to pick the box up, the sides are so slippery it almost feels COMPLETELY FRICTIONLESS. You can't seem to grab it all, it's really weird.~]
     ParaContent(); print "OOOHhhhhhh! You get a funny tingle when you try to pick the box up, the sides are so slippery it almost feels COMPLETELY FRICTIONLESS. You can't seem to grab it all, it's really weird."; new_line; .L_Say45; .L_SayX44;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_932, 932, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_933, 933, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of doing something other than looking or getting off when the player is on a soft thing:
-[ R_927 ;
+[ R_928 ;
     if ((( (actor==player) && (~~((action ==##GetOff or ##Look))) && (self=actor,true) && (((SupporterOf(player) ofclass K6_supporter) && ((Adj_94_t1_v10(SupporterOf(player))))))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_927, 927);
+    if (debug_rules) DB_Rule(R_928, 928);
     ! [2: say ~You'd rather be asleep. Whatever other thing you would do besides being in this [noun] is a bad idea and not really that good of an option compared to being in this insanely comfy [noun].~]
     say__p=1;! [3: ~You'd rather be asleep. Whatever other thing you would do besides being in this ~]
     ParaContent(); print "You'd rather be asleep. Whatever other thing you would do besides being in this ";! [4: noun]
@@ -15486,7 +15486,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print " is a bad idea and not really that good of an option compared to being in this insanely comfy ";! [6: noun]
     ParaContent(); PrintShortName(noun);! [7: ~.~]
     ParaContent(); print "."; new_line; .L_Say46; .L_SayX45;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_927, 927, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_928, 928, 'action');
     rfalse;
 ];
 ! No specific request
@@ -15555,20 +15555,20 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! After entering the floating dolphin:
-[ R_955 ;
-    if ((((action ==##Enter) &&  (actor==player) && ((noun == I199_floating_dolphin) && (true))))) { ! Runs only when pattern matches
+[ R_937 ;
+    if ((((action ==##Enter) &&  (actor==player) && ((noun == I197_floating_dolphin) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_955, 955);
+    if (debug_rules) DB_Rule(R_937, 937);
     ! [2: say ~Go up!~]
     say__p=1;! [3: ~Go up!~]
     ParaContent(); print "Go up!"; new_line; .L_Say51; .L_SayX49;RulebookSucceeds(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_955, 955, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_937, 937, 'action');
     rfalse;
 ];
 ! No specific request
 ! After wearing the black ninja outfit:
 [ R_964 ;
-    if ((((action ==##Wear) &&  (actor==player) && ((noun == I168_black_ninja_outfit) && (true))))) { ! Runs only when pattern matches
+    if ((((action ==##Wear) &&  (actor==player) && ((noun == I172_black_ninja_outfit) && (true))))) { ! Runs only when pattern matches
     self = noun;
     if (debug_rules) DB_Rule(R_964, 964);
     ! [2: say ~You are a ninja! It feels like you could blend into the shadows, or maybe you ARE the shadows, this ninja outfit makes you feel super ninja-like~]
@@ -15592,7 +15592,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! After getting off a soft thing:
-[ R_930 I7RBLK;
+[ R_931 I7RBLK;
     @push I7SFRAME;
     StackFrameCreate(2);
     BlkValueCreateOnStack(0, TEXT_TY);
@@ -15604,7 +15604,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ KERNEL_1 ;
     if ((((action ==##GetOff) &&  (actor==player) && ((noun ofclass K2_thing) && ((Adj_94_t1_v10(noun))))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_930, 930);
+    if (debug_rules) DB_Rule(R_931, 931);
     ! [2: say ~Whew! You just barely escaped that [noun], it's so comfy you could get stuck in it forever!~]
     say__p=1;! [3: ~Whew! You just barely escaped that ~]
     ParaContent(); print "Whew! You just barely escaped that ";! [4: noun]
@@ -15612,18 +15612,18 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print ", it's so comfy you could get stuck in it forever!"; new_line; .L_Say54; .L_SayX52;! [6: now the description of the noun is ~Watch out for that [noun], it's so comfy you could get stuck in it forever! Like LITERALLY foreverandever.~]
     BlkValueCopy(GProperty(OBJECT_TY, noun,description), (TEXT_TY_ExpandIfPerishable(I7SFRAME,TX_S_201)));
     RulebookSucceeds(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_930, 930, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_931, 931, 'action');
     rfalse;
 ];
 ! No specific request
 ! After examining a ninja outfit:
-[ R_923 
+[ R_924 
     tmp_0 ! Let/loop value, e.g., 'target': thing
     tmp_1 ! Let/loop value (deallocated by end of phrase)
     ;
     if ((((action ==##Examine) &&  (actor==player) && ((noun ofclass K21_ninja_outfit))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_923, 923);
+    if (debug_rules) DB_Rule(R_924, 924);
     ! [2: let target be a random pocket which is part of the noun]
 
     		tmp_0 = (Prop_4());
@@ -15638,7 +15638,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     				give tmp_1 ~workflag2;
     		WriteListOfMarkedObjects(ENGLISH_BIT);! [7: ~.~]
     ParaContent(); print "."; new_line; .L_Say55; .L_SayX53;RulebookSucceeds(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_923, 923, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_924, 924, 'action');
     rfalse;
 ];
 ! No specific request
@@ -16139,7 +16139,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [2: now the current answer is the player's command]
     BlkValueCast((Global_Vars-->25), SNIPPET_TY, players_command);
     ! [3: replace the regular expression ~@@94say ~ in the current answer with ~~ , case insensitively]
-    TEXT_TY_Replace_RE(REGEXP_BLOB, (Global_Vars-->25), TX_L_237,
+    TEXT_TY_Replace_RE(REGEXP_BLOB, (Global_Vars-->25), TX_L_238,
     		EMPTY_TEXT_VALUE, 1);
     ! [4: follow the text question rules]
     FollowRulebook(RULEBOOK_TY_to_RULE_TY(421));
@@ -19766,17 +19766,17 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! This is the container interior rule:
-[ R_952 
+[ R_923 
     tmp_0 ! Let/loop value, e.g., 'current cage': thing
     ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_952, 952);
+    if (debug_rules) DB_Rule(R_923, 923);
     ! [2: if the actor is the player and the player is in an enterable thing ( called current cage )]
     if ((((actor == player))) && (((ContainerOf(player) ofclass K2_thing) && ((Adj_74_t1_v10(ContainerOf(player)))) && (tmp_0=(ContainerOf(player)), true))))
     {! [3: carry out the describing the interior activity with the current cage]
         CarryOutActivity(V38_describing_the_interior, tmp_0);
         }
-        } else if (debug_rules > 1) DB_Rule(R_952, 952, 'actor');
+        } else if (debug_rules > 1) DB_Rule(R_923, 923, 'actor');
         rfalse;
 ];
 ! From the Standard Rules
@@ -23747,7 +23747,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [2: if punctuation removal is true]
     if (((((Global_Vars-->45) && true) == (1 && true))))
     {! [3: replace the regular expression ~@{5C}p~ in the current answer with ~~]
-        TEXT_TY_Replace_RE(REGEXP_BLOB, (Global_Vars-->25), TX_L_238,
+        TEXT_TY_Replace_RE(REGEXP_BLOB, (Global_Vars-->25), TX_L_239,
         		EMPTY_TEXT_VALUE, 0);
         }
         rfalse;
@@ -23934,7 +23934,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
                 ParaContent(); print "Well done. That was the end of Round Four."; new_line; .L_Say373; .L_SayX371;! [11: increase score by 20]
                 score = score + 20;;
                 ! [12: move the player to the end]
-                MoveObject(player, I210_end, 0, false);
+                MoveObject(player, I205_end, 0, false);
                 ! [13: now the current prompt is ~~]
                 BlkValueCopy((Global_Vars-->22), EMPTY_TEXT_VALUE);
                 ! [14: follow the end1 rule]
@@ -23952,7 +23952,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
                 ! [19: say ~Incorrect. That was the end of Round Four.~]
                 say__p=1;! [20: ~Incorrect. That was the end of Round Four.~]
                 ParaContent(); print "Incorrect. That was the end of Round Four."; new_line; .L_Say375; .L_SayX373;! [21: move the player to the end]
-                MoveObject(player, I210_end, 0, false);
+                MoveObject(player, I205_end, 0, false);
                 ! [22: now the current prompt is ~~]
                 BlkValueCopy((Global_Vars-->22), EMPTY_TEXT_VALUE);
                 ! [23: follow the end1 rule]
@@ -23987,66 +23987,85 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: check Shooting it with (B422_check_shooting_it_with)
+! Rules in rulebook: for Describing the interior (B423_for_describing_the_inte)
+! ----------------------------------------------------------------------------------------------------
+! Rule 1/1 ! Rule for describing the interior of the floating dolphin:
+! ----------------------------------------------------------------------------------------------------
+! No specific request
+! Rule for describing the interior of the floating dolphin:
+[ R_935 ;
+    if (((((parameter_value == I197_floating_dolphin) && (true))))) { ! Runs only when pattern matches
+    if (debug_rules) DB_Rule(R_935, 935);
+    ! [2: say ~The floating dolphin is transparent, but tints everything outside very faintly lavender.~]
+    say__p=1;! [3: ~The floating dolphin is transparent, but tints everything outside very faintly lavender.~]
+    ParaContent(); print "The floating dolphin is transparent, but tints everything outside very faintly lavender."; new_line; .L_Say376; .L_SayX374;rtrue;
+    RulebookSucceeds(); rtrue;
+    } else if (debug_rules > 1) DB_Rule(R_935, 935, 'action');
+    rfalse;
+];
+! ----------------------------------------------------------------------------------------------------
+
+! ----------------------------------------------------------------------------------------------------
+! Rules in rulebook: check Shooting it with (B425_check_shooting_it_with)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/1 ! Check shooting something with something:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Check shooting something with something:
-[ R_936 ;
+[ R_940 ;
     if ((( (actor==player) && ((noun ofclass K2_thing)) && ((second ofclass K2_thing))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_936, 936);
+    if (debug_rules) DB_Rule(R_940, 940);
     ! [2: if the player is not carrying the gun]
-    if (((~~((player == CarrierOf(I192_crazy_looking_gun))))))
+    if (((~~((player == CarrierOf(I195_crazy_looking_gun))))))
     {! [3: say ~You are pathetically unarmed!~]
         say__p=1;! [4: ~You are pathetically unarmed!~]
-        ParaContent(); print "You are pathetically unarmed!"; new_line; .L_Say376; .L_SayX374;rtrue;
+        ParaContent(); print "You are pathetically unarmed!"; new_line; .L_Say377; .L_SayX375;rtrue;
         }
     ! [6: if the second noun is not the gun]
-    if (((~~((second == I192_crazy_looking_gun)))))
+    if (((~~((second == I195_crazy_looking_gun)))))
     {! [7: say ~[The second noun] does not fire.~]
         say__p=1;! [8: the second noun]
         ParaContent(); print (The) second;! [9: ~ does not fire.~]
-        ParaContent(); print " does not fire."; new_line; .L_Say377; .L_SayX375;rtrue;
+        ParaContent(); print " does not fire."; new_line; .L_Say378; .L_SayX376;rtrue;
         }
     ! [11: if the noun is the gun]
-    if (((noun == I192_crazy_looking_gun)))
+    if (((noun == I195_crazy_looking_gun)))
     {! [12: say ~Nice trick if you can do it!~]
         say__p=1;! [13: ~Nice trick if you can do it!~]
-        ParaContent(); print "Nice trick if you can do it!"; new_line; .L_Say378; .L_SayX376;rtrue;
+        ParaContent(); print "Nice trick if you can do it!"; new_line; .L_Say379; .L_SayX377;rtrue;
         }
     ! [15: if the noun is the player]
     if (((noun == player)))
     {! [16: say ~That would be disastrous!~]
         say__p=1;! [17: ~That would be disastrous!~]
-        ParaContent(); print "That would be disastrous!"; new_line; .L_Say379; .L_SayX377;rtrue;
+        ParaContent(); print "That would be disastrous!"; new_line; .L_Say380; .L_SayX378;rtrue;
         }
-        } else if (debug_rules > 1) DB_Rule(R_936, 936, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_940, 940, 'action');
         rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: carry out Shooting it with (B423_carry_out_shooting_it_w)
+! Rules in rulebook: carry out Shooting it with (B426_carry_out_shooting_it_w)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/1 ! Carry out shooting something with something:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Carry out shooting something with something:
-[ R_938 
+[ R_942 
     tmp_0 ! Let/loop value (deallocated by end of phrase)
     ;
     if ((( (actor==player) && ((noun ofclass K2_thing)) && ((second ofclass K2_thing))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_938, 938);
+    if (debug_rules) DB_Rule(R_942, 942);
     ! [2: say ~ZAP! [The noun] twinkles out of existence! [if something is part of the noun][The list of things which are part of the noun] clatters to the ground! [end if][paragraph break]~]
     say__p=1;! [3: ~ZAP! ~]
     ParaContent(); print "ZAP! ";! [4: the noun]
     ParaContent(); print (The) noun;! [5: ~ twinkles out of existence! ~]
     ParaContent(); print " twinkles out of existence! ";! [6: if something is part of the noun]
 
-    	if (~~(((((Prop_41())))))) jump L_Say380;! [7: the list of things which are part of the noun]
+    	if (~~(((((Prop_41())))))) jump L_Say381;! [7: the list of things which are part of the noun]
     ParaContent(); objectloop(tmp_0 ofclass Object)
     			if (((tmp_0 ofclass K2_thing) && (noun == (tmp_0.component_parent))))
     				give tmp_0 workflag2;
@@ -24055,18 +24074,18 @@ Array ActionHappened --> 0 0 0 0 0 0;
     		TEXT_TY_Say_Capitalised(TX_S_472);! [8: ~ clatters to the ground! ~]
     ParaContent(); print " clatters to the ground! ";! [9: end if]
 
-    	.L_Say380; .L_SayX378;! [10: paragraph break]
-    ParaContent(); DivideParagraphPoint(); new_line; .L_Say381; .L_SayX379;! [11: now every thing which is part of the noun is in the location]
+    	.L_Say381; .L_SayX379;! [10: paragraph break]
+    ParaContent(); DivideParagraphPoint(); new_line; .L_Say382; .L_SayX380;! [11: now every thing which is part of the noun is in the location]
     Prop_42();
     ! [12: now the noun is nowhere]
     RemoveFromPlay(noun);;
-    } else if (debug_rules > 1) DB_Rule(R_938, 938, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_942, 942, 'action');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: check Casting xyzzy (B425_check_casting_xyzzy)
+! Rules in rulebook: check Casting xyzzy (B428_check_casting_xyzzy)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/2 ! Check casting xyzzy:
 !   === equally specific with ===
@@ -24074,127 +24093,108 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Check casting xyzzy:
-[ R_941 ;
+[ R_945 ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_941, 941);
+    if (debug_rules) DB_Rule(R_945, 945);
     ! [2: if the player does not have the black rod]
-    if (((~~((player == OwnerOf(I193_black_rod))))))
+    if (((~~((player == OwnerOf(I196_black_rod))))))
     {! [3: say ~You are unable to articulate the second 'z' separately from the first, and the spell fails in a disdainful puff. If only you had some sort of magical item to focus your arcane arts upon to increase your attunement to the fey realm.~]
         say__p=1;! [4: ~You are unable to articulate the second 'z' separately from the first, and the spell fails in a disdainful puff. If only you had some sort of magical item to focus your arcane arts upon to increase your attunement to the fey realm.~]
-        ParaContent(); print "You are unable to articulate the second ~z~ separately from the first, and the spell fails in a disdainful puff. If only you had some sort of magical item to focus your arcane arts upon to increase your attunement to the fey realm."; new_line; .L_Say382; .L_SayX380;rtrue;
+        ParaContent(); print "You are unable to articulate the second ~z~ separately from the first, and the spell fails in a disdainful puff. If only you had some sort of magical item to focus your arcane arts upon to increase your attunement to the fey realm."; new_line; .L_Say383; .L_SayX381;rtrue;
         }
     ! [6: if the player has the black rod]
-    if (((player == OwnerOf(I193_black_rod))))
+    if (((player == OwnerOf(I196_black_rod))))
     {! [7: say ~you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^~]
         say__p=1;! [8: ~you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^~]
-        ParaContent(); print "you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^"; .L_Say383; .L_SayX381;}
-        } else if (debug_rules > 1) DB_Rule(R_941, 941, 'actor');
+        ParaContent(); print "you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^"; .L_Say384; .L_SayX382;}
+        } else if (debug_rules > 1) DB_Rule(R_945, 945, 'actor');
         rfalse;
 ];
 ! No specific request
 ! Check casting xyzzy:
-[ R_944 ;
+[ R_948 ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_944, 944);
+    if (debug_rules) DB_Rule(R_948, 948);
     ! [2: if the player does not have the black rod]
-    if (((~~((player == OwnerOf(I193_black_rod))))))
+    if (((~~((player == OwnerOf(I196_black_rod))))))
     {! [3: say ~You are unable to articulate the second 'x' separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.~]
         say__p=1;! [4: ~You are unable to articulate the second 'x' separately from the first, and the spell fails in a disdainful puff. If only you had the black rod.~]
-        ParaContent(); print "You are unable to articulate the second ~x~ separately from the first, and the spell fails in a disdainful puff. If only you had the black rod."; new_line; .L_Say384; .L_SayX382;rtrue;
+        ParaContent(); print "You are unable to articulate the second ~x~ separately from the first, and the spell fails in a disdainful puff. If only you had the black rod."; new_line; .L_Say385; .L_SayX383;rtrue;
         }
     ! [6: if the player has the black rod]
-    if (((player == OwnerOf(I193_black_rod))))
+    if (((player == OwnerOf(I196_black_rod))))
     {! [7: say ~you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^~]
         say__p=1;! [8: ~you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^~]
-        ParaContent(); print "you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^"; .L_Say385; .L_SayX383;}
-        } else if (debug_rules > 1) DB_Rule(R_944, 944, 'actor');
+        ParaContent(); print "you feel a whooshy sound enter your eyeball sockets and then your tummy flips over your groiny-place. WHOOOOOAAAA suddenly you find yourself trasported to the...^^"; .L_Say386; .L_SayX384;}
+        } else if (debug_rules > 1) DB_Rule(R_948, 948, 'actor');
         rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: carry out Casting xyzzy (B426_carry_out_casting_xyzzy)
+! Rules in rulebook: carry out Casting xyzzy (B429_carry_out_casting_xyzzy)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/1 ! Carry out casting xyzzy:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Carry out casting xyzzy:
-[ R_943 ;
+[ R_947 ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_943, 943);
+    if (debug_rules) DB_Rule(R_947, 947);
     ! [2: move the player to the secret room]
     MoveObject(player, I140_secret_room, 0, false);
-    } else if (debug_rules > 1) DB_Rule(R_943, 943, 'actor');
+    } else if (debug_rules > 1) DB_Rule(R_947, 947, 'actor');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: report Casting xyzzy (B427_report_casting_xyzzy)
+! Rules in rulebook: report Casting xyzzy (B430_report_casting_xyzzy)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/1 ! Report casting xyzzy:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Report casting xyzzy:
-[ R_942 ;
+[ R_946 ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_942, 942);
+    if (debug_rules) DB_Rule(R_946, 946);
     ! [2: say ~Under the influence of the black rod, you pronounced 'xyzzy' as Xhi-zee. You understand now that the purpose of the black rod is to bring people here, to the Secret Room.~]
     say__p=1;! [3: ~Under the influence of the black rod, you pronounced 'xyzzy' as Xhi-zee. You understand now that the purpose of the black rod is to bring people here, to the Secret Room.~]
-    ParaContent(); print "Under the influence of the black rod, you pronounced ~xyzzy~ as Xhi-zee. You understand now that the purpose of the black rod is to bring people here, to the Secret Room."; new_line; .L_Say386; .L_SayX384;} else if (debug_rules > 1) DB_Rule(R_942, 942, 'actor');
+    ParaContent(); print "Under the influence of the black rod, you pronounced ~xyzzy~ as Xhi-zee. You understand now that the purpose of the black rod is to bring people here, to the Secret Room."; new_line; .L_Say387; .L_SayX385;} else if (debug_rules > 1) DB_Rule(R_946, 946, 'actor');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: carry out Casting yzxxy (B429_carry_out_casting_yzxxy)
+! Rules in rulebook: carry out Casting yzxxy (B432_carry_out_casting_yzxxy)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/1 ! Carry out casting yzxxy:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Carry out casting yzxxy:
-[ R_946 ;
+[ R_950 ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_946, 946);
+    if (debug_rules) DB_Rule(R_950, 950);
     ! [2: move the player to the space lounge]
     MoveObject(player, I138_space_lounge, 0, false);
-    } else if (debug_rules > 1) DB_Rule(R_946, 946, 'actor');
+    } else if (debug_rules > 1) DB_Rule(R_950, 950, 'actor');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
 ! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: report Casting yzxxy (B430_report_casting_yzxxy)
+! Rules in rulebook: report Casting yzxxy (B433_report_casting_yzxxy)
 ! ----------------------------------------------------------------------------------------------------
 ! Rule 1/1 ! Report casting yzxxy:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Report casting yzxxy:
-[ R_945 ;
+[ R_949 ;
     if (actor == player) {
-    if (debug_rules) DB_Rule(R_945, 945);
+    if (debug_rules) DB_Rule(R_949, 949);
     ! [2: say ~Under the influence of the black rod, you pronounced 'yzxxy' as Wizex-zi. You are glad there is some way out of that Secret Room!~]
     say__p=1;! [3: ~Under the influence of the black rod, you pronounced 'yzxxy' as Wizex-zi. You are glad there is some way out of that Secret Room!~]
-    ParaContent(); print "Under the influence of the black rod, you pronounced ~yzxxy~ as Wizex-zi. You are glad there is some way out of that Secret Room!"; new_line; .L_Say387; .L_SayX385;} else if (debug_rules > 1) DB_Rule(R_945, 945, 'actor');
-    rfalse;
-];
-! ----------------------------------------------------------------------------------------------------
-
-! ----------------------------------------------------------------------------------------------------
-! Rules in rulebook: for Describing the interior (B432_for_describing_the_inte)
-! ----------------------------------------------------------------------------------------------------
-! Rule 1/1 ! Rule for describing the interior of the floating dolphin:
-! ----------------------------------------------------------------------------------------------------
-! No specific request
-! Rule for describing the interior of the floating dolphin:
-[ R_953 ;
-    if (((((parameter_value == I199_floating_dolphin) && (true))))) { ! Runs only when pattern matches
-    if (debug_rules) DB_Rule(R_953, 953);
-    ! [2: say ~The floating dolphin is transparent, but tints everything outside very faintly lavender.~]
-    say__p=1;! [3: ~The floating dolphin is transparent, but tints everything outside very faintly lavender.~]
-    ParaContent(); print "The floating dolphin is transparent, but tints everything outside very faintly lavender."; new_line; .L_Say388; .L_SayX386;rtrue;
-    RulebookSucceeds(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_953, 953, 'action');
+    ParaContent(); print "Under the influence of the black rod, you pronounced ~yzxxy~ as Wizex-zi. You are glad there is some way out of that Secret Room!"; new_line; .L_Say388; .L_SayX386;} else if (debug_rules > 1) DB_Rule(R_949, 949, 'actor');
     rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -24631,8 +24631,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! This is the test-variable rule:
-[ R_934 ;
-    if (debug_rules) DB_Rule(R_934, 934);
+[ R_938 ;
+    if (debug_rules) DB_Rule(R_938, 938);
     ! [2: if test-variable is true]
     if (((((Global_Vars-->46) && true) == (1 && true))))
     {! [3: now the test-variable is false]
@@ -24972,7 +24972,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Definition:
-[ R_937 
+[ R_941 
     t_0 ! Call parameter: object
     ;
     return false;
@@ -25387,7 +25387,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     t_0 ! Call parameter: thing
     ;
     ! meaning of "ungunlike"
-      if (t_0 ofclass K2_thing) return ((((~~((t_0 == I192_crazy_looking_gun))))));
+      if (t_0 ofclass K2_thing) return ((((~~((t_0 == I195_crazy_looking_gun))))));
     rfalse;
 ];
 [ Adj_46_t1_v10 
@@ -25418,7 +25418,7 @@ I7RBLK;
                 ((
                     ((((((formal_par1 ofclass K1_room) && (formal_par1 ofclass K1_room))))) && ((
                     formal_rv = MapConnection(formal_par1,formal_par0)) | 1)
-                    )|| (ArgumentTypeFailed(327))
+                    )|| (ArgumentTypeFailed(325))
 
                 ))
             +
@@ -26759,7 +26759,7 @@ Array TimedEventTimesTable table 0 0;
 ! ==== ==== ==== ==== ==== ==== ==== ==== ==== ====
 
 
-Array rulebooks_array --> B0_startup B1_turn_sequence B2_shutdown B3_scene_changing B4_when_play_begins B5_when_play_ends B6_when_scene_begins B7_when_scene_ends B8_every_turn B9_action_processing B10_setting_action_variables B11_specific_action_processi B12_player_s_action_awarenes B13_accessibility B14_reaching_inside B15_reaching_outside B16_visibility B17_persuasion B18_unsuccessful_attempt_by B19_before B20_instead B21_check B22_carry_out B23_after B24_report B25_does_the_player_mean B26_multiple_action_processi B27_when_entire_game_begins B28_when_entire_game_ends B29_before_printing_the_name B30_for_printing_the_name B31_after_printing_the_name B32_before_printing_the_plur B33_for_printing_the_plural_ B34_after_printing_the_plura B35_before_printing_a_number B36_for_printing_a_number B37_after_printing_a_number B38_before_printing_room_des B39_for_printing_room_descri B40_after_printing_room_desc B41_before_printing_inventor B42_for_printing_inventory_d B43_after_printing_inventory B44_before_listing_contents B45_for_listing_contents B46_after_listing_contents B47_before_grouping_together B48_for_grouping_together B49_after_grouping_together B50_before_writing_a_paragra B51_for_writing_a_paragraph_ B52_after_writing_a_paragrap B53_before_listing_nondescri B54_for_listing_nondescript_ B55_after_listing_nondescrip B56_before_printing_the_name B57_for_printing_the_name_of B58_after_printing_the_name_ B59_before_printing_the_desc B60_for_printing_the_descrip B61_after_printing_the_descr B62_before_printing_the_anno B63_for_printing_the_announc B64_after_printing_the_annou B65_before_printing_the_anno B66_for_printing_the_announc B67_after_printing_the_annou B68_before_printing_a_refusa B69_for_printing_a_refusal_t B70_after_printing_a_refusal B71_before_constructing_the_ B72_for_constructing_the_sta B73_after_constructing_the_s B74_before_printing_the_bann B75_for_printing_the_banner_ B76_after_printing_the_banne B77_before_reading_a_command B78_for_reading_a_command B79_after_reading_a_command B80_before_deciding_the_scop B81_for_deciding_the_scope B82_after_deciding_the_scope B83_before_deciding_the_conc B84_for_deciding_the_conceal B85_after_deciding_the_conce B86_before_deciding_whether_ B87_for_deciding_whether_all B88_after_deciding_whether_a B89_before_clarifying_the_pa B90_for_clarifying_the_parse B91_after_clarifying_the_par B92_before_asking_which_do_y B93_for_asking_which_do_you_ B94_after_asking_which_do_yo B95_before_printing_a_parser B96_for_printing_a_parser_er B97_after_printing_a_parser_ B98_before_supplying_a_missi B99_for_supplying_a_missing_ B100_after_supplying_a_missi B101_before_supplying_a_miss B102_for_supplying_a_missing B103_after_supplying_a_missi B104_before_implicitly_takin B105_for_implicitly_taking B106_after_implicitly_taking B107_before_starting_the_vir B108_for_starting_the_virtua B109_after_starting_the_virt B110_before_amusing_a_victor B111_for_amusing_a_victoriou B112_after_amusing_a_victori B113_before_printing_the_pla B114_for_printing_the_player B115_after_printing_the_play B116_before_handling_the_fin B117_for_handling_the_final_ B118_after_handling_the_fina B119_before_printing_the_loc B120_for_printing_the_locale B121_after_printing_the_loca B122_before_choosing_notable B123_for_choosing_notable_lo B124_after_choosing_notable_ B125_before_printing_a_local B126_for_printing_a_locale_p B127_after_printing_a_locale B128_before_issuing_the_resp B129_for_issuing_the_respons B130_after_issuing_the_respo B131_check_taking_inventory B132_carry_out_taking_invent B133_report_taking_inventory B134_check_taking B135_carry_out_taking B136_report_taking B137_check_removing_it_from B138_carry_out_removing_it_f B139_report_removing_it_from B140_check_dropping B141_carry_out_dropping B142_report_dropping B143_check_putting_it_on B144_carry_out_putting_it_on B145_report_putting_it_on B146_check_inserting_it_into B147_carry_out_inserting_it_ B148_report_inserting_it_int B149_check_eating B150_carry_out_eating B151_report_eating B152_check_going B153_carry_out_going B154_report_going B155_check_entering B156_carry_out_entering B157_report_entering B158_check_exiting B159_carry_out_exiting B160_report_exiting B161_check_getting_off B162_carry_out_getting_off B163_report_getting_off B164_check_looking B165_carry_out_looking B166_report_looking B167_check_examining B168_carry_out_examining B169_report_examining B170_check_looking_under B171_carry_out_looking_under B172_report_looking_under B173_check_searching B174_carry_out_searching B175_report_searching B176_check_consulting_it_abo B177_carry_out_consulting_it B178_report_consulting_it_ab B179_check_locking_it_with B180_carry_out_locking_it_wi B181_report_locking_it_with B182_check_unlocking_it_with B183_carry_out_unlocking_it_ B184_report_unlocking_it_wit B185_check_switching_on B186_carry_out_switching_on B187_report_switching_on B188_check_switching_off B189_carry_out_switching_off B190_report_switching_off B191_check_opening B192_carry_out_opening B193_report_opening B194_check_closing B195_carry_out_closing B196_report_closing B197_check_wearing B198_carry_out_wearing B199_report_wearing B200_check_taking_off B201_carry_out_taking_off B202_report_taking_off B203_check_giving_it_to B204_carry_out_giving_it_to B205_report_giving_it_to B206_check_showing_it_to B207_carry_out_showing_it_to B208_report_showing_it_to B209_check_waking B210_carry_out_waking B211_report_waking B212_check_throwing_it_at B213_carry_out_throwing_it_a B214_report_throwing_it_at B215_check_attacking B216_carry_out_attacking B217_report_attacking B218_check_kissing B219_carry_out_kissing B220_report_kissing B221_check_answering_it_that B222_carry_out_answering_it_ B223_report_answering_it_tha B224_check_telling_it_about B225_carry_out_telling_it_ab B226_report_telling_it_about B227_check_asking_it_about B228_carry_out_asking_it_abo B229_report_asking_it_about B230_check_asking_it_for B231_carry_out_asking_it_for B232_report_asking_it_for B233_check_waiting B234_carry_out_waiting B235_report_waiting B236_check_touching B237_carry_out_touching B238_report_touching B239_check_waving B240_carry_out_waving B241_report_waving B242_check_pulling B243_carry_out_pulling B244_report_pulling B245_check_pushing B246_carry_out_pushing B247_report_pushing B248_check_turning B249_carry_out_turning B250_report_turning B251_check_pushing_it_to B252_carry_out_pushing_it_to B253_report_pushing_it_to B254_check_squeezing B255_carry_out_squeezing B256_report_squeezing B257_check_saying_yes B258_carry_out_saying_yes B259_report_saying_yes B260_check_saying_no B261_carry_out_saying_no B262_report_saying_no B263_check_burning B264_carry_out_burning B265_report_burning B266_check_waking_up B267_carry_out_waking_up B268_report_waking_up B269_check_thinking B270_carry_out_thinking B271_report_thinking B272_check_smelling B273_carry_out_smelling B274_report_smelling B275_check_listening_to B276_carry_out_listening_to B277_report_listening_to B278_check_tasting B279_carry_out_tasting B280_report_tasting B281_check_cutting B282_carry_out_cutting B283_report_cutting B284_check_jumping B285_carry_out_jumping B286_report_jumping B287_check_tying_it_to B288_carry_out_tying_it_to B289_report_tying_it_to B290_check_drinking B291_carry_out_drinking B292_report_drinking B293_check_saying_sorry B294_carry_out_saying_sorry B295_report_saying_sorry B296_check_swinging B297_carry_out_swinging B298_report_swinging B299_check_rubbing B300_carry_out_rubbing B301_report_rubbing B302_check_setting_it_to B303_carry_out_setting_it_to B304_report_setting_it_to B305_check_waving_hands B306_carry_out_waving_hands B307_report_waving_hands B308_check_buying B309_carry_out_buying B310_report_buying B311_check_climbing B312_carry_out_climbing B313_report_climbing B314_check_sleeping B315_carry_out_sleeping B316_report_sleeping B317_check_quitting_the_game B318_carry_out_quitting_the_ B319_report_quitting_the_gam B320_check_saving_the_game B321_carry_out_saving_the_ga B322_report_saving_the_game B323_check_restoring_the_gam B324_carry_out_restoring_the B325_report_restoring_the_ga B326_check_restarting_the_ga B327_carry_out_restarting_th B328_report_restarting_the_g B329_check_verifying_the_sto B330_carry_out_verifying_the B331_report_verifying_the_st B332_check_switching_the_sto B333_carry_out_switching_the B334_report_switching_the_st B335_check_switching_the_sto B336_carry_out_switching_the B337_report_switching_the_st B338_check_requesting_the_st B339_carry_out_requesting_th B340_report_requesting_the_s B341_check_requesting_the_sc B342_carry_out_requesting_th B343_report_requesting_the_s B344_check_preferring_abbrev B345_carry_out_preferring_ab B346_report_preferring_abbre B347_check_preferring_unabbr B348_carry_out_preferring_un B349_report_preferring_unabb B350_check_preferring_someti B351_carry_out_preferring_so B352_report_preferring_somet B353_check_switching_score_n B354_carry_out_switching_sco B355_report_switching_score_ B356_check_switching_score_n B357_carry_out_switching_sco B358_report_switching_score_ B359_check_requesting_the_pr B360_carry_out_requesting_th B361_report_requesting_the_p B362_before_refusing_keys B363_for_refusing_keys B364_after_refusing_keys B365_check_unlocking_keyless B366_carry_out_unlocking_key B367_report_unlocking_keyles B368_check_locking_keylessly B369_carry_out_locking_keyle B370_report_locking_keylessl B371_check_universal_unlocki B372_carry_out_universal_unl B373_report_universal_unlock B374_before_pausing_the_game B375_for_pausing_the_game B376_after_pausing_the_game B377_before_displaying B378_for_displaying B379_after_displaying B380_check_asking_for_help B381_carry_out_asking_for_he B382_report_asking_for_help B383_exit_obviousness B384_door_obviousness B385_room_memory B386_before_listing_exits B387_for_listing_exits B388_after_listing_exits B389_check_listing_exits B390_carry_out_listing_exits B391_report_listing_exits B392_check_turning_exits_on B393_carry_out_turning_exits B394_report_turning_exits_on B395_check_turning_exits_off B396_carry_out_turning_exits B397_report_turning_exits_of B398_check_number_questionin B399_carry_out_number_questi B400_report_number_questioni B401_number_question B402_check_real_number_quest B403_carry_out_real_number_q B404_report_real_number_ques B405_real_number_question B406_check_menu_questioning B407_carry_out_menu_question B408_report_menu_questioning B409_menu_question B410_check_yes_no_questionin B411_carry_out_yes_no_questi B412_report_yes_no_questioni B413_yes_no_question B414_check_gender_questionin B415_carry_out_gender_questi B416_report_gender_questioni B417_gender_question B418_check_text_questioning B419_carry_out_text_question B420_report_text_questioning B421_text_question B422_check_shooting_it_with B423_carry_out_shooting_it_w B424_report_shooting_it_with B425_check_casting_xyzzy B426_carry_out_casting_xyzzy B427_report_casting_xyzzy B428_check_casting_yzxxy B429_carry_out_casting_yzxxy B430_report_casting_yzxxy B431_before_describing_the_i B432_for_describing_the_inte B433_after_describing_the_in 0;
+Array rulebooks_array --> B0_startup B1_turn_sequence B2_shutdown B3_scene_changing B4_when_play_begins B5_when_play_ends B6_when_scene_begins B7_when_scene_ends B8_every_turn B9_action_processing B10_setting_action_variables B11_specific_action_processi B12_player_s_action_awarenes B13_accessibility B14_reaching_inside B15_reaching_outside B16_visibility B17_persuasion B18_unsuccessful_attempt_by B19_before B20_instead B21_check B22_carry_out B23_after B24_report B25_does_the_player_mean B26_multiple_action_processi B27_when_entire_game_begins B28_when_entire_game_ends B29_before_printing_the_name B30_for_printing_the_name B31_after_printing_the_name B32_before_printing_the_plur B33_for_printing_the_plural_ B34_after_printing_the_plura B35_before_printing_a_number B36_for_printing_a_number B37_after_printing_a_number B38_before_printing_room_des B39_for_printing_room_descri B40_after_printing_room_desc B41_before_printing_inventor B42_for_printing_inventory_d B43_after_printing_inventory B44_before_listing_contents B45_for_listing_contents B46_after_listing_contents B47_before_grouping_together B48_for_grouping_together B49_after_grouping_together B50_before_writing_a_paragra B51_for_writing_a_paragraph_ B52_after_writing_a_paragrap B53_before_listing_nondescri B54_for_listing_nondescript_ B55_after_listing_nondescrip B56_before_printing_the_name B57_for_printing_the_name_of B58_after_printing_the_name_ B59_before_printing_the_desc B60_for_printing_the_descrip B61_after_printing_the_descr B62_before_printing_the_anno B63_for_printing_the_announc B64_after_printing_the_annou B65_before_printing_the_anno B66_for_printing_the_announc B67_after_printing_the_annou B68_before_printing_a_refusa B69_for_printing_a_refusal_t B70_after_printing_a_refusal B71_before_constructing_the_ B72_for_constructing_the_sta B73_after_constructing_the_s B74_before_printing_the_bann B75_for_printing_the_banner_ B76_after_printing_the_banne B77_before_reading_a_command B78_for_reading_a_command B79_after_reading_a_command B80_before_deciding_the_scop B81_for_deciding_the_scope B82_after_deciding_the_scope B83_before_deciding_the_conc B84_for_deciding_the_conceal B85_after_deciding_the_conce B86_before_deciding_whether_ B87_for_deciding_whether_all B88_after_deciding_whether_a B89_before_clarifying_the_pa B90_for_clarifying_the_parse B91_after_clarifying_the_par B92_before_asking_which_do_y B93_for_asking_which_do_you_ B94_after_asking_which_do_yo B95_before_printing_a_parser B96_for_printing_a_parser_er B97_after_printing_a_parser_ B98_before_supplying_a_missi B99_for_supplying_a_missing_ B100_after_supplying_a_missi B101_before_supplying_a_miss B102_for_supplying_a_missing B103_after_supplying_a_missi B104_before_implicitly_takin B105_for_implicitly_taking B106_after_implicitly_taking B107_before_starting_the_vir B108_for_starting_the_virtua B109_after_starting_the_virt B110_before_amusing_a_victor B111_for_amusing_a_victoriou B112_after_amusing_a_victori B113_before_printing_the_pla B114_for_printing_the_player B115_after_printing_the_play B116_before_handling_the_fin B117_for_handling_the_final_ B118_after_handling_the_fina B119_before_printing_the_loc B120_for_printing_the_locale B121_after_printing_the_loca B122_before_choosing_notable B123_for_choosing_notable_lo B124_after_choosing_notable_ B125_before_printing_a_local B126_for_printing_a_locale_p B127_after_printing_a_locale B128_before_issuing_the_resp B129_for_issuing_the_respons B130_after_issuing_the_respo B131_check_taking_inventory B132_carry_out_taking_invent B133_report_taking_inventory B134_check_taking B135_carry_out_taking B136_report_taking B137_check_removing_it_from B138_carry_out_removing_it_f B139_report_removing_it_from B140_check_dropping B141_carry_out_dropping B142_report_dropping B143_check_putting_it_on B144_carry_out_putting_it_on B145_report_putting_it_on B146_check_inserting_it_into B147_carry_out_inserting_it_ B148_report_inserting_it_int B149_check_eating B150_carry_out_eating B151_report_eating B152_check_going B153_carry_out_going B154_report_going B155_check_entering B156_carry_out_entering B157_report_entering B158_check_exiting B159_carry_out_exiting B160_report_exiting B161_check_getting_off B162_carry_out_getting_off B163_report_getting_off B164_check_looking B165_carry_out_looking B166_report_looking B167_check_examining B168_carry_out_examining B169_report_examining B170_check_looking_under B171_carry_out_looking_under B172_report_looking_under B173_check_searching B174_carry_out_searching B175_report_searching B176_check_consulting_it_abo B177_carry_out_consulting_it B178_report_consulting_it_ab B179_check_locking_it_with B180_carry_out_locking_it_wi B181_report_locking_it_with B182_check_unlocking_it_with B183_carry_out_unlocking_it_ B184_report_unlocking_it_wit B185_check_switching_on B186_carry_out_switching_on B187_report_switching_on B188_check_switching_off B189_carry_out_switching_off B190_report_switching_off B191_check_opening B192_carry_out_opening B193_report_opening B194_check_closing B195_carry_out_closing B196_report_closing B197_check_wearing B198_carry_out_wearing B199_report_wearing B200_check_taking_off B201_carry_out_taking_off B202_report_taking_off B203_check_giving_it_to B204_carry_out_giving_it_to B205_report_giving_it_to B206_check_showing_it_to B207_carry_out_showing_it_to B208_report_showing_it_to B209_check_waking B210_carry_out_waking B211_report_waking B212_check_throwing_it_at B213_carry_out_throwing_it_a B214_report_throwing_it_at B215_check_attacking B216_carry_out_attacking B217_report_attacking B218_check_kissing B219_carry_out_kissing B220_report_kissing B221_check_answering_it_that B222_carry_out_answering_it_ B223_report_answering_it_tha B224_check_telling_it_about B225_carry_out_telling_it_ab B226_report_telling_it_about B227_check_asking_it_about B228_carry_out_asking_it_abo B229_report_asking_it_about B230_check_asking_it_for B231_carry_out_asking_it_for B232_report_asking_it_for B233_check_waiting B234_carry_out_waiting B235_report_waiting B236_check_touching B237_carry_out_touching B238_report_touching B239_check_waving B240_carry_out_waving B241_report_waving B242_check_pulling B243_carry_out_pulling B244_report_pulling B245_check_pushing B246_carry_out_pushing B247_report_pushing B248_check_turning B249_carry_out_turning B250_report_turning B251_check_pushing_it_to B252_carry_out_pushing_it_to B253_report_pushing_it_to B254_check_squeezing B255_carry_out_squeezing B256_report_squeezing B257_check_saying_yes B258_carry_out_saying_yes B259_report_saying_yes B260_check_saying_no B261_carry_out_saying_no B262_report_saying_no B263_check_burning B264_carry_out_burning B265_report_burning B266_check_waking_up B267_carry_out_waking_up B268_report_waking_up B269_check_thinking B270_carry_out_thinking B271_report_thinking B272_check_smelling B273_carry_out_smelling B274_report_smelling B275_check_listening_to B276_carry_out_listening_to B277_report_listening_to B278_check_tasting B279_carry_out_tasting B280_report_tasting B281_check_cutting B282_carry_out_cutting B283_report_cutting B284_check_jumping B285_carry_out_jumping B286_report_jumping B287_check_tying_it_to B288_carry_out_tying_it_to B289_report_tying_it_to B290_check_drinking B291_carry_out_drinking B292_report_drinking B293_check_saying_sorry B294_carry_out_saying_sorry B295_report_saying_sorry B296_check_swinging B297_carry_out_swinging B298_report_swinging B299_check_rubbing B300_carry_out_rubbing B301_report_rubbing B302_check_setting_it_to B303_carry_out_setting_it_to B304_report_setting_it_to B305_check_waving_hands B306_carry_out_waving_hands B307_report_waving_hands B308_check_buying B309_carry_out_buying B310_report_buying B311_check_climbing B312_carry_out_climbing B313_report_climbing B314_check_sleeping B315_carry_out_sleeping B316_report_sleeping B317_check_quitting_the_game B318_carry_out_quitting_the_ B319_report_quitting_the_gam B320_check_saving_the_game B321_carry_out_saving_the_ga B322_report_saving_the_game B323_check_restoring_the_gam B324_carry_out_restoring_the B325_report_restoring_the_ga B326_check_restarting_the_ga B327_carry_out_restarting_th B328_report_restarting_the_g B329_check_verifying_the_sto B330_carry_out_verifying_the B331_report_verifying_the_st B332_check_switching_the_sto B333_carry_out_switching_the B334_report_switching_the_st B335_check_switching_the_sto B336_carry_out_switching_the B337_report_switching_the_st B338_check_requesting_the_st B339_carry_out_requesting_th B340_report_requesting_the_s B341_check_requesting_the_sc B342_carry_out_requesting_th B343_report_requesting_the_s B344_check_preferring_abbrev B345_carry_out_preferring_ab B346_report_preferring_abbre B347_check_preferring_unabbr B348_carry_out_preferring_un B349_report_preferring_unabb B350_check_preferring_someti B351_carry_out_preferring_so B352_report_preferring_somet B353_check_switching_score_n B354_carry_out_switching_sco B355_report_switching_score_ B356_check_switching_score_n B357_carry_out_switching_sco B358_report_switching_score_ B359_check_requesting_the_pr B360_carry_out_requesting_th B361_report_requesting_the_p B362_before_refusing_keys B363_for_refusing_keys B364_after_refusing_keys B365_check_unlocking_keyless B366_carry_out_unlocking_key B367_report_unlocking_keyles B368_check_locking_keylessly B369_carry_out_locking_keyle B370_report_locking_keylessl B371_check_universal_unlocki B372_carry_out_universal_unl B373_report_universal_unlock B374_before_pausing_the_game B375_for_pausing_the_game B376_after_pausing_the_game B377_before_displaying B378_for_displaying B379_after_displaying B380_check_asking_for_help B381_carry_out_asking_for_he B382_report_asking_for_help B383_exit_obviousness B384_door_obviousness B385_room_memory B386_before_listing_exits B387_for_listing_exits B388_after_listing_exits B389_check_listing_exits B390_carry_out_listing_exits B391_report_listing_exits B392_check_turning_exits_on B393_carry_out_turning_exits B394_report_turning_exits_on B395_check_turning_exits_off B396_carry_out_turning_exits B397_report_turning_exits_of B398_check_number_questionin B399_carry_out_number_questi B400_report_number_questioni B401_number_question B402_check_real_number_quest B403_carry_out_real_number_q B404_report_real_number_ques B405_real_number_question B406_check_menu_questioning B407_carry_out_menu_question B408_report_menu_questioning B409_menu_question B410_check_yes_no_questionin B411_carry_out_yes_no_questi B412_report_yes_no_questioni B413_yes_no_question B414_check_gender_questionin B415_carry_out_gender_questi B416_report_gender_questioni B417_gender_question B418_check_text_questioning B419_carry_out_text_question B420_report_text_questioning B421_text_question B422_before_describing_the_i B423_for_describing_the_inte B424_after_describing_the_in B425_check_shooting_it_with B426_carry_out_shooting_it_w B427_report_shooting_it_with B428_check_casting_xyzzy B429_carry_out_casting_xyzzy B430_report_casting_xyzzy B431_check_casting_yzxxy B432_carry_out_casting_yzxxy B433_report_casting_yzxxy 0;
 
 [ EMPTY_RULEBOOK 
     forbid_breaks ! Implied call parameter
@@ -27113,10 +27113,10 @@ Constant B7_when_scene_ends = EMPTY_RULEBOOK;
     latest_rule_result-->0 = 0;
     if (original_deadflag ~= deadflag) return 0;
     if (say__p) RulebookParBreak(forbid_breaks);
-    rv = R_924();
+    rv = R_925();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_924;
+        return R_925;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 6 rule(s)
@@ -27505,25 +27505,25 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
-    if (action == ##Take) {
+    if (action == ##Enter) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_935();
+        rv = R_936();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_935;
+            return R_936;
         }
         latest_rule_result-->0 = 0;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
-    if (action == ##Enter) {
+    if (action == ##Take) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_954();
+        rv = R_939();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_954;
+            return R_939;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27580,10 +27580,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Enter) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_931();
+        rv = R_932();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_931;
+            return R_932;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27610,18 +27610,18 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##GetOff) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_925();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_925;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_926();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
             return R_926;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_927();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_927;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27630,18 +27630,18 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Enter) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_928();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_928;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_929();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
             return R_929;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_930();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_930;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27650,18 +27650,18 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##A90_shooting_it_with) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_939();
+        rv = R_943();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_939;
+            return R_943;
         }
         latest_rule_result-->0 = 0;
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_940();
+        rv = R_944();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_940;
+            return R_944;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27670,10 +27670,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Give) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_950();
+        rv = R_954();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_950;
+            return R_954;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27694,18 +27694,18 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Ask) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_947();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_947;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_951();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
             return R_951;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_955();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_955;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27714,10 +27714,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Answer) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_949();
+        rv = R_953();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_949;
+            return R_953;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27726,10 +27726,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Tell) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_948();
+        rv = R_952();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_948;
+            return R_952;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27750,6 +27750,18 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Examine) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_934();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_934;
+        }
+        latest_rule_result-->0 = 0;
+    } else {
+        if (say__p) RulebookParBreak(forbid_breaks);
+    }
+    if (action == ##Take) {
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_933();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
@@ -27759,24 +27771,12 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
-    if (action == ##Take) {
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_932();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_932;
-        }
-        latest_rule_result-->0 = 0;
-    } else {
-        if (say__p) RulebookParBreak(forbid_breaks);
-    }
     if (original_deadflag ~= deadflag) return 0;
     if (say__p) RulebookParBreak(forbid_breaks);
-    rv = R_927();
+    rv = R_928();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_927;
+        return R_928;
     }
     latest_rule_result-->0 = 0;
     if (action == ##Inv) {
@@ -27802,10 +27802,10 @@ Constant B22_carry_out = EMPTY_RULEBOOK;
     ;
     original_deadflag = deadflag;
     if (action == ##Enter) {
-        rv = R_955();
+        rv = R_937();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_955;
+            return R_937;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27838,10 +27838,10 @@ Constant B22_carry_out = EMPTY_RULEBOOK;
     if (action == ##GetOff) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_930();
+        rv = R_931();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_930;
+            return R_931;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -27850,10 +27850,10 @@ Constant B22_carry_out = EMPTY_RULEBOOK;
     if (action == ##Examine) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_923();
+        rv = R_924();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_923;
+            return R_924;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -29481,10 +29481,10 @@ Constant B164_check_looking = EMPTY_RULEBOOK;
     latest_rule_result-->0 = 0;
     if (original_deadflag ~= deadflag) return 0;
     if (say__p) RulebookParBreak(forbid_breaks);
-    rv = R_952();
+    rv = R_923();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_952;
+        return R_923;
     }
     latest_rule_result-->0 = 0;
     if (original_deadflag ~= deadflag) return 0;
@@ -31732,66 +31732,36 @@ Constant B420_report_text_questioning = EMPTY_RULEBOOK;
     latest_rule_result-->0 = 0;
     return 0; ! 6 rule(s)
 ];
-[ B422_check_shooting_it_with 
+Constant B422_before_describing_the_i = EMPTY_RULEBOOK;
+[ B423_for_describing_the_inte 
     forbid_breaks ! Implied call parameter
     rv ! return value
+    p ! rulebook parameter
     ;
-    rv = R_936();
+    p = parameter_value;
+    parameter_value = p;
+    rv = R_935();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_936;
+        return R_935;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
 ];
-[ B423_carry_out_shooting_it_w 
+Constant B424_after_describing_the_in = EMPTY_RULEBOOK;
+[ B425_check_shooting_it_with 
     forbid_breaks ! Implied call parameter
     rv ! return value
     ;
-    rv = R_938();
+    rv = R_940();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_938;
+        return R_940;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
 ];
-Constant B424_report_shooting_it_with = EMPTY_RULEBOOK;
-[ B425_check_casting_xyzzy 
-    forbid_breaks ! Implied call parameter
-    rv ! return value
-    original_deadflag ! saved state
-    ;
-    original_deadflag = deadflag;
-    rv = R_941();
-    if (rv) {
-        if (rv == 2) return reason_the_action_failed;
-        return R_941;
-    }
-    latest_rule_result-->0 = 0;
-    if (original_deadflag ~= deadflag) return 0;
-    if (say__p) RulebookParBreak(forbid_breaks);
-    rv = R_944();
-    if (rv) {
-        if (rv == 2) return reason_the_action_failed;
-        return R_944;
-    }
-    latest_rule_result-->0 = 0;
-    return 0; ! 2 rule(s)
-];
-[ B426_carry_out_casting_xyzzy 
-    forbid_breaks ! Implied call parameter
-    rv ! return value
-    ;
-    rv = R_943();
-    if (rv) {
-        if (rv == 2) return reason_the_action_failed;
-        return R_943;
-    }
-    latest_rule_result-->0 = 0;
-    return 0; ! 1 rule(s)
-];
-[ B427_report_casting_xyzzy 
+[ B426_carry_out_shooting_it_w 
     forbid_breaks ! Implied call parameter
     rv ! return value
     ;
@@ -31803,8 +31773,42 @@ Constant B424_report_shooting_it_with = EMPTY_RULEBOOK;
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
 ];
-Constant B428_check_casting_yzxxy = EMPTY_RULEBOOK;
-[ B429_carry_out_casting_yzxxy 
+Constant B427_report_shooting_it_with = EMPTY_RULEBOOK;
+[ B428_check_casting_xyzzy 
+    forbid_breaks ! Implied call parameter
+    rv ! return value
+    original_deadflag ! saved state
+    ;
+    original_deadflag = deadflag;
+    rv = R_945();
+    if (rv) {
+        if (rv == 2) return reason_the_action_failed;
+        return R_945;
+    }
+    latest_rule_result-->0 = 0;
+    if (original_deadflag ~= deadflag) return 0;
+    if (say__p) RulebookParBreak(forbid_breaks);
+    rv = R_948();
+    if (rv) {
+        if (rv == 2) return reason_the_action_failed;
+        return R_948;
+    }
+    latest_rule_result-->0 = 0;
+    return 0; ! 2 rule(s)
+];
+[ B429_carry_out_casting_xyzzy 
+    forbid_breaks ! Implied call parameter
+    rv ! return value
+    ;
+    rv = R_947();
+    if (rv) {
+        if (rv == 2) return reason_the_action_failed;
+        return R_947;
+    }
+    latest_rule_result-->0 = 0;
+    return 0; ! 1 rule(s)
+];
+[ B430_report_casting_xyzzy 
     forbid_breaks ! Implied call parameter
     rv ! return value
     ;
@@ -31816,35 +31820,31 @@ Constant B428_check_casting_yzxxy = EMPTY_RULEBOOK;
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
 ];
-[ B430_report_casting_yzxxy 
+Constant B431_check_casting_yzxxy = EMPTY_RULEBOOK;
+[ B432_carry_out_casting_yzxxy 
     forbid_breaks ! Implied call parameter
     rv ! return value
     ;
-    rv = R_945();
+    rv = R_950();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_945;
+        return R_950;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
 ];
-Constant B431_before_describing_the_i = EMPTY_RULEBOOK;
-[ B432_for_describing_the_inte 
+[ B433_report_casting_yzxxy 
     forbid_breaks ! Implied call parameter
     rv ! return value
-    p ! rulebook parameter
     ;
-    p = parameter_value;
-    parameter_value = p;
-    rv = R_953();
+    rv = R_949();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_953;
+        return R_949;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
 ];
-Constant B433_after_describing_the_in = EMPTY_RULEBOOK;
 
 
 
@@ -36221,18 +36221,18 @@ Array RulebookNames -->
     "carry out Text questioning rulebook" ! 419
     "report Text questioning rulebook" ! 420
     "Text question rulebook" ! 421
-    "check Shooting it with rulebook" ! 422
-    "carry out Shooting it with rulebook" ! 423
-    "report Shooting it with rulebook" ! 424
-    "check Casting xyzzy rulebook" ! 425
-    "carry out Casting xyzzy rulebook" ! 426
-    "report Casting xyzzy rulebook" ! 427
-    "check Casting yzxxy rulebook" ! 428
-    "carry out Casting yzxxy rulebook" ! 429
-    "report Casting yzxxy rulebook" ! 430
-    "before Describing the interior rulebook" ! 431
-    "for Describing the interior rulebook" ! 432
-    "after Describing the interior rulebook" ! 433
+    "before Describing the interior rulebook" ! 422
+    "for Describing the interior rulebook" ! 423
+    "after Describing the interior rulebook" ! 424
+    "check Shooting it with rulebook" ! 425
+    "carry out Shooting it with rulebook" ! 426
+    "report Shooting it with rulebook" ! 427
+    "check Casting xyzzy rulebook" ! 428
+    "carry out Casting xyzzy rulebook" ! 429
+    "report Casting xyzzy rulebook" ! 430
+    "check Casting yzxxy rulebook" ! 431
+    "carry out Casting yzxxy rulebook" ! 432
+    "report Casting yzxxy rulebook" ! 433
 ;
 
 
@@ -36583,8 +36583,8 @@ Array RulebookNames -->
         if (R == R_915) { print "default gender question rule"; rtrue; } ! rule 337
         if (R == R_918) { print "remove punctuation from text questions rule"; rtrue; } ! rule 338
         if (R == R_919) { print "default text question rule"; rtrue; } ! rule 339
-        if (R == R_934) { print "test-variable rule"; rtrue; } ! rule 340
-        if (R == R_952) { print "container interior rule"; rtrue; } ! rule 341
+        if (R == R_923) { print "container interior rule"; rtrue; } ! rule 340
+        if (R == R_938) { print "test-variable rule"; rtrue; } ! rule 341
         if (R == R_972) { print "pub1 rule"; rtrue; } ! rule 342
         if (R == R_973) { print "pub answer rule"; rtrue; } ! rule 343
         if (R == R_974) { print "pub2 rule"; rtrue; } ! rule 344
@@ -36678,36 +36678,36 @@ Array RulebookNames -->
         if (R == R_912) { print "After reading a command when yes/no question mode is true"; rtrue; } ! rule 432
         if (R == R_916) { print "After reading a command when gender question mode is true"; rtrue; } ! rule 433
         if (R == R_920) { print "After reading a command when text question mode is true"; rtrue; } ! rule 434
-        if (R == R_923) { print "After examining a ninja outfit"; rtrue; } ! rule 435
-        if (R == R_924) { print "Every turn"; rtrue; } ! rule 436
-        if (R == R_925) { print "Instead of getting off a soft thing for the first time"; rtrue; } ! rule 437
-        if (R == R_926) { print "Instead of getting off a soft thing for the second time"; rtrue; } ! rule 438
-        if (R == R_927) { print "Instead of doing something other than looking or getting off when the player is on a soft thing"; rtrue; } ! rule 439
-        if (R == R_928) { print "Instead of entering a soft thing the second time"; rtrue; } ! rule 440
-        if (R == R_929) { print "Instead of entering a soft thing the third time"; rtrue; } ! rule 441
-        if (R == R_930) { print "After getting off a soft thing"; rtrue; } ! rule 442
-        if (R == R_931) { print "Before entering the chair"; rtrue; } ! rule 443
-        if (R == R_932) { print "Instead of taking the glittery box"; rtrue; } ! rule 444
-        if (R == R_933) { print "Instead of examining the switched on security readout"; rtrue; } ! rule 445
-        if (R == R_935) { print "Before taking the gun"; rtrue; } ! rule 446
-        if (R == R_936) { print "Check shooting something with something"; rtrue; } ! rule 447
-        if (R == R_938) { print "Carry out shooting something with something"; rtrue; } ! rule 448
-        if (R == R_939) { print "Instead of shooting the bartender with the gun"; rtrue; } ! rule 449
-        if (R == R_940) { print "Instead of shooting the airlock with the gun"; rtrue; } ! rule 450
-        if (R == R_941) { print "Check casting xyzzy"; rtrue; } ! rule 451
-        if (R == R_942) { print "Report casting xyzzy"; rtrue; } ! rule 452
-        if (R == R_943) { print "Carry out casting xyzzy"; rtrue; } ! rule 453
-        if (R == R_944) { print "Check casting xyzzy"; rtrue; } ! rule 454
-        if (R == R_945) { print "Report casting yzxxy"; rtrue; } ! rule 455
-        if (R == R_946) { print "Carry out casting yzxxy"; rtrue; } ! rule 456
-        if (R == R_947) { print "Instead of asking the bartender about something"; rtrue; } ! rule 457
-        if (R == R_948) { print "Instead of telling someone about something"; rtrue; } ! rule 458
-        if (R == R_949) { print "Instead of answering the noun that something"; rtrue; } ! rule 459
-        if (R == R_950) { print "Instead of giving the coin to the bartender"; rtrue; } ! rule 460
-        if (R == R_951) { print "Instead of asking Aframe about ~xx~"; rtrue; } ! rule 461
-        if (R == R_953) { print "Rule for describing the interior of the floating dolphin"; rtrue; } ! rule 462
-        if (R == R_954) { print "Before entering the floating dolphin"; rtrue; } ! rule 463
-        if (R == R_955) { print "After entering the floating dolphin"; rtrue; } ! rule 464
+        if (R == R_924) { print "After examining a ninja outfit"; rtrue; } ! rule 435
+        if (R == R_925) { print "Every turn"; rtrue; } ! rule 436
+        if (R == R_926) { print "Instead of getting off a soft thing for the first time"; rtrue; } ! rule 437
+        if (R == R_927) { print "Instead of getting off a soft thing for the second time"; rtrue; } ! rule 438
+        if (R == R_928) { print "Instead of doing something other than looking or getting off when the player is on a soft thing"; rtrue; } ! rule 439
+        if (R == R_929) { print "Instead of entering a soft thing the second time"; rtrue; } ! rule 440
+        if (R == R_930) { print "Instead of entering a soft thing the third time"; rtrue; } ! rule 441
+        if (R == R_931) { print "After getting off a soft thing"; rtrue; } ! rule 442
+        if (R == R_932) { print "Before entering the chair"; rtrue; } ! rule 443
+        if (R == R_933) { print "Instead of taking the glittery box"; rtrue; } ! rule 444
+        if (R == R_934) { print "Instead of examining the switched on security readout"; rtrue; } ! rule 445
+        if (R == R_935) { print "Rule for describing the interior of the floating dolphin"; rtrue; } ! rule 446
+        if (R == R_936) { print "Before entering the floating dolphin"; rtrue; } ! rule 447
+        if (R == R_937) { print "After entering the floating dolphin"; rtrue; } ! rule 448
+        if (R == R_939) { print "Before taking the gun"; rtrue; } ! rule 449
+        if (R == R_940) { print "Check shooting something with something"; rtrue; } ! rule 450
+        if (R == R_942) { print "Carry out shooting something with something"; rtrue; } ! rule 451
+        if (R == R_943) { print "Instead of shooting the bartender with the gun"; rtrue; } ! rule 452
+        if (R == R_944) { print "Instead of shooting the airlock with the gun"; rtrue; } ! rule 453
+        if (R == R_945) { print "Check casting xyzzy"; rtrue; } ! rule 454
+        if (R == R_946) { print "Report casting xyzzy"; rtrue; } ! rule 455
+        if (R == R_947) { print "Carry out casting xyzzy"; rtrue; } ! rule 456
+        if (R == R_948) { print "Check casting xyzzy"; rtrue; } ! rule 457
+        if (R == R_949) { print "Report casting yzxxy"; rtrue; } ! rule 458
+        if (R == R_950) { print "Carry out casting yzxxy"; rtrue; } ! rule 459
+        if (R == R_951) { print "Instead of asking the bartender about something"; rtrue; } ! rule 460
+        if (R == R_952) { print "Instead of telling someone about something"; rtrue; } ! rule 461
+        if (R == R_953) { print "Instead of answering the noun that something"; rtrue; } ! rule 462
+        if (R == R_954) { print "Instead of giving the coin to the bartender"; rtrue; } ! rule 463
+        if (R == R_955) { print "Instead of asking Aframe about ~xx~"; rtrue; } ! rule 464
         if (R == R_956) { print "Instead of going to the Floating Courtyard when the player is not in the floating dolphin"; rtrue; } ! rule 465
         if (R == R_958) { print "After looking"; rtrue; } ! rule 466
         if (R == R_959) { print "Rule for constructing the status line"; rtrue; } ! rule 467
@@ -49084,12 +49084,11 @@ Array TX_R_414 --> CONSTANT_PACKED_TEXT_STORAGE TX_R_414_R;
     ParaContent(); print "."; .L_Say620; .L_SayX616;rtrue;
 ];
 [ R_TX_S_165 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~[The noun] is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~[closed door]~"; rtrue; }
     #endif; ! DEBUG
-    ! [1: ~[The noun] is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~]
-    say__p=1;! [2: the noun]
-    ParaContent(); print (The) noun;! [3: ~ is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~]
-    ParaContent(); print " is kind of unremarkable, not really exciting like some cool crazy gun would be or something."; .L_Say621; .L_SayX617;rtrue;
+    ! [1: ~[closed door]~]
+    say__p=1;! [2: closed door]
+    ParaContent(); (PHR_873_r63 ()); .L_Say621; .L_SayX617;rtrue;
 ];
 [ R_TX_S_166 ;
     #ifdef DEBUG; if (suppress_text_substitution) { print "~[The noun] is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~"; rtrue; }
@@ -49124,11 +49123,12 @@ Array TX_R_414 --> CONSTANT_PACKED_TEXT_STORAGE TX_R_414_R;
     ParaContent(); print " is kind of unremarkable, not really exciting like some cool crazy gun would be or something."; .L_Say625; .L_SayX621;rtrue;
 ];
 [ R_TX_S_170 ;
-    #ifdef DEBUG; if (suppress_text_substitution) { print "~[closed door]~"; rtrue; }
+    #ifdef DEBUG; if (suppress_text_substitution) { print "~[The noun] is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~"; rtrue; }
     #endif; ! DEBUG
-    ! [1: ~[closed door]~]
-    say__p=1;! [2: closed door]
-    ParaContent(); (PHR_873_r63 ()); .L_Say626; .L_SayX622;rtrue;
+    ! [1: ~[The noun] is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~]
+    say__p=1;! [2: the noun]
+    ParaContent(); print (The) noun;! [3: ~ is kind of unremarkable, not really exciting like some cool crazy gun would be or something.~]
+    ParaContent(); print " is kind of unremarkable, not really exciting like some cool crazy gun would be or something."; .L_Say626; .L_SayX622;rtrue;
 ];
 [ R_TX_S_171 ;
     #ifdef DEBUG; if (suppress_text_substitution) { print "~Final Score: [score]/200~"; rtrue; }
@@ -49207,7 +49207,7 @@ Array TX_R_414 --> CONSTANT_PACKED_TEXT_STORAGE TX_R_414_R;
     ! [1: ~This is a simple demonstration [story genre] game.~]
     say__p=1;! [2: ~This is a simple demonstration ~]
     ParaContent(); print "This is a simple demonstration ";! [3: story genre]
-    ParaContent(); print (TEXT_TY_Say) TX_L_163;! [4: ~ game.~]
+    ParaContent(); print (TEXT_TY_Say) TX_L_164;! [4: ~ game.~]
     ParaContent(); print " game."; .L_Say637; .L_SayX632;rtrue;
 ];
 [ R_TX_S_180 ;
@@ -57546,7 +57546,7 @@ Array Rel_Record_71 -->
     x ! saved value of noun
     ;
     x=noun;
-    return ((noun ofclass K2_thing) && (noun == I192_crazy_looking_gun));
+    return ((noun ofclass K2_thing) && (noun == I195_crazy_looking_gun));
 ];
 [ Noun_Filter_28 
     x ! saved value of noun
@@ -57564,13 +57564,13 @@ Array Rel_Record_71 -->
     x ! saved value of noun
     ;
     x=noun;
-    return ((noun ofclass K2_thing) && (noun == I192_crazy_looking_gun));
+    return ((noun ofclass K2_thing) && (noun == I195_crazy_looking_gun));
 ];
 [ Noun_Filter_31 
     x ! saved value of noun
     ;
     x=noun;
-    return ((noun ofclass K2_thing) && (noun == I192_crazy_looking_gun));
+    return ((noun ofclass K2_thing) && (noun == I195_crazy_looking_gun));
 ];
 [ Noun_Filter_32 
     x ! saved value of noun
@@ -57588,7 +57588,7 @@ Array Rel_Record_71 -->
     x ! saved value of noun
     ;
     x=noun;
-    return ((noun ofclass K2_thing) && (noun == I192_crazy_looking_gun));
+    return ((noun ofclass K2_thing) && (noun == I195_crazy_looking_gun));
 ];
 [ Noun_Filter_35 
     v ! value parsed
@@ -57715,7 +57715,7 @@ Array Rel_Record_71 -->
     rfalse;
 ];
 [ PAPR_5 ;
-    if ((((action ==##Wear) &&  (actor==player) && ((noun == I168_black_ninja_outfit) && (true))))) rtrue;
+    if ((((action ==##Wear) &&  (actor==player) && ((noun == I172_black_ninja_outfit) && (true))))) rtrue;
     rfalse;
 ];
 Array PastActionsI6Routines --> PAPR_0 PAPR_1 PAPR_2 PAPR_3 PAPR_4 PAPR_5 0 0;
@@ -59246,187 +59246,188 @@ Verb 'yzxxy'
 
 
 
-Constant TX_PS_178 = " ";
-Constant TX_PS_176 = " N = Next";
-Constant TX_PS_177 = " P = Previous";
+Constant TX_PS_179 = " ";
+Constant TX_PS_177 = " N = Next";
+Constant TX_PS_178 = " P = Previous";
 Constant TX_PS_83 = "~yzxxy~ is the title, and the contents just say ~Your Future Lies in Space~ over and over again.";
-Constant TX_PS_228 = "1999";
-Constant TX_PS_162 = ">";
+Constant TX_PS_229 = "1999";
+Constant TX_PS_163 = ">";
 Constant TX_PS_89 = "A hallway filled with freaks and nerds.";
 Constant TX_PS_75 = "A three foot black rod with a rusty star on one end lies nearby.";
 Constant TX_PS_67 = "AFrame";
 Constant TX_PS_4 = "Aaron Prust";
-Constant TX_PS_182 = "About Interactive Fiction";
-Constant TX_PS_206 = "According to the Old Testament, who spent 3 days and nights in the belly of a whale?";
-Constant TX_PS_218 = "Apple";
+Constant TX_PS_183 = "About Interactive Fiction";
+Constant TX_PS_207 = "According to the Old Testament, who spent 3 days and nights in the belly of a whale?";
+Constant TX_PS_219 = "Apple";
 Constant TX_PS_45 = "As good-looking as ever.";
-Constant TX_PS_192 = "Be creative";
-Constant TX_PS_220 = "Brave";
-Constant TX_PS_143 = "Bridge";
-Constant TX_PS_230 = "CVX is the stock ticker symbol for what energy giant?";
-Constant TX_PS_219 = "Cairo";
+Constant TX_PS_193 = "Be creative";
+Constant TX_PS_221 = "Brave";
+Constant TX_PS_145 = "Bridge";
+Constant TX_PS_231 = "CVX is the stock ticker symbol for what energy giant?";
+Constant TX_PS_220 = "Cairo";
 Constant TX_PS_61 = "Cast the secret spell xyzzy";
-Constant TX_PS_138 = "Ceiling";
-Constant TX_PS_234 = "Chevron";
+Constant TX_PS_135 = "Ceiling";
+Constant TX_PS_235 = "Chevron";
+Constant TX_PS_92 = "Consuiiiiiiite, woah ohhhhh consuuuuiiiiite. Gawkers and geeks, drinking so much soda the air feels fizzy.";
 Constant TX_PS_91 = "Consuite";
-Constant TX_PS_140 = "Consuitesuckmybigd";
-Constant TX_PS_196 = "Containment";
-Constant TX_PS_186 = "Controlling the Game";
-Constant TX_PS_145 = "Convergence Central";
+Constant TX_PS_137 = "Consuitesuckmybigd";
+Constant TX_PS_197 = "Containment";
+Constant TX_PS_187 = "Controlling the Game";
+Constant TX_PS_147 = "Convergence Central";
 Constant TX_PS_8 = "Cool smooth bench.";
-Constant TX_PS_193 = "Cooperate";
-Constant TX_PS_111 = "Crescent Kitchen";
-Constant TX_PS_117 = "Dealer's Room";
-Constant TX_PS_232 = "Double Think and Cold War are both terms created by what English Author?";
-Constant TX_PS_179 = "ENTER = Select";
-Constant TX_PS_223 = "Ebony and Ivory was a duet performed by Stevie Wonder and what former Beatle?";
-Constant TX_PS_101 = "Elevator Line";
-Constant TX_PS_93 = "Elevators, escalators, and stairwell.";
-Constant TX_PS_235 = "Ellen Page";
-Constant TX_PS_149 = "End";
-Constant TX_PS_190 = "Explore";
-Constant TX_PS_163 = "Fiction";
-Array TX_L_163 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_163;
+Constant TX_PS_194 = "Cooperate";
+Constant TX_PS_112 = "Crescent Kitchen";
+Constant TX_PS_118 = "Dealer's Room";
+Constant TX_PS_233 = "Double Think and Cold War are both terms created by what English Author?";
+Constant TX_PS_180 = "ENTER = Select";
+Constant TX_PS_224 = "Ebony and Ivory was a duet performed by Stevie Wonder and what former Beatle?";
+Constant TX_PS_102 = "Elevator Line";
+Constant TX_PS_94 = "Elevators, escalators, and stairwell.";
+Constant TX_PS_236 = "Ellen Page";
+Constant TX_PS_144 = "End";
+Constant TX_PS_191 = "Explore";
+Constant TX_PS_164 = "Fiction";
+Array TX_L_164 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_164;
 Constant TX_PS_84 = "Floating Courtyard";
-Constant TX_PS_92 = "Floor Changer";
-Constant TX_PS_112 = "Food and Beer for sale";
-Constant TX_PS_109 = "Front Desk";
-Constant TX_PS_107 = "Garden Court";
-Constant TX_PS_236 = "George Orwell";
-Constant TX_PS_214 = "Get a Mac was an ad slogan for what company from 2006 to 2009? ";
-Constant TX_PS_183 = "Getting Started";
+Constant TX_PS_93 = "Floor Changer";
+Constant TX_PS_113 = "Food and Beer for sale";
+Constant TX_PS_110 = "Front Desk";
+Constant TX_PS_108 = "Garden Court";
+Constant TX_PS_237 = "George Orwell";
+Constant TX_PS_215 = "Get a Mac was an ad slogan for what company from 2006 to 2009? ";
+Constant TX_PS_184 = "Getting Started";
 Constant TX_PS_53 = "Glowing Sphere";
-Constant TX_PS_187 = "How the World is Assembled";
-Constant TX_PS_188 = "If You Get Stuck";
-Constant TX_PS_221 = "In 1908, what Ford Model was first produced, eventually being named the Car of the Century?";
-Constant TX_PS_216 = "In the contract version of what card game are players identified by points on the compass?";
-Constant TX_PS_224 = "In what year did Spongebob Squarepants premier on television, Wide Open Spaces by the Dixie Chicks won a Grammy, and the Sixth Sense premiered in theaters?";
-Constant TX_PS_181 = "Instructions for Play";
-Constant TX_PS_164 = "Instructions";
+Constant TX_PS_188 = "How the World is Assembled";
+Constant TX_PS_189 = "If You Get Stuck";
+Constant TX_PS_222 = "In 1908, what Ford Model was first produced, eventually being named the Car of the Century?";
+Constant TX_PS_217 = "In the contract version of what card game are players identified by points on the compass?";
+Constant TX_PS_225 = "In what year did Spongebob Squarepants premier on television, Wide Open Spaces by the Dixie Chicks won a Grammy, and the Sixth Sense premiered in theaters?";
+Constant TX_PS_182 = "Instructions for Play";
+Constant TX_PS_165 = "Instructions";
 Constant TX_PS_81 = "It is fish shaped, and vibrates - readout screen says ~Status optimal~.";
-Constant TX_PS_210 = "Jonah";
-Constant TX_PS_212 = "Kia";
-Constant TX_PS_209 = "Kim Jong Il, Joseph Stalin, or Mao Tsedong, which dictator ruled the longest?";
-Constant TX_PS_123 = "King of the Mountains";
+Constant TX_PS_211 = "Jonah";
+Constant TX_PS_213 = "Kia";
+Constant TX_PS_210 = "Kim Jong Il, Joseph Stalin, or Mao Tsedong, which dictator ruled the longest?";
+Constant TX_PS_124 = "King of the Mountains";
 Constant TX_PS_71 = "Looks like a standard security bot.";
-Constant TX_PS_97 = "Lower Floor Changer";
-Constant TX_PS_100 = "Lower Northside Hallway (party rooms)";
-Constant TX_PS_99 = "Lower Northside Hallway";
-Constant TX_PS_95 = "Lower Southside Hallway (party rooms)";
-Constant TX_PS_94 = "Lower Southside Hallway";
-Constant TX_PS_113 = "Lower Tower Connector";
-Constant TX_PS_98 = "Lower elevators, escalators and stairwell lower level";
-Constant TX_PS_211 = "MTV";
-Constant TX_PS_118 = "Mainstage";
-Constant TX_PS_213 = "Mao Tsedong";
-Constant TX_PS_225 = "Model T";
-Constant TX_PS_199 = "Most IF games are set in a world made up of rooms without internal division. Movement between rooms is possible; movement within a room does not always amount to anything. >WALK OVER TO THE DESK is rarely a useful sort of command. On the other hand, if something is described as being high or out of reach, it is sometimes relevant to stand on an object to increase your height. This kind of activity tends to be important only if prompted by the game text.";
-Constant TX_PS_201 = "Most of the actions you can perform in the world of IF are brief and specific. >WALK WEST or >OPEN DOOR are likely to be provided. >TAKE A JOURNEY or >BUILD A TABLE are not. Things like >GO TO THE HOTEL are on the borderline: some games allow them, but most do not. In general, abstract, multi-stage behavior usually has to be broken down in order for the game to understand it. ";
-Constant TX_PS_153 = "Now onto Round Two where the questions get slightly harder but are worth ten points a piece.";
+Constant TX_PS_98 = "Lower Floor Changer";
+Constant TX_PS_101 = "Lower Northside Hallway (party rooms)";
+Constant TX_PS_100 = "Lower Northside Hallway";
+Constant TX_PS_96 = "Lower Southside Hallway (party rooms)";
+Constant TX_PS_95 = "Lower Southside Hallway";
+Constant TX_PS_114 = "Lower Tower Connector";
+Constant TX_PS_99 = "Lower elevators, escalators and stairwell lower level";
+Constant TX_PS_212 = "MTV";
+Constant TX_PS_119 = "Mainstage";
+Constant TX_PS_214 = "Mao Tsedong";
+Constant TX_PS_226 = "Model T";
+Constant TX_PS_200 = "Most IF games are set in a world made up of rooms without internal division. Movement between rooms is possible; movement within a room does not always amount to anything. >WALK OVER TO THE DESK is rarely a useful sort of command. On the other hand, if something is described as being high or out of reach, it is sometimes relevant to stand on an object to increase your height. This kind of activity tends to be important only if prompted by the game text.";
+Constant TX_PS_202 = "Most of the actions you can perform in the world of IF are brief and specific. >WALK WEST or >OPEN DOOR are likely to be provided. >TAKE A JOURNEY or >BUILD A TABLE are not. Things like >GO TO THE HOTEL are on the borderline: some games allow them, but most do not. In general, abstract, multi-stage behavior usually has to be broken down in order for the game to understand it. ";
+Constant TX_PS_154 = "Now onto Round Two where the questions get slightly harder but are worth ten points a piece.";
 Constant TX_PS_54 = "OOOOoooo glowy-sphere thingie! Its purple soft glow makes you feel safe and secure. It looks like there's some sort of helix-key as a component to the glowy-ness but it's unclear how you would remove it.";
-Constant TX_PS_185 = "Objects";
+Constant TX_PS_186 = "Objects";
 Constant TX_PS_77 = "Oh crap - the floating dolphin's survellance cam is honing in on you! You better get out of here, somewhere where the floating dolphin camera can't see you.";
-Constant TX_PS_200 = "One thing that IF does tend to model thoroughly is containment. Is something in or on something else? The game keeps track of this, and many puzzles have to do with where things are -- in the player's possession, lying on the floor of the room, on a table, in a box, etc.";
-Constant TX_PS_198 = "Other Characters";
-Constant TX_PS_202 = "Other characters in IF games are sometimes rather limited. On the other hand, there are also games in which character interaction is the main point of the game. You should be able to get a feel early on for the characters -- if they seem to respond to a lot of questions, remember what they're told, move around on their own, etc., then they may be fairly important. If they have a lot of stock responses and don't seem to have been the game designer's main concern, then they are most likely present either as local color or to provide the solution to a specific puzzle or set of puzzles. Characters in very puzzle-oriented games often have to be bribed, threatened, or cajoled into doing something that the player cannot do -- giving up a piece of information or an object, reaching something high, allowing the player into a restricted area, and so on.";
+Constant TX_PS_201 = "One thing that IF does tend to model thoroughly is containment. Is something in or on something else? The game keeps track of this, and many puzzles have to do with where things are -- in the player's possession, lying on the floor of the room, on a table, in a box, etc.";
+Constant TX_PS_199 = "Other Characters";
+Constant TX_PS_203 = "Other characters in IF games are sometimes rather limited. On the other hand, there are also games in which character interaction is the main point of the game. You should be able to get a feel early on for the characters -- if they seem to respond to a lot of questions, remember what they're told, move around on their own, etc., then they may be fairly important. If they have a lot of stock responses and don't seem to have been the game designer's main concern, then they are most likely present either as local color or to provide the solution to a specific puzzle or set of puzzles. Characters in very puzzle-oriented games often have to be bribed, threatened, or cajoled into doing something that the player cannot do -- giving up a piece of information or an object, reaching something high, allowing the player into a restricted area, and so on.";
 Constant TX_PS_73 = "Outside the Space Lounge you look out into the larger Raditree Building to see the pool with under a high ceiling. Consuite lies beyond the pool in the main courtyard. Boffers beat each other up in the fenced in section of the courtyard. A floating dolphin surveillance pod floats by making you twitch instintively to make your shiny wig come between the camera and your face.";
-Constant TX_PS_226 = "Paris";
-Constant TX_PS_227 = "Paul McCartney";
-Constant TX_PS_194 = "Play with someone else. Two heads are often better than one. If that doesn't work, try emailing the author or (better yet) posting a request for hints on the newsgroup rec.games.int-fiction.  For best results, put the name of the game you want help with in the subject line; then leave a page or so of blank spoiler space (so that no one will read about where you got to in the game unless they've already played it), and describe your problem as clearly as possible.  Someone will probably be able to tell you how to get around it.";
-Constant TX_PS_168 = "Please enter M, F or N (Male or Female or Neuter) >";
-Constant TX_PS_167 = "Please enter Y or N (Yes or No) >";
-Constant TX_PS_166 = "Please enter a number >";
-Constant TX_PS_165 = "Please enter a whole number >";
-Constant TX_PS_169 = "Please enter your answer >";
-Constant TX_PS_106 = "Pool Area - VIP ONLY";
-Constant TX_PS_105 = "Pool Area";
-Constant TX_PS_173 = "QUIT";
-Constant TX_PS_170 = "RESTART";
-Constant TX_PS_171 = "RESTORE a saved game";
-Constant TX_PS_191 = "Read carefully";
-Constant TX_PS_147 = "Room 107";
-Constant TX_PS_148 = "Room 128";
-Constant TX_PS_108 = "Room 205";
+Constant TX_PS_227 = "Paris";
+Constant TX_PS_228 = "Paul McCartney";
+Constant TX_PS_195 = "Play with someone else. Two heads are often better than one. If that doesn't work, try emailing the author or (better yet) posting a request for hints on the newsgroup rec.games.int-fiction.  For best results, put the name of the game you want help with in the subject line; then leave a page or so of blank spoiler space (so that no one will read about where you got to in the game unless they've already played it), and describe your problem as clearly as possible.  Someone will probably be able to tell you how to get around it.";
+Constant TX_PS_169 = "Please enter M, F or N (Male or Female or Neuter) >";
+Constant TX_PS_168 = "Please enter Y or N (Yes or No) >";
+Constant TX_PS_167 = "Please enter a number >";
+Constant TX_PS_166 = "Please enter a whole number >";
+Constant TX_PS_170 = "Please enter your answer >";
+Constant TX_PS_107 = "Pool Area - VIP ONLY";
+Constant TX_PS_106 = "Pool Area";
+Constant TX_PS_174 = "QUIT";
+Constant TX_PS_171 = "RESTART";
+Constant TX_PS_172 = "RESTORE a saved game";
+Constant TX_PS_192 = "Read carefully";
+Constant TX_PS_149 = "Room 107";
+Constant TX_PS_150 = "Room 128";
+Constant TX_PS_109 = "Room 205";
 Constant TX_PS_90 = "Room 233";
-Constant TX_PS_184 = "Rooms and Travel";
-Constant TX_PS_155 = "Round Three is here! The questions are harder but now worth fifteen points a piece.";
-Constant TX_PS_150 = "Round1";
-Constant TX_PS_152 = "Round2";
-Constant TX_PS_154 = "Round3";
-Constant TX_PS_156 = "Round4";
-Constant TX_PS_233 = "Russia";
-Constant TX_PS_180 = "Sample Hint";
+Constant TX_PS_185 = "Rooms and Travel";
+Constant TX_PS_156 = "Round Three is here! The questions are harder but now worth fifteen points a piece.";
+Constant TX_PS_151 = "Round1";
+Constant TX_PS_153 = "Round2";
+Constant TX_PS_155 = "Round3";
+Constant TX_PS_157 = "Round4";
+Constant TX_PS_234 = "Russia";
+Constant TX_PS_181 = "Sample Hint";
 Constant TX_PS_78 = "Secret Room";
 Constant TX_PS_70 = "Security bot";
 Constant TX_PS_42 = "Space Lounge";
-Constant TX_PS_195 = "Space";
+Constant TX_PS_196 = "Space";
 Constant TX_PS_2 = "Splounge-Dystopia";
 Array TX_L_2 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_2;
-Constant TX_PS_229 = "Spteznaz is an umbrella term for special forces from what country?";
-Constant TX_PS_119 = "Staging Area";
-Constant TX_PS_103 = "Stairwell Floor 1";
-Constant TX_PS_104 = "Stairwell Floor 2";
+Constant TX_PS_230 = "Spteznaz is an umbrella term for special forces from what country?";
+Constant TX_PS_120 = "Staging Area";
+Constant TX_PS_104 = "Stairwell Floor 1";
+Constant TX_PS_105 = "Stairwell Floor 2";
 Constant TX_PS_63 = "That gun is so crazy looking! It's kind of like totally blowing your mind.";
-Constant TX_PS_144 = "The Bridge";
-Constant TX_PS_110 = "The Front Desk";
-Constant TX_PS_114 = "The Lower Tower Connector - connection between the short and tall towers.";
-Constant TX_PS_222 = "The Original Ritz Hotel is located in what European City?";
-Constant TX_PS_208 = "The Soul and The Optima are both models by what auto make?";
-Constant TX_PS_207 = "The Tom Green Show and 16 and Pregnant were originally aired on what network?";
-Constant TX_PS_116 = "The Upper Tower Connector - connection between the short and tall towers.";
-Constant TX_PS_137 = "The airlock has a small window through which you can see a vast open space - is that a pool? Sweet!. It looks like the door only opens with a security key.";
-Constant TX_PS_139 = "The ceiling with lights rises over the whole crazy convention.";
-Constant TX_PS_189 = "The game you are playing is a work of Interactive Fiction.  In interactive fiction you play the main character of a story.  You type commands which determine the actions of the character and the flow of the plot.  Some IF games include graphics, but most do not: the imagery is provided courtesy of your imagination.  On the other hand, there's a wide range of action available: whereas in other games you may be restricted to shooting, movement, or searching items you can click on with a mouse, IF allows you a wide range of verbs.";
+Constant TX_PS_146 = "The Bridge";
+Constant TX_PS_111 = "The Front Desk";
+Constant TX_PS_115 = "The Lower Tower Connector - connection between the short and tall towers.";
+Constant TX_PS_223 = "The Original Ritz Hotel is located in what European City?";
+Constant TX_PS_209 = "The Soul and The Optima are both models by what auto make?";
+Constant TX_PS_208 = "The Tom Green Show and 16 and Pregnant were originally aired on what network?";
+Constant TX_PS_117 = "The Upper Tower Connector - connection between the short and tall towers.";
+Constant TX_PS_132 = "The airlock has a small window through which you can see a vast open space - is that a pool? Sweet!. It looks like the door only opens with a security key.";
+Constant TX_PS_136 = "The ceiling with lights rises over the whole crazy convention.";
+Constant TX_PS_190 = "The game you are playing is a work of Interactive Fiction.  In interactive fiction you play the main character of a story.  You type commands which determine the actions of the character and the flow of the plot.  Some IF games include graphics, but most do not: the imagery is provided courtesy of your imagination.  On the other hand, there's a wide range of action available: whereas in other games you may be restricted to shooting, movement, or searching items you can click on with a mouse, IF allows you a wide range of verbs.";
 Constant TX_PS_58 = "The screen is blank.";
 Constant TX_PS_87 = "This hallway is NUTS - there are signs everywhere and lights and sounds flashing. From this hallway you can get into a bunch of Party Rooms";
 Constant TX_PS_51 = "This is a ninja outfit, it's black and has a hood that covers your face. It has pockets in it to store cool ninja gear. It has these sweet built in booties that muffle your footsteps as if you were a total ninja, which you totally are if you are wearing this outfit. You could sneak around a place with shadows without being detected if you were wearing this thing. You'd be so ninja.";
 Constant TX_PS_85 = "This is amazing - you are up above everything and can see so much up here! There's a pool down below, and a fenced in courtyard with some kind of security gate system surrounding it, and Consuite.";
-Constant TX_PS_157 = "This is it, the final round. Europe's The Final Countdown is now playing on loop in your head and the questions are worth a whopping twenty points a piece.";
-Constant TX_PS_135 = "This looks like a standard tetral-inverse double helix security key with triple-blind encryption. Probably used to access airlocks n-schtoff.";
+Constant TX_PS_158 = "This is it, the final round. Europe's The Final Countdown is now playing on loop in your head and the questions are worth a whopping twenty points a piece.";
+Constant TX_PS_134 = "This looks like a standard tetral-inverse double helix security key with triple-blind encryption. Probably used to access airlocks n-schtoff.";
 Constant TX_PS_25 = "This thing is like taking a bath in frozen unicorn snot. Amazing.";
 Constant TX_PS_49 = "This wig is super shiny and silvery, reflecting light off in all directions, it helps you avoid being face-detected by the intero-pods.";
 Constant TX_PS_56 = "Time slows down, you feel as if you gazing into the cosmos itself. Your eyeballs can hardly stay on it, it's like your gaze just keeps sliding off.";
-Constant TX_PS_197 = "Types of Action";
-Constant TX_PS_174 = "UNDO the last command";
-Constant TX_PS_96 = "Under Consuite";
-Constant TX_PS_146 = "Under the Veranda Walkway";
+Constant TX_PS_198 = "Types of Action";
+Constant TX_PS_175 = "UNDO the last command";
+Constant TX_PS_97 = "Under Consuite";
+Constant TX_PS_148 = "Under the Veranda Walkway";
 Constant TX_PS_88 = "Upper Northside Hallway";
 Constant TX_PS_86 = "Upper Southside Hallway";
-Constant TX_PS_115 = "Upper Tower Connector";
+Constant TX_PS_116 = "Upper Tower Connector";
 Constant TX_PS_72 = "Veranda Walkway";
 Constant TX_PS_3 = "Watch your back, and don't let the cams spy your face.";
-Constant TX_PS_151 = "Welcome to Trivia, I'm your host, the disembodied voice coming from your device. We have only one rule; please don't cheat. Questions will be simple this round being worth five points a piece, but will increase in both difficulty and value as the game goes on. ";
-Constant TX_PS_231 = "What actor or actress was in X-Men the Last Stand, Inception, and Juno? ";
-Constant TX_PS_215 = "What is the capital of Egypt?";
-Constant TX_PS_217 = "What movie has the Highland Games, a Witch, and Craig Ferguson as Lord Macintosh?";
-Constant TX_PS_203 = "X is eleven!";
-Constant TX_PS_205 = "X is thirteen!";
-Constant TX_PS_204 = "X is twelve!";
+Constant TX_PS_152 = "Welcome to Trivia, I'm your host, the disembodied voice coming from your device. We have only one rule; please don't cheat. Questions will be simple this round being worth five points a piece, but will increase in both difficulty and value as the game goes on. ";
+Constant TX_PS_232 = "What actor or actress was in X-Men the Last Stand, Inception, and Juno? ";
+Constant TX_PS_216 = "What is the capital of Egypt?";
+Constant TX_PS_218 = "What movie has the Highland Games, a Witch, and Craig Ferguson as Lord Macintosh?";
+Constant TX_PS_204 = "X is eleven!";
+Constant TX_PS_206 = "X is thirteen!";
+Constant TX_PS_205 = "X is twelve!";
 Constant TX_PS_79 = "You are in the Secret Room. DON'T TELL ANYONE YOU WERE EVER HERE! It's really dark, you can't see much.";
 Constant TX_PS_43 = "You are in the Space Lounge, rumored to be the center of The Resistance. ~Why did I come here?~ you briefly wonder before looking around.";
-Constant TX_PS_102 = "You are waiting for an elevator!";
-Constant TX_PS_141 = "You can make out the basic forms of the people in Consuite but it is so far away that you can't see anything well without some kind of badass miniature spy eyepiece or something.";
-Constant TX_PS_161 = "You got this for bad quizinating.";
-Constant TX_PS_159 = "You got this for good quizinating!";
+Constant TX_PS_103 = "You are waiting for an elevator!";
+Constant TX_PS_138 = "You can make out the basic forms of the people in Consuite but it is so far away that you can't see anything well without some kind of badass miniature spy eyepiece or something.";
+Constant TX_PS_162 = "You got this for bad quizinating.";
+Constant TX_PS_160 = "You got this for good quizinating!";
 Constant TX_PS_46 = "Yourself";
-Constant TX_PS_238 = "@{5C}p";
+Constant TX_PS_239 = "@{5C}p";
+Array TX_L_239 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_239;
+Constant TX_PS_238 = "@@94say ";
 Array TX_L_238 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_238;
-Constant TX_PS_237 = "@@94say ";
-Array TX_L_237 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_237;
-Constant TX_PS_136 = "airlock";
+Constant TX_PS_131 = "airlock";
 Constant TX_PS_13 = "animals";
 Constant TX_PS_20 = "backdrops";
 Constant TX_PS_52 = "bar";
 Constant TX_PS_66 = "bartender";
 Constant TX_PS_64 = "bench";
 Constant TX_PS_7 = "benches";
-Constant TX_PS_127 = "best cyclist aged 25 or less";
+Constant TX_PS_128 = "best cyclist aged 25 or less";
 Constant TX_PS_50 = "black ninja outfit";
-Constant TX_PS_131 = "black ninja outfit's pocket";
+Constant TX_PS_140 = "black ninja outfit's pocket";
 Constant TX_PS_74 = "black rod";
-Constant TX_PS_142 = "blah";
-Constant TX_PS_129 = "blue jersaaaay";
-Constant TX_PS_128 = "blue jersey";
+Constant TX_PS_143 = "blah";
+Constant TX_PS_130 = "blue jersaaaay";
+Constant TX_PS_129 = "blue jersey";
 Constant TX_PS_82 = "book";
 Constant TX_PS_59 = "bowl";
 Constant TX_PS_65 = "chair";
@@ -59441,10 +59442,10 @@ Constant TX_PS_14 = "doors";
 Constant TX_PS_39 = "down";
 Constant TX_PS_36 = "east";
 Constant TX_PS_76 = "floating dolphin";
-Constant TX_PS_175 = "foo";
+Constant TX_PS_176 = "foo";
 Constant TX_PS_55 = "glittery box";
-Constant TX_PS_124 = "green jersey";
-Constant TX_PS_125 = "highest point scorer on sprints";
+Constant TX_PS_125 = "green jersey";
+Constant TX_PS_126 = "highest point scorer on sprints";
 Constant TX_PS_40 = "inside";
 Constant TX_PS_26 = "jerseys";
 Constant TX_PS_6 = "keychains";
@@ -59460,17 +59461,17 @@ Constant TX_PS_10 = "people";
 Constant TX_PS_68 = "pin-striped suit";
 Constant TX_PS_69 = "pink thong";
 Constant TX_PS_18 = "player's holdalls";
-Constant TX_PS_130 = "pocket";
+Constant TX_PS_139 = "pocket";
 Constant TX_PS_19 = "pockets";
-Constant TX_PS_122 = "polkadot jersey";
-Constant TX_PS_158 = "quizinator1";
-Constant TX_PS_160 = "quizinator2";
-Constant TX_PS_121 = "race leader";
+Constant TX_PS_123 = "polkadot jersey";
+Constant TX_PS_159 = "quizinator1";
+Constant TX_PS_161 = "quizinator2";
+Constant TX_PS_122 = "race leader";
 Constant TX_PS_27 = "regions";
-Constant TX_PS_134 = "security key";
+Constant TX_PS_133 = "security key";
 Constant TX_PS_57 = "security readout";
-Constant TX_PS_172 = "see some suggestions for AMUSING things to do";
-Constant TX_PS_133 = "smoke bomb";
+Constant TX_PS_173 = "see some suggestions for AMUSING things to do";
+Constant TX_PS_142 = "smoke bomb";
 Constant TX_PS_24 = "smoothies";
 Constant TX_PS_33 = "south";
 Constant TX_PS_34 = "southeast";
@@ -59478,14 +59479,14 @@ Constant TX_PS_35 = "southwest";
 Constant TX_PS_5 = "supporters";
 Constant TX_PS_30 = "the";
 Constant TX_PS_15 = "through";
-Constant TX_PS_132 = "throwing star";
+Constant TX_PS_141 = "throwing star";
 Constant TX_PS_38 = "up";
 Constant TX_PS_17 = "vehicles";
 Constant TX_PS_37 = "west";
-Constant TX_PS_126 = "white jersey";
+Constant TX_PS_127 = "white jersey";
 Constant TX_PS_48 = "wig";
 Constant TX_PS_12 = "women";
-Constant TX_PS_120 = "yellow jersey";
+Constant TX_PS_121 = "yellow jersey";
 Constant TX_PS_44 = "yourself";
 Array TX_L_44 --> CONSTANT_PACKED_TEXT_STORAGE TX_PS_44;
 
@@ -67105,427 +67106,427 @@ Array BC_421 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_422 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_423 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_424 --> PACKED_TEXT_STORAGE TX_PS_91;
-Array BC_425 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_425 --> PACKED_TEXT_STORAGE TX_PS_92;
 Array BC_426 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_427 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_428 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_429 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_430 --> PACKED_TEXT_STORAGE TX_PS_92;
-Array BC_431 --> PACKED_TEXT_STORAGE TX_PS_93;
+Array BC_430 --> PACKED_TEXT_STORAGE TX_PS_93;
+Array BC_431 --> PACKED_TEXT_STORAGE TX_PS_94;
 Array BC_432 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_433 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_434 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_435 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_436 --> PACKED_TEXT_STORAGE TX_PS_94;
-Array BC_437 --> PACKED_TEXT_STORAGE TX_PS_95;
+Array BC_436 --> PACKED_TEXT_STORAGE TX_PS_95;
+Array BC_437 --> PACKED_TEXT_STORAGE TX_PS_96;
 Array BC_438 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_439 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_440 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_441 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_442 --> PACKED_TEXT_STORAGE TX_PS_96;
-Array BC_443 --> PACKED_TEXT_STORAGE TX_PS_96;
+Array BC_442 --> PACKED_TEXT_STORAGE TX_PS_97;
+Array BC_443 --> PACKED_TEXT_STORAGE TX_PS_97;
 Array BC_444 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_445 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_446 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_447 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_448 --> PACKED_TEXT_STORAGE TX_PS_97;
-Array BC_449 --> PACKED_TEXT_STORAGE TX_PS_98;
+Array BC_448 --> PACKED_TEXT_STORAGE TX_PS_98;
+Array BC_449 --> PACKED_TEXT_STORAGE TX_PS_99;
 Array BC_450 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_451 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_452 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_453 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_454 --> PACKED_TEXT_STORAGE TX_PS_99;
-Array BC_455 --> PACKED_TEXT_STORAGE TX_PS_100;
+Array BC_454 --> PACKED_TEXT_STORAGE TX_PS_100;
+Array BC_455 --> PACKED_TEXT_STORAGE TX_PS_101;
 Array BC_456 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_457 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_458 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_459 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_460 --> PACKED_TEXT_STORAGE TX_PS_101;
-Array BC_461 --> PACKED_TEXT_STORAGE TX_PS_102;
+Array BC_460 --> PACKED_TEXT_STORAGE TX_PS_102;
+Array BC_461 --> PACKED_TEXT_STORAGE TX_PS_103;
 Array BC_462 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_463 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_464 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_465 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_466 --> PACKED_TEXT_STORAGE TX_PS_103;
-Array BC_467 --> PACKED_TEXT_STORAGE TX_PS_103;
+Array BC_466 --> PACKED_TEXT_STORAGE TX_PS_104;
+Array BC_467 --> PACKED_TEXT_STORAGE TX_PS_104;
 Array BC_468 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_469 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_470 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_471 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_472 --> PACKED_TEXT_STORAGE TX_PS_104;
-Array BC_473 --> PACKED_TEXT_STORAGE TX_PS_104;
+Array BC_472 --> PACKED_TEXT_STORAGE TX_PS_105;
+Array BC_473 --> PACKED_TEXT_STORAGE TX_PS_105;
 Array BC_474 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_475 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_476 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_477 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_478 --> PACKED_TEXT_STORAGE TX_PS_105;
-Array BC_479 --> PACKED_TEXT_STORAGE TX_PS_106;
+Array BC_478 --> PACKED_TEXT_STORAGE TX_PS_106;
+Array BC_479 --> PACKED_TEXT_STORAGE TX_PS_107;
 Array BC_480 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_481 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_482 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_483 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_484 --> PACKED_TEXT_STORAGE TX_PS_107;
-Array BC_485 --> PACKED_TEXT_STORAGE TX_PS_107;
+Array BC_484 --> PACKED_TEXT_STORAGE TX_PS_108;
+Array BC_485 --> PACKED_TEXT_STORAGE TX_PS_108;
 Array BC_486 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_487 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_488 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_489 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_490 --> PACKED_TEXT_STORAGE TX_PS_108;
-Array BC_491 --> PACKED_TEXT_STORAGE TX_PS_108;
+Array BC_490 --> PACKED_TEXT_STORAGE TX_PS_109;
+Array BC_491 --> PACKED_TEXT_STORAGE TX_PS_109;
 Array BC_492 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_493 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_494 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_495 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_496 --> PACKED_TEXT_STORAGE TX_PS_109;
-Array BC_497 --> PACKED_TEXT_STORAGE TX_PS_110;
+Array BC_496 --> PACKED_TEXT_STORAGE TX_PS_110;
+Array BC_497 --> PACKED_TEXT_STORAGE TX_PS_111;
 Array BC_498 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_499 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_500 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_501 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_502 --> PACKED_TEXT_STORAGE TX_PS_111;
-Array BC_503 --> PACKED_TEXT_STORAGE TX_PS_112;
+Array BC_502 --> PACKED_TEXT_STORAGE TX_PS_112;
+Array BC_503 --> PACKED_TEXT_STORAGE TX_PS_113;
 Array BC_504 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_505 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_506 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_507 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_508 --> PACKED_TEXT_STORAGE TX_PS_113;
-Array BC_509 --> PACKED_TEXT_STORAGE TX_PS_114;
+Array BC_508 --> PACKED_TEXT_STORAGE TX_PS_114;
+Array BC_509 --> PACKED_TEXT_STORAGE TX_PS_115;
 Array BC_510 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_511 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_512 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_513 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_514 --> PACKED_TEXT_STORAGE TX_PS_115;
-Array BC_515 --> PACKED_TEXT_STORAGE TX_PS_116;
+Array BC_514 --> PACKED_TEXT_STORAGE TX_PS_116;
+Array BC_515 --> PACKED_TEXT_STORAGE TX_PS_117;
 Array BC_516 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_517 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_518 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_519 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_520 --> PACKED_TEXT_STORAGE TX_PS_117;
-Array BC_521 --> PACKED_TEXT_STORAGE TX_PS_117;
+Array BC_520 --> PACKED_TEXT_STORAGE TX_PS_118;
+Array BC_521 --> PACKED_TEXT_STORAGE TX_PS_118;
 Array BC_522 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_523 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_524 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_525 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_526 --> PACKED_TEXT_STORAGE TX_PS_118;
-Array BC_527 --> PACKED_TEXT_STORAGE TX_PS_118;
+Array BC_526 --> PACKED_TEXT_STORAGE TX_PS_119;
+Array BC_527 --> PACKED_TEXT_STORAGE TX_PS_119;
 Array BC_528 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_529 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_530 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_531 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_532 --> PACKED_TEXT_STORAGE TX_PS_119;
+Array BC_532 --> PACKED_TEXT_STORAGE TX_PS_120;
 Array BC_533 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_534 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_535 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_536 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_537 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_538 --> PACKED_TEXT_STORAGE TX_PS_120;
-Array BC_539 --> PACKED_TEXT_STORAGE TX_PS_121;
+Array BC_538 --> PACKED_TEXT_STORAGE TX_PS_121;
+Array BC_539 --> PACKED_TEXT_STORAGE TX_PS_122;
 Array BC_540 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_161;
 Array BC_541 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_542 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_543 --> PACKED_TEXT_STORAGE TX_PS_26;
 Array BC_544 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_545 --> PACKED_TEXT_STORAGE TX_PS_122;
-Array BC_546 --> PACKED_TEXT_STORAGE TX_PS_123;
+Array BC_545 --> PACKED_TEXT_STORAGE TX_PS_123;
+Array BC_546 --> PACKED_TEXT_STORAGE TX_PS_124;
 Array BC_547 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_162;
 Array BC_548 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_549 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_550 --> PACKED_TEXT_STORAGE TX_PS_26;
 Array BC_551 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_552 --> PACKED_TEXT_STORAGE TX_PS_124;
-Array BC_553 --> PACKED_TEXT_STORAGE TX_PS_125;
+Array BC_552 --> PACKED_TEXT_STORAGE TX_PS_125;
+Array BC_553 --> PACKED_TEXT_STORAGE TX_PS_126;
 Array BC_554 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_163;
 Array BC_555 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_556 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_557 --> PACKED_TEXT_STORAGE TX_PS_26;
 Array BC_558 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_559 --> PACKED_TEXT_STORAGE TX_PS_126;
-Array BC_560 --> PACKED_TEXT_STORAGE TX_PS_127;
+Array BC_559 --> PACKED_TEXT_STORAGE TX_PS_127;
+Array BC_560 --> PACKED_TEXT_STORAGE TX_PS_128;
 Array BC_561 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_164;
 Array BC_562 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_563 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_564 --> PACKED_TEXT_STORAGE TX_PS_26;
 Array BC_565 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_566 --> PACKED_TEXT_STORAGE TX_PS_128;
-Array BC_567 --> PACKED_TEXT_STORAGE TX_PS_129;
+Array BC_566 --> PACKED_TEXT_STORAGE TX_PS_129;
+Array BC_567 --> PACKED_TEXT_STORAGE TX_PS_130;
 Array BC_568 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_569 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_570 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_571 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_572 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_573 --> PACKED_TEXT_STORAGE TX_PS_130;
-Array BC_574 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_165;
-Array BC_575 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_576 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_577 --> PACKED_TEXT_STORAGE TX_PS_19;
+Array BC_573 --> PACKED_TEXT_STORAGE TX_PS_131;
+Array BC_574 --> PACKED_TEXT_STORAGE TX_PS_132;
+Array BC_575 --> PACKED_TEXT_STORAGE TX_PS_15;
+Array BC_576 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_165;
+Array BC_577 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_578 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_579 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_580 --> PACKED_TEXT_STORAGE TX_PS_130;
-Array BC_581 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_166;
-Array BC_582 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_583 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_584 --> PACKED_TEXT_STORAGE TX_PS_19;
+Array BC_579 --> PACKED_TEXT_STORAGE TX_PS_14;
+Array BC_580 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_581 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_582 --> PACKED_TEXT_STORAGE TX_PS_133;
+Array BC_583 --> PACKED_TEXT_STORAGE TX_PS_134;
+Array BC_584 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_585 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_586 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_587 --> PACKED_TEXT_STORAGE TX_PS_131;
-Array BC_588 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_167;
-Array BC_589 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_590 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_591 --> PACKED_TEXT_STORAGE TX_PS_16;
+Array BC_587 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_588 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_589 --> PACKED_TEXT_STORAGE TX_PS_135;
+Array BC_590 --> PACKED_TEXT_STORAGE TX_PS_136;
+Array BC_591 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_592 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_593 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_594 --> PACKED_TEXT_STORAGE TX_PS_132;
-Array BC_595 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_168;
-Array BC_596 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_597 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_593 --> PACKED_TEXT_STORAGE TX_PS_20;
+Array BC_594 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_595 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_596 --> PACKED_TEXT_STORAGE TX_PS_137;
+Array BC_597 --> PACKED_TEXT_STORAGE TX_PS_138;
 Array BC_598 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_599 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_600 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_601 --> PACKED_TEXT_STORAGE TX_PS_133;
-Array BC_602 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_169;
-Array BC_603 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_604 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_600 --> PACKED_TEXT_STORAGE TX_PS_20;
+Array BC_601 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_602 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_603 --> PACKED_TEXT_STORAGE TX_PS_139;
+Array BC_604 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_166;
 Array BC_605 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_606 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_607 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_608 --> PACKED_TEXT_STORAGE TX_PS_134;
-Array BC_609 --> PACKED_TEXT_STORAGE TX_PS_135;
-Array BC_610 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_611 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_607 --> PACKED_TEXT_STORAGE TX_PS_19;
+Array BC_608 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_609 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_610 --> PACKED_TEXT_STORAGE TX_PS_139;
+Array BC_611 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_167;
 Array BC_612 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_613 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_614 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_615 --> PACKED_TEXT_STORAGE TX_PS_136;
-Array BC_616 --> PACKED_TEXT_STORAGE TX_PS_137;
-Array BC_617 --> PACKED_TEXT_STORAGE TX_PS_15;
-Array BC_618 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_170;
+Array BC_614 --> PACKED_TEXT_STORAGE TX_PS_19;
+Array BC_615 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_616 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_617 --> PACKED_TEXT_STORAGE TX_PS_140;
+Array BC_618 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_168;
 Array BC_619 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_620 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_621 --> PACKED_TEXT_STORAGE TX_PS_14;
+Array BC_621 --> PACKED_TEXT_STORAGE TX_PS_16;
 Array BC_622 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_623 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_624 --> PACKED_TEXT_STORAGE TX_PS_138;
-Array BC_625 --> PACKED_TEXT_STORAGE TX_PS_139;
+Array BC_624 --> PACKED_TEXT_STORAGE TX_PS_141;
+Array BC_625 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_169;
 Array BC_626 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_627 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_628 --> PACKED_TEXT_STORAGE TX_PS_20;
+Array BC_628 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_629 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_630 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_631 --> PACKED_TEXT_STORAGE TX_PS_140;
-Array BC_632 --> PACKED_TEXT_STORAGE TX_PS_141;
+Array BC_631 --> PACKED_TEXT_STORAGE TX_PS_142;
+Array BC_632 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_170;
 Array BC_633 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_634 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_635 --> PACKED_TEXT_STORAGE TX_PS_20;
+Array BC_635 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_636 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_637 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_638 --> PACKED_TEXT_STORAGE TX_PS_142;
+Array BC_638 --> PACKED_TEXT_STORAGE TX_PS_143;
 Array BC_639 --> PACKED_TEXT_STORAGE TX_PS_25;
 Array BC_640 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_641 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_642 --> PACKED_TEXT_STORAGE TX_PS_24;
 Array BC_643 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_644 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_645 --> PACKED_TEXT_STORAGE TX_PS_143;
-Array BC_646 --> PACKED_TEXT_STORAGE TX_PS_144;
+Array BC_645 --> PACKED_TEXT_STORAGE TX_PS_144;
+Array BC_646 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_171;
 Array BC_647 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_648 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_649 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_650 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_651 --> PACKED_TEXT_STORAGE TX_PS_145;
-Array BC_652 --> PACKED_TEXT_STORAGE TX_PS_145;
+Array BC_652 --> PACKED_TEXT_STORAGE TX_PS_146;
 Array BC_653 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_654 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_655 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_656 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_657 --> PACKED_TEXT_STORAGE TX_PS_146;
-Array BC_658 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
+Array BC_657 --> PACKED_TEXT_STORAGE TX_PS_147;
+Array BC_658 --> PACKED_TEXT_STORAGE TX_PS_147;
 Array BC_659 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_660 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_661 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_662 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_663 --> PACKED_TEXT_STORAGE TX_PS_147;
+Array BC_663 --> PACKED_TEXT_STORAGE TX_PS_148;
 Array BC_664 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_665 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_666 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_667 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_668 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_669 --> PACKED_TEXT_STORAGE TX_PS_148;
+Array BC_669 --> PACKED_TEXT_STORAGE TX_PS_149;
 Array BC_670 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_671 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_672 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_673 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_674 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_675 --> PACKED_TEXT_STORAGE TX_PS_149;
-Array BC_676 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_171;
+Array BC_675 --> PACKED_TEXT_STORAGE TX_PS_150;
+Array BC_676 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_677 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_678 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_679 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_680 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_681 --> PACKED_TEXT_STORAGE TX_PS_150;
-Array BC_682 --> PACKED_TEXT_STORAGE TX_PS_151;
+Array BC_681 --> PACKED_TEXT_STORAGE TX_PS_151;
+Array BC_682 --> PACKED_TEXT_STORAGE TX_PS_152;
 Array BC_683 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_684 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_685 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_686 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_687 --> PACKED_TEXT_STORAGE TX_PS_152;
-Array BC_688 --> PACKED_TEXT_STORAGE TX_PS_153;
+Array BC_687 --> PACKED_TEXT_STORAGE TX_PS_153;
+Array BC_688 --> PACKED_TEXT_STORAGE TX_PS_154;
 Array BC_689 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_690 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_691 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_692 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_693 --> PACKED_TEXT_STORAGE TX_PS_154;
-Array BC_694 --> PACKED_TEXT_STORAGE TX_PS_155;
+Array BC_693 --> PACKED_TEXT_STORAGE TX_PS_155;
+Array BC_694 --> PACKED_TEXT_STORAGE TX_PS_156;
 Array BC_695 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_696 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_697 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_698 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_699 --> PACKED_TEXT_STORAGE TX_PS_156;
-Array BC_700 --> PACKED_TEXT_STORAGE TX_PS_157;
+Array BC_699 --> PACKED_TEXT_STORAGE TX_PS_157;
+Array BC_700 --> PACKED_TEXT_STORAGE TX_PS_158;
 Array BC_701 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_702 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_703 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_704 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_705 --> PACKED_TEXT_STORAGE TX_PS_158;
-Array BC_706 --> PACKED_TEXT_STORAGE TX_PS_159;
+Array BC_705 --> PACKED_TEXT_STORAGE TX_PS_159;
+Array BC_706 --> PACKED_TEXT_STORAGE TX_PS_160;
 Array BC_707 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_708 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_709 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_710 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_711 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_712 --> PACKED_TEXT_STORAGE TX_PS_160;
-Array BC_713 --> PACKED_TEXT_STORAGE TX_PS_161;
+Array BC_712 --> PACKED_TEXT_STORAGE TX_PS_161;
+Array BC_713 --> PACKED_TEXT_STORAGE TX_PS_162;
 Array BC_714 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_715 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_716 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_717 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_718 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_719 --> PACKED_TEXT_STORAGE TX_PS_162;
+Array BC_719 --> PACKED_TEXT_STORAGE TX_PS_163;
 Array BC_720 --> PACKED_TEXT_STORAGE TX_PS_4;
 Array BC_721 --> PACKED_TEXT_STORAGE TX_PS_3;
-Array BC_722 --> PACKED_TEXT_STORAGE TX_PS_163;
+Array BC_722 --> PACKED_TEXT_STORAGE TX_PS_164;
 Array BC_723 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_724 --> PACKED_TEXT_STORAGE TX_PS_164;
+Array BC_724 --> PACKED_TEXT_STORAGE TX_PS_165;
 Array BC_725 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_726 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_727 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_728 --> Default_Value_0 0;
 Array BC_729 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_730 --> PACKED_TEXT_STORAGE TX_PS_165;
-Array BC_731 --> PACKED_TEXT_STORAGE TX_PS_162;
-Array BC_732 --> PACKED_TEXT_STORAGE TX_PS_166;
-Array BC_733 --> PACKED_TEXT_STORAGE TX_PS_162;
+Array BC_730 --> PACKED_TEXT_STORAGE TX_PS_166;
+Array BC_731 --> PACKED_TEXT_STORAGE TX_PS_163;
+Array BC_732 --> PACKED_TEXT_STORAGE TX_PS_167;
+Array BC_733 --> PACKED_TEXT_STORAGE TX_PS_163;
 Array BC_734 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_172;
-Array BC_735 --> PACKED_TEXT_STORAGE TX_PS_162;
-Array BC_736 --> PACKED_TEXT_STORAGE TX_PS_167;
-Array BC_737 --> PACKED_TEXT_STORAGE TX_PS_162;
-Array BC_738 --> PACKED_TEXT_STORAGE TX_PS_168;
-Array BC_739 --> PACKED_TEXT_STORAGE TX_PS_162;
-Array BC_740 --> PACKED_TEXT_STORAGE TX_PS_169;
-Array BC_741 --> PACKED_TEXT_STORAGE TX_PS_162;
+Array BC_735 --> PACKED_TEXT_STORAGE TX_PS_163;
+Array BC_736 --> PACKED_TEXT_STORAGE TX_PS_168;
+Array BC_737 --> PACKED_TEXT_STORAGE TX_PS_163;
+Array BC_738 --> PACKED_TEXT_STORAGE TX_PS_169;
+Array BC_739 --> PACKED_TEXT_STORAGE TX_PS_163;
+Array BC_740 --> PACKED_TEXT_STORAGE TX_PS_170;
+Array BC_741 --> PACKED_TEXT_STORAGE TX_PS_163;
 Array BC_742 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_743 --> PACKED_TEXT_STORAGE TX_PS_170;
-Array BC_744 --> PACKED_TEXT_STORAGE TX_PS_171;
-Array BC_745 --> PACKED_TEXT_STORAGE TX_PS_172;
-Array BC_746 --> PACKED_TEXT_STORAGE TX_PS_173;
-Array BC_747 --> PACKED_TEXT_STORAGE TX_PS_174;
+Array BC_743 --> PACKED_TEXT_STORAGE TX_PS_171;
+Array BC_744 --> PACKED_TEXT_STORAGE TX_PS_172;
+Array BC_745 --> PACKED_TEXT_STORAGE TX_PS_173;
+Array BC_746 --> PACKED_TEXT_STORAGE TX_PS_174;
+Array BC_747 --> PACKED_TEXT_STORAGE TX_PS_175;
 Array BC_748 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_173;
 Array BC_749 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_750 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_174;
-Array BC_751 --> PACKED_TEXT_STORAGE TX_PS_175;
+Array BC_751 --> PACKED_TEXT_STORAGE TX_PS_176;
 Array BC_752 --> PACKED_TEXT_STORAGE TX_PS_52;
 Array BC_753 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_754 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_175;
 Array BC_755 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_756 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_757 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_758 --> PACKED_TEXT_STORAGE TX_PS_176;
-Array BC_759 --> PACKED_TEXT_STORAGE TX_PS_177;
+Array BC_758 --> PACKED_TEXT_STORAGE TX_PS_177;
+Array BC_759 --> PACKED_TEXT_STORAGE TX_PS_178;
 Array BC_760 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_176;
 Array BC_761 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_762 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_763 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
 Array BC_764 --> PACKED_TEXT_STORAGE EMPTY_TEXT_PACKED;
-Array BC_765 --> PACKED_TEXT_STORAGE TX_PS_178;
+Array BC_765 --> PACKED_TEXT_STORAGE TX_PS_179;
 Array BC_766 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_177;
-Array BC_767 --> PACKED_TEXT_STORAGE TX_PS_179;
-Array BC_768 --> PACKED_TEXT_STORAGE TX_PS_180;
+Array BC_767 --> PACKED_TEXT_STORAGE TX_PS_180;
+Array BC_768 --> PACKED_TEXT_STORAGE TX_PS_181;
 Array BC_769 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_178;
-Array BC_770 --> PACKED_TEXT_STORAGE TX_PS_181;
+Array BC_770 --> PACKED_TEXT_STORAGE TX_PS_182;
 Array BC_771 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_179;
-Array BC_772 --> PACKED_TEXT_STORAGE TX_PS_182;
+Array BC_772 --> PACKED_TEXT_STORAGE TX_PS_183;
 Array BC_773 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_180;
-Array BC_774 --> PACKED_TEXT_STORAGE TX_PS_183;
-Array BC_775 --> PACKED_TEXT_STORAGE TX_PS_184;
-Array BC_776 --> PACKED_TEXT_STORAGE TX_PS_185;
-Array BC_777 --> PACKED_TEXT_STORAGE TX_PS_186;
-Array BC_778 --> PACKED_TEXT_STORAGE TX_PS_187;
-Array BC_779 --> PACKED_TEXT_STORAGE TX_PS_188;
-Array BC_780 --> PACKED_TEXT_STORAGE TX_PS_189;
+Array BC_774 --> PACKED_TEXT_STORAGE TX_PS_184;
+Array BC_775 --> PACKED_TEXT_STORAGE TX_PS_185;
+Array BC_776 --> PACKED_TEXT_STORAGE TX_PS_186;
+Array BC_777 --> PACKED_TEXT_STORAGE TX_PS_187;
+Array BC_778 --> PACKED_TEXT_STORAGE TX_PS_188;
+Array BC_779 --> PACKED_TEXT_STORAGE TX_PS_189;
+Array BC_780 --> PACKED_TEXT_STORAGE TX_PS_190;
 Array BC_781 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_181;
 Array BC_782 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_182;
 Array BC_783 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_183;
 Array BC_784 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_184;
 Array BC_785 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_185;
-Array BC_786 --> PACKED_TEXT_STORAGE TX_PS_190;
-Array BC_787 --> PACKED_TEXT_STORAGE TX_PS_191;
-Array BC_788 --> PACKED_TEXT_STORAGE TX_PS_192;
-Array BC_789 --> PACKED_TEXT_STORAGE TX_PS_193;
+Array BC_786 --> PACKED_TEXT_STORAGE TX_PS_191;
+Array BC_787 --> PACKED_TEXT_STORAGE TX_PS_192;
+Array BC_788 --> PACKED_TEXT_STORAGE TX_PS_193;
+Array BC_789 --> PACKED_TEXT_STORAGE TX_PS_194;
 Array BC_790 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_186;
 Array BC_791 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_187;
 Array BC_792 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_188;
-Array BC_793 --> PACKED_TEXT_STORAGE TX_PS_194;
-Array BC_794 --> PACKED_TEXT_STORAGE TX_PS_195;
-Array BC_795 --> PACKED_TEXT_STORAGE TX_PS_196;
-Array BC_796 --> PACKED_TEXT_STORAGE TX_PS_197;
-Array BC_797 --> PACKED_TEXT_STORAGE TX_PS_198;
-Array BC_798 --> PACKED_TEXT_STORAGE TX_PS_199;
-Array BC_799 --> PACKED_TEXT_STORAGE TX_PS_200;
-Array BC_800 --> PACKED_TEXT_STORAGE TX_PS_201;
-Array BC_801 --> PACKED_TEXT_STORAGE TX_PS_202;
+Array BC_793 --> PACKED_TEXT_STORAGE TX_PS_195;
+Array BC_794 --> PACKED_TEXT_STORAGE TX_PS_196;
+Array BC_795 --> PACKED_TEXT_STORAGE TX_PS_197;
+Array BC_796 --> PACKED_TEXT_STORAGE TX_PS_198;
+Array BC_797 --> PACKED_TEXT_STORAGE TX_PS_199;
+Array BC_798 --> PACKED_TEXT_STORAGE TX_PS_200;
+Array BC_799 --> PACKED_TEXT_STORAGE TX_PS_201;
+Array BC_800 --> PACKED_TEXT_STORAGE TX_PS_202;
+Array BC_801 --> PACKED_TEXT_STORAGE TX_PS_203;
 Array BC_802 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_189;
 Array BC_803 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_190;
-Array BC_804 --> PACKED_TEXT_STORAGE TX_PS_121;
-Array BC_805 --> PACKED_TEXT_STORAGE TX_PS_123;
-Array BC_806 --> PACKED_TEXT_STORAGE TX_PS_125;
-Array BC_807 --> PACKED_TEXT_STORAGE TX_PS_127;
+Array BC_804 --> PACKED_TEXT_STORAGE TX_PS_122;
+Array BC_805 --> PACKED_TEXT_STORAGE TX_PS_124;
+Array BC_806 --> PACKED_TEXT_STORAGE TX_PS_126;
+Array BC_807 --> PACKED_TEXT_STORAGE TX_PS_128;
 Array BC_808 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_191;
 Array BC_809 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_192;
 Array BC_810 --> CONSTANT_PACKED_TEXT_STORAGE R_TX_S_193;
-Array BC_811 --> PACKED_TEXT_STORAGE TX_PS_203;
-Array BC_812 --> PACKED_TEXT_STORAGE TX_PS_204;
-Array BC_813 --> PACKED_TEXT_STORAGE TX_PS_205;
-Array BC_814 --> PACKED_TEXT_STORAGE TX_PS_206;
-Array BC_815 --> PACKED_TEXT_STORAGE TX_PS_207;
-Array BC_816 --> PACKED_TEXT_STORAGE TX_PS_208;
-Array BC_817 --> PACKED_TEXT_STORAGE TX_PS_209;
-Array BC_818 --> PACKED_TEXT_STORAGE TX_PS_210;
-Array BC_819 --> PACKED_TEXT_STORAGE TX_PS_211;
-Array BC_820 --> PACKED_TEXT_STORAGE TX_PS_212;
-Array BC_821 --> PACKED_TEXT_STORAGE TX_PS_213;
-Array BC_822 --> PACKED_TEXT_STORAGE TX_PS_214;
-Array BC_823 --> PACKED_TEXT_STORAGE TX_PS_215;
-Array BC_824 --> PACKED_TEXT_STORAGE TX_PS_216;
-Array BC_825 --> PACKED_TEXT_STORAGE TX_PS_217;
-Array BC_826 --> PACKED_TEXT_STORAGE TX_PS_218;
-Array BC_827 --> PACKED_TEXT_STORAGE TX_PS_219;
-Array BC_828 --> PACKED_TEXT_STORAGE TX_PS_143;
-Array BC_829 --> PACKED_TEXT_STORAGE TX_PS_220;
-Array BC_830 --> PACKED_TEXT_STORAGE TX_PS_221;
-Array BC_831 --> PACKED_TEXT_STORAGE TX_PS_222;
-Array BC_832 --> PACKED_TEXT_STORAGE TX_PS_223;
-Array BC_833 --> PACKED_TEXT_STORAGE TX_PS_224;
-Array BC_834 --> PACKED_TEXT_STORAGE TX_PS_225;
-Array BC_835 --> PACKED_TEXT_STORAGE TX_PS_226;
-Array BC_836 --> PACKED_TEXT_STORAGE TX_PS_227;
-Array BC_837 --> PACKED_TEXT_STORAGE TX_PS_228;
-Array BC_838 --> PACKED_TEXT_STORAGE TX_PS_229;
-Array BC_839 --> PACKED_TEXT_STORAGE TX_PS_230;
-Array BC_840 --> PACKED_TEXT_STORAGE TX_PS_231;
-Array BC_841 --> PACKED_TEXT_STORAGE TX_PS_232;
-Array BC_842 --> PACKED_TEXT_STORAGE TX_PS_233;
-Array BC_843 --> PACKED_TEXT_STORAGE TX_PS_234;
-Array BC_844 --> PACKED_TEXT_STORAGE TX_PS_235;
-Array BC_845 --> PACKED_TEXT_STORAGE TX_PS_236;
+Array BC_811 --> PACKED_TEXT_STORAGE TX_PS_204;
+Array BC_812 --> PACKED_TEXT_STORAGE TX_PS_205;
+Array BC_813 --> PACKED_TEXT_STORAGE TX_PS_206;
+Array BC_814 --> PACKED_TEXT_STORAGE TX_PS_207;
+Array BC_815 --> PACKED_TEXT_STORAGE TX_PS_208;
+Array BC_816 --> PACKED_TEXT_STORAGE TX_PS_209;
+Array BC_817 --> PACKED_TEXT_STORAGE TX_PS_210;
+Array BC_818 --> PACKED_TEXT_STORAGE TX_PS_211;
+Array BC_819 --> PACKED_TEXT_STORAGE TX_PS_212;
+Array BC_820 --> PACKED_TEXT_STORAGE TX_PS_213;
+Array BC_821 --> PACKED_TEXT_STORAGE TX_PS_214;
+Array BC_822 --> PACKED_TEXT_STORAGE TX_PS_215;
+Array BC_823 --> PACKED_TEXT_STORAGE TX_PS_216;
+Array BC_824 --> PACKED_TEXT_STORAGE TX_PS_217;
+Array BC_825 --> PACKED_TEXT_STORAGE TX_PS_218;
+Array BC_826 --> PACKED_TEXT_STORAGE TX_PS_219;
+Array BC_827 --> PACKED_TEXT_STORAGE TX_PS_220;
+Array BC_828 --> PACKED_TEXT_STORAGE TX_PS_145;
+Array BC_829 --> PACKED_TEXT_STORAGE TX_PS_221;
+Array BC_830 --> PACKED_TEXT_STORAGE TX_PS_222;
+Array BC_831 --> PACKED_TEXT_STORAGE TX_PS_223;
+Array BC_832 --> PACKED_TEXT_STORAGE TX_PS_224;
+Array BC_833 --> PACKED_TEXT_STORAGE TX_PS_225;
+Array BC_834 --> PACKED_TEXT_STORAGE TX_PS_226;
+Array BC_835 --> PACKED_TEXT_STORAGE TX_PS_227;
+Array BC_836 --> PACKED_TEXT_STORAGE TX_PS_228;
+Array BC_837 --> PACKED_TEXT_STORAGE TX_PS_229;
+Array BC_838 --> PACKED_TEXT_STORAGE TX_PS_230;
+Array BC_839 --> PACKED_TEXT_STORAGE TX_PS_231;
+Array BC_840 --> PACKED_TEXT_STORAGE TX_PS_232;
+Array BC_841 --> PACKED_TEXT_STORAGE TX_PS_233;
+Array BC_842 --> PACKED_TEXT_STORAGE TX_PS_234;
+Array BC_843 --> PACKED_TEXT_STORAGE TX_PS_235;
+Array BC_844 --> PACKED_TEXT_STORAGE TX_PS_236;
+Array BC_845 --> PACKED_TEXT_STORAGE TX_PS_237;
 
 
 
